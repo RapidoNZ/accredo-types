@@ -23,7 +23,7 @@ import { TABLECOCTLOG } from './tablecoctlog';
  * @interface PagedTABLECOCTLOG
  */
 export interface PagedTABLECOCTLOG {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

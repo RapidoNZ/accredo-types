@@ -20,7 +20,7 @@
  * @interface TABLEINDTFLD
  */
 export interface TABLEINDTFLD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

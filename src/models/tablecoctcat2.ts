@@ -20,7 +20,7 @@
  * @interface TABLECOCTCAT2
  */
 export interface TABLECOCTCAT2 {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

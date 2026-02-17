@@ -23,7 +23,7 @@ import { TABLECOLAYLN } from './tablecolayln';
  * @interface PagedTABLECOLAYLN
  */
 export interface PagedTABLECOLAYLN {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

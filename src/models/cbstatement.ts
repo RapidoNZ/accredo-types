@@ -29,7 +29,7 @@ import { CBStatementUnreconciled } from './cbstatement-unreconciled';
  * @interface CBStatement
  */
 export interface CBStatement {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

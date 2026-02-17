@@ -20,7 +20,7 @@
  * @interface TABLECBANWORD
  */
 export interface TABLECBANWORD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

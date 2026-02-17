@@ -23,7 +23,7 @@ import { TABLEICTRKQTY } from './tableictrkqty';
  * @interface PagedTABLEICTRKQTY
  */
 export interface PagedTABLEICTRKQTY {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

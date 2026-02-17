@@ -20,7 +20,7 @@
  * @interface TABLECOPHONE
  */
 export interface TABLECOPHONE {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

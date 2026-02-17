@@ -23,7 +23,7 @@ import { TABLEICBNMVLN } from './tableicbnmvln';
  * @interface PagedTABLEICBNMVLN
  */
 export interface PagedTABLEICBNMVLN {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

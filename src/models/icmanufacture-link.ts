@@ -20,7 +20,7 @@
  * @interface ICManufactureLink
  */
 export interface ICManufactureLink {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

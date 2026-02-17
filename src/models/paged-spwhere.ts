@@ -23,7 +23,7 @@ import { SPWhere } from './spwhere';
  * @interface PagedSPWhere
  */
 export interface PagedSPWhere {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

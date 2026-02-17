@@ -20,7 +20,7 @@
  * @interface TABLEGSTCTRL
  */
 export interface TABLEGSTCTRL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

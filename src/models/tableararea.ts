@@ -20,7 +20,7 @@
  * @interface TABLEARAREA
  */
 export interface TABLEARAREA {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

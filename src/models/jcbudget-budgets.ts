@@ -20,7 +20,7 @@
  * @interface JCBudgetBudgets
  */
 export interface JCBudgetBudgets {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

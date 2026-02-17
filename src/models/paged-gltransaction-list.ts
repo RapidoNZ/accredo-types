@@ -23,7 +23,7 @@ import { GLTransactionList } from './gltransaction-list';
  * @interface PagedGLTransactionList
  */
 export interface PagedGLTransactionList {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

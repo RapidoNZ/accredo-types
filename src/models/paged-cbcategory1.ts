@@ -23,7 +23,7 @@ import { CBCategory1 } from './cbcategory1';
  * @interface PagedCBCategory1
  */
 export interface PagedCBCategory1 {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

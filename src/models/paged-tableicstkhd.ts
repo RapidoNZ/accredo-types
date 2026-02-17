@@ -23,7 +23,7 @@ import { TABLEICSTKHD } from './tableicstkhd';
  * @interface PagedTABLEICSTKHD
  */
 export interface PagedTABLEICSTKHD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

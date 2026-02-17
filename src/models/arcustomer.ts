@@ -32,7 +32,7 @@ import { ARCustomerLink } from './arcustomer-link';
  * @interface ARCustomer
  */
 export interface ARCustomer {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

@@ -23,7 +23,7 @@ import { INInvoiceLineTracking } from './ininvoice-line-tracking';
  * @interface INInvoiceLine
  */
 export interface INInvoiceLine {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

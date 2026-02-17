@@ -20,7 +20,7 @@
  * @interface TABLESPBREAK
  */
 export interface TABLESPBREAK {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

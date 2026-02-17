@@ -20,7 +20,7 @@
  * @interface TABLEJCINV
  */
 export interface TABLEJCINV {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

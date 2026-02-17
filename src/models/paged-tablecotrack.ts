@@ -23,7 +23,7 @@ import { TABLECOTRACK } from './tablecotrack';
  * @interface PagedTABLECOTRACK
  */
 export interface PagedTABLECOTRACK {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

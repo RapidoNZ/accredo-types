@@ -23,7 +23,7 @@ import { TABLEGLACTREC } from './tableglactrec';
  * @interface PagedTABLEGLACTREC
  */
 export interface PagedTABLEGLACTREC {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

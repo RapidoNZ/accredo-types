@@ -23,7 +23,7 @@ import { TABLEICTRKUNS } from './tableictrkuns';
  * @interface PagedTABLEICTRKUNS
  */
 export interface PagedTABLEICTRKUNS {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

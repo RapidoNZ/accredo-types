@@ -23,7 +23,7 @@ import { SPRuleListForm } from './sprule-list-form';
  * @interface PagedSPRuleListForm
  */
 export interface PagedSPRuleListForm {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

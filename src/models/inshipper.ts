@@ -20,7 +20,7 @@
  * @interface INShipper
  */
 export interface INShipper {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

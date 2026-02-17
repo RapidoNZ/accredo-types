@@ -20,7 +20,7 @@
  * @interface GLCategory2
  */
 export interface GLCategory2 {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

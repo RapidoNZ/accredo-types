@@ -23,7 +23,7 @@ import { TABLEICLINE } from './tableicline';
  * @interface PagedTABLEICLINE
  */
 export interface PagedTABLEICLINE {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

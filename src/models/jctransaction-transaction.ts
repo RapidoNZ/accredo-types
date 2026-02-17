@@ -20,7 +20,7 @@
  * @interface JCTransactionTransaction
  */
 export interface JCTransactionTransaction {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

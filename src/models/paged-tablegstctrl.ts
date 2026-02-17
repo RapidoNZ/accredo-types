@@ -23,7 +23,7 @@ import { TABLEGSTCTRL } from './tablegstctrl';
  * @interface PagedTABLEGSTCTRL
  */
 export interface PagedTABLEGSTCTRL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

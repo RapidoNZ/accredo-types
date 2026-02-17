@@ -20,7 +20,7 @@
  * @interface TABLEARADDR
  */
 export interface TABLEARADDR {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

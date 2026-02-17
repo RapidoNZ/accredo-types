@@ -20,7 +20,7 @@
  * @interface TABLECOYEAR
  */
 export interface TABLECOYEAR {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

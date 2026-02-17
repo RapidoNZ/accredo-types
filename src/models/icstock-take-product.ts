@@ -23,7 +23,7 @@ import { ICStockTakeProductTracking } from './icstock-take-product-tracking';
  * @interface ICStockTakeProduct
  */
 export interface ICStockTakeProduct {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

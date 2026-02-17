@@ -23,7 +23,7 @@ import { TABLEJCHEAD } from './tablejchead';
  * @interface PagedTABLEJCHEAD
  */
 export interface PagedTABLEJCHEAD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

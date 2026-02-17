@@ -23,7 +23,7 @@ import { TABLECODOMAIN } from './tablecodomain';
  * @interface PagedTABLECODOMAIN
  */
 export interface PagedTABLECODOMAIN {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

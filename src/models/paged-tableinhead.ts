@@ -23,7 +23,7 @@ import { TABLEINHEAD } from './tableinhead';
  * @interface PagedTABLEINHEAD
  */
 export interface PagedTABLEINHEAD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

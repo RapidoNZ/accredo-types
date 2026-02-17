@@ -23,7 +23,7 @@ import { TABLEJCGROUP } from './tablejcgroup';
  * @interface PagedTABLEJCGROUP
  */
 export interface PagedTABLEJCGROUP {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

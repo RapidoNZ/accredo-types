@@ -23,7 +23,7 @@ import { INInvoiceList } from './ininvoice-list';
  * @interface PagedINInvoiceList
  */
 export interface PagedINInvoiceList {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

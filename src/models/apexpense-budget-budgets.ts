@@ -20,7 +20,7 @@
  * @interface APExpenseBudgetBudgets
  */
 export interface APExpenseBudgetBudgets {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

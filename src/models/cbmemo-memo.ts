@@ -20,7 +20,7 @@
  * @interface CBMemoMemo
  */
 export interface CBMemoMemo {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

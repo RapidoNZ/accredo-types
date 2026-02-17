@@ -20,7 +20,7 @@
  * @interface TABLEICBNMVLN
  */
 export interface TABLEICBNMVLN {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

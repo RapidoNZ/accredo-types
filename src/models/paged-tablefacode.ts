@@ -23,7 +23,7 @@ import { TABLEFACODE } from './tablefacode';
  * @interface PagedTABLEFACODE
  */
 export interface PagedTABLEFACODE {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

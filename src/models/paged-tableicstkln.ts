@@ -23,7 +23,7 @@ import { TABLEICSTKLN } from './tableicstkln';
  * @interface PagedTABLEICSTKLN
  */
 export interface PagedTABLEICSTKLN {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

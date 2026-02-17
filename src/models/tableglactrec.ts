@@ -20,7 +20,7 @@
  * @interface TABLEGLACTREC
  */
 export interface TABLEGLACTREC {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

@@ -23,7 +23,7 @@ import { TABLEJCPEND } from './tablejcpend';
  * @interface PagedTABLEJCPEND
  */
 export interface PagedTABLEJCPEND {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

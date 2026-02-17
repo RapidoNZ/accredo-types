@@ -23,7 +23,7 @@ import { ARBudgetBudgets } from './arbudget-budgets';
  * @interface ARBudget
  */
 export interface ARBudget {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

@@ -20,7 +20,7 @@
  * @interface GLAccountBalance
  */
 export interface GLAccountBalance {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

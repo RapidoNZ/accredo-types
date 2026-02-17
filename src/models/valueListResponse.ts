@@ -1,4 +1,4 @@
 export interface ListResponse<T = any> {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
   value: T[];
 }

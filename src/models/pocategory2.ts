@@ -20,7 +20,7 @@
  * @interface POCategory2
  */
 export interface POCategory2 {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

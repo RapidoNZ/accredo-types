@@ -20,7 +20,7 @@
  * @interface CBBankingItemsLink
  */
 export interface CBBankingItemsLink {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

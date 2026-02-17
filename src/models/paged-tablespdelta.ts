@@ -23,7 +23,7 @@ import { TABLESPDELTA } from './tablespdelta';
  * @interface PagedTABLESPDELTA
  */
 export interface PagedTABLESPDELTA {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

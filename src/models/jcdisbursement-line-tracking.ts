@@ -20,7 +20,7 @@
  * @interface JCDisbursementLineTracking
  */
 export interface JCDisbursementLineTracking {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

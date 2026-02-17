@@ -23,7 +23,7 @@ import { ARSalesGroup } from './arsales-group';
  * @interface PagedARSalesGroup
  */
 export interface PagedARSalesGroup {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

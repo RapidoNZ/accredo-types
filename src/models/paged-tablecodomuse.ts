@@ -23,7 +23,7 @@ import { TABLECODOMUSE } from './tablecodomuse';
  * @interface PagedTABLECODOMUSE
  */
 export interface PagedTABLECODOMUSE {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

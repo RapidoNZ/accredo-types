@@ -23,7 +23,7 @@ import { TABLEARDISS } from './tableardiss';
  * @interface PagedTABLEARDISS
  */
 export interface PagedTABLEARDISS {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

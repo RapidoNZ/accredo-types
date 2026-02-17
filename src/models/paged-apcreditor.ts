@@ -23,7 +23,7 @@ import { APCreditor } from './apcreditor';
  * @interface PagedAPCreditor
  */
 export interface PagedAPCreditor {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

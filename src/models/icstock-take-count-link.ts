@@ -20,7 +20,7 @@
  * @interface ICStockTakeCountLink
  */
 export interface ICStockTakeCountLink {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

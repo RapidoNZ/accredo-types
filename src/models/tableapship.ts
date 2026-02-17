@@ -20,7 +20,7 @@
  * @interface TABLEAPSHIP
  */
 export interface TABLEAPSHIP {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

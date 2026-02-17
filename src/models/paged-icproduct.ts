@@ -23,7 +23,7 @@ import { ICProduct } from './icproduct';
  * @interface PagedICProduct
  */
 export interface PagedICProduct {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

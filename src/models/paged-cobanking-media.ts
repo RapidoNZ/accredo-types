@@ -23,7 +23,7 @@ import { COBankingMedia } from './cobanking-media';
  * @interface PagedCOBankingMedia
  */
 export interface PagedCOBankingMedia {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

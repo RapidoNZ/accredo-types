@@ -20,7 +20,7 @@
  * @interface TABLECODPWORD
  */
 export interface TABLECODPWORD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

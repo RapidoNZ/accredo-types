@@ -20,7 +20,7 @@
  * @interface JCTimeSheetLink
  */
 export interface JCTimeSheetLink {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

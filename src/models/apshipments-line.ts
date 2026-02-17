@@ -23,7 +23,7 @@ import { APShipmentsLineTracking } from './apshipments-line-tracking';
  * @interface APShipmentsLine
  */
 export interface APShipmentsLine {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

@@ -23,7 +23,7 @@ import { TABLEJCTRAN } from './tablejctran';
  * @interface PagedTABLEJCTRAN
  */
 export interface PagedTABLEJCTRAN {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

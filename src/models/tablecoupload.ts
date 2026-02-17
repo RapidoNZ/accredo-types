@@ -20,7 +20,7 @@
  * @interface TABLECOUPLOAD
  */
 export interface TABLECOUPLOAD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

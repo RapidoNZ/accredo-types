@@ -26,7 +26,7 @@ import { ICReceiptBatchLink } from './icreceipt-batch-link';
  * @interface ICReceiptBatch
  */
 export interface ICReceiptBatch {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

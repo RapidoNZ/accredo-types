@@ -23,7 +23,7 @@ import { JCMemoMemo } from './jcmemo-memo';
  * @interface JCMemo
  */
 export interface JCMemo {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

@@ -20,7 +20,7 @@
  * @interface CBTransactionDissection
  */
 export interface CBTransactionDissection {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

@@ -20,7 +20,7 @@
  * @interface TABLECBBAL
  */
 export interface TABLECBBAL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

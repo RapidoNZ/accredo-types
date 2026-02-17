@@ -20,7 +20,7 @@
  * @interface TABLECOCONTCT
  */
 export interface TABLECOCONTCT {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

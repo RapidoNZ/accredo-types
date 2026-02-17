@@ -23,7 +23,7 @@ import { ICAvailableResults } from './icavailable-results';
  * @interface PagedICAvailableResults
  */
 export interface PagedICAvailableResults {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

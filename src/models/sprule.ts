@@ -23,7 +23,7 @@ import { SPRuleBreak } from './sprule-break';
  * @interface SPRule
  */
 export interface SPRule {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

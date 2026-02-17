@@ -20,7 +20,7 @@
  * @interface APTransactionDissection
  */
 export interface APTransactionDissection {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

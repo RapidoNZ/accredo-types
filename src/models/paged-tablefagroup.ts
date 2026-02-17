@@ -23,7 +23,7 @@ import { TABLEFAGROUP } from './tablefagroup';
  * @interface PagedTABLEFAGROUP
  */
 export interface PagedTABLEFAGROUP {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

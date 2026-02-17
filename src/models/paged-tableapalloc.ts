@@ -23,7 +23,7 @@ import { TABLEAPALLOC } from './tableapalloc';
  * @interface PagedTABLEAPALLOC
  */
 export interface PagedTABLEAPALLOC {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

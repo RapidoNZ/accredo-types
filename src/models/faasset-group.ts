@@ -20,7 +20,7 @@
  * @interface FAAssetGroup
  */
 export interface FAAssetGroup {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

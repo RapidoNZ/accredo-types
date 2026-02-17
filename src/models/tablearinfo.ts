@@ -20,7 +20,7 @@
  * @interface TABLEARINFO
  */
 export interface TABLEARINFO {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

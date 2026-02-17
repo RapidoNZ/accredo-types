@@ -29,7 +29,7 @@ import { ICTransactionTransaction } from './ictransaction-transaction';
  * @interface ICTransaction
  */
 export interface ICTransaction {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

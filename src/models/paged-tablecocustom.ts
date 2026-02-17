@@ -23,7 +23,7 @@ import { TABLECOCUSTOM } from './tablecocustom';
  * @interface PagedTABLECOCUSTOM
  */
 export interface PagedTABLECOCUSTOM {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

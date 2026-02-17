@@ -20,7 +20,7 @@
  * @interface CBStatementUnreconciled
  */
 export interface CBStatementUnreconciled {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

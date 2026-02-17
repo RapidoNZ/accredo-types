@@ -20,7 +20,7 @@
  * @interface GLTransactionList
  */
 export interface GLTransactionList {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

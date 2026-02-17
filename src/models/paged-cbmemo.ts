@@ -23,7 +23,7 @@ import { CBMemo } from './cbmemo';
  * @interface PagedCBMemo
  */
 export interface PagedCBMemo {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

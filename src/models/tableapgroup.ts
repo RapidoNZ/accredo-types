@@ -20,7 +20,7 @@
  * @interface TABLEAPGROUP
  */
 export interface TABLEAPGROUP {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

@@ -23,7 +23,7 @@ import { TABLEGSRTSM } from './tablegsrtsm';
  * @interface PagedTABLEGSRTSM
  */
 export interface PagedTABLEGSRTSM {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

@@ -23,7 +23,7 @@ import { TABLEFABOOK } from './tablefabook';
  * @interface PagedTABLEFABOOK
  */
 export interface PagedTABLEFABOOK {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

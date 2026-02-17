@@ -23,7 +23,7 @@ import { TABLEFACAT2 } from './tablefacat2';
  * @interface PagedTABLEFACAT2
  */
 export interface PagedTABLEFACAT2 {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

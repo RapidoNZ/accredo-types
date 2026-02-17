@@ -20,7 +20,7 @@
  * @interface TABLEPOCTRL
  */
 export interface TABLEPOCTRL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

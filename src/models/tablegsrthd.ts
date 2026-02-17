@@ -20,7 +20,7 @@
  * @interface TABLEGSRTHD
  */
 export interface TABLEGSRTHD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

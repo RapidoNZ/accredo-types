@@ -23,7 +23,7 @@ import { TABLECOCTWORD } from './tablecoctword';
  * @interface PagedTABLECOCTWORD
  */
 export interface PagedTABLECOCTWORD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

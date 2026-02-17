@@ -20,7 +20,7 @@
  * @interface TABLECBREVAL
  */
 export interface TABLECBREVAL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

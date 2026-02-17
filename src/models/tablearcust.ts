@@ -20,7 +20,7 @@
  * @interface TABLEARCUST
  */
 export interface TABLEARCUST {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

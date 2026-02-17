@@ -23,7 +23,7 @@ import { TABLEAPANL } from './tableapanl';
  * @interface PagedTABLEAPANL
  */
 export interface PagedTABLEAPANL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

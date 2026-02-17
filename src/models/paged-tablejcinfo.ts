@@ -23,7 +23,7 @@ import { TABLEJCINFO } from './tablejcinfo';
  * @interface PagedTABLEJCINFO
  */
 export interface PagedTABLEJCINFO {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

@@ -20,7 +20,7 @@
  * @interface TABLEAPCTRL
  */
 export interface TABLEAPCTRL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

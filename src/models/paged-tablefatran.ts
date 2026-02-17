@@ -23,7 +23,7 @@ import { TABLEFATRAN } from './tablefatran';
  * @interface PagedTABLEFATRAN
  */
 export interface PagedTABLEFATRAN {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

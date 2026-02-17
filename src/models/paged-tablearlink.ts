@@ -23,7 +23,7 @@ import { TABLEARLINK } from './tablearlink';
  * @interface PagedTABLEARLINK
  */
 export interface PagedTABLEARLINK {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

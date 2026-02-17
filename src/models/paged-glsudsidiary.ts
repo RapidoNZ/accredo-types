@@ -23,7 +23,7 @@ import { GLSudsidiary } from './glsudsidiary';
  * @interface PagedGLSudsidiary
  */
 export interface PagedGLSudsidiary {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

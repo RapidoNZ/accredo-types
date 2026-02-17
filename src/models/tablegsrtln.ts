@@ -20,7 +20,7 @@
  * @interface TABLEGSRTLN
  */
 export interface TABLEGSRTLN {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

@@ -23,7 +23,7 @@ import { TABLEARANLBAL } from './tablearanlbal';
  * @interface PagedTABLEARANLBAL
  */
 export interface PagedTABLEARANLBAL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

@@ -23,7 +23,7 @@ import { TABLECBSTMTLN } from './tablecbstmtln';
  * @interface PagedTABLECBSTMTLN
  */
 export interface PagedTABLECBSTMTLN {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

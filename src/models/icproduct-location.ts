@@ -20,7 +20,7 @@
  * @interface ICProductLocation
  */
 export interface ICProductLocation {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

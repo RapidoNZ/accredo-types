@@ -23,7 +23,7 @@ import { TABLEAPMEMO } from './tableapmemo';
  * @interface PagedTABLEAPMEMO
  */
 export interface PagedTABLEAPMEMO {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

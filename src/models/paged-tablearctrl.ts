@@ -23,7 +23,7 @@ import { TABLEARCTRL } from './tablearctrl';
  * @interface PagedTABLEARCTRL
  */
 export interface PagedTABLEARCTRL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

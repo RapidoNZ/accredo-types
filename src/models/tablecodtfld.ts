@@ -20,7 +20,7 @@
  * @interface TABLECODTFLD
  */
 export interface TABLECODTFLD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

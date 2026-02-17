@@ -23,7 +23,7 @@ import { TABLECOEVENT } from './tablecoevent';
  * @interface PagedTABLECOEVENT
  */
 export interface PagedTABLECOEVENT {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

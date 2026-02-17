@@ -23,7 +23,7 @@ import { TABLEARPERBAL } from './tablearperbal';
  * @interface PagedTABLEARPERBAL
  */
 export interface PagedTABLEARPERBAL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

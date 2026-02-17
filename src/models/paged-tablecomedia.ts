@@ -23,7 +23,7 @@ import { TABLECOMEDIA } from './tablecomedia';
  * @interface PagedTABLECOMEDIA
  */
 export interface PagedTABLECOMEDIA {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

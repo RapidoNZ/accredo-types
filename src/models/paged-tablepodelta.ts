@@ -23,7 +23,7 @@ import { TABLEPODELTA } from './tablepodelta';
  * @interface PagedTABLEPODELTA
  */
 export interface PagedTABLEPODELTA {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

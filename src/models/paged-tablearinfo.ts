@@ -23,7 +23,7 @@ import { TABLEARINFO } from './tablearinfo';
  * @interface PagedTABLEARINFO
  */
 export interface PagedTABLEARINFO {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

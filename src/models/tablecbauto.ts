@@ -20,7 +20,7 @@
  * @interface TABLECBAUTO
  */
 export interface TABLECBAUTO {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

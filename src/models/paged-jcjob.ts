@@ -23,7 +23,7 @@ import { JCJob } from './jcjob';
  * @interface PagedJCJob
  */
 export interface PagedJCJob {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

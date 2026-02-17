@@ -23,7 +23,7 @@ import { TABLECOBIND } from './tablecobind';
  * @interface PagedTABLECOBIND
  */
 export interface PagedTABLECOBIND {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

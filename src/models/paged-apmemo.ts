@@ -23,7 +23,7 @@ import { APMemo } from './apmemo';
  * @interface PagedAPMemo
  */
 export interface PagedAPMemo {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

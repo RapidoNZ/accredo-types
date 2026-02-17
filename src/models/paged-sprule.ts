@@ -23,7 +23,7 @@ import { SPRule } from './sprule';
  * @interface PagedSPRule
  */
 export interface PagedSPRule {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

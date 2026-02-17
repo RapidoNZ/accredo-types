@@ -23,7 +23,7 @@ import { TABLEICSELL } from './tableicsell';
  * @interface PagedTABLEICSELL
  */
 export interface PagedTABLEICSELL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

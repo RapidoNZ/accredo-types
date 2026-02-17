@@ -32,7 +32,7 @@ import { FAAssetValues } from './faasset-values';
  * @interface FAAsset
  */
 export interface FAAsset {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

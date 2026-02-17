@@ -23,7 +23,7 @@ import { GLAccount } from './glaccount';
  * @interface PagedGLAccount
  */
 export interface PagedGLAccount {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

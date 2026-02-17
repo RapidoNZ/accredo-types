@@ -23,7 +23,7 @@ import { ARCustomer } from './arcustomer';
  * @interface PagedARCustomer
  */
 export interface PagedARCustomer {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

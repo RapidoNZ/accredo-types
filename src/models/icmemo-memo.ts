@@ -20,7 +20,7 @@
  * @interface ICMemoMemo
  */
 export interface ICMemoMemo {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

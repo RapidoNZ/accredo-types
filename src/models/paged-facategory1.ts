@@ -23,7 +23,7 @@ import { FACategory1 } from './facategory1';
  * @interface PagedFACategory1
  */
 export interface PagedFACategory1 {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

@@ -23,7 +23,7 @@ import { TABLEJCDTFLD } from './tablejcdtfld';
  * @interface PagedTABLEJCDTFLD
  */
 export interface PagedTABLEJCDTFLD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

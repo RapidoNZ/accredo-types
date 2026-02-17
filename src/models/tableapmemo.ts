@@ -20,7 +20,7 @@
  * @interface TABLEAPMEMO
  */
 export interface TABLEAPMEMO {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

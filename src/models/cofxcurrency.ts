@@ -20,7 +20,7 @@
  * @interface COFXCurrency
  */
 export interface COFXCurrency {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

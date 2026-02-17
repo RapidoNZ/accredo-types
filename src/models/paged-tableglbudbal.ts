@@ -23,7 +23,7 @@ import { TABLEGLBUDBAL } from './tableglbudbal';
  * @interface PagedTABLEGLBUDBAL
  */
 export interface PagedTABLEGLBUDBAL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

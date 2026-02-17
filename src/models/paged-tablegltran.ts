@@ -23,7 +23,7 @@ import { TABLEGLTRAN } from './tablegltran';
  * @interface PagedTABLEGLTRAN
  */
 export interface PagedTABLEGLTRAN {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

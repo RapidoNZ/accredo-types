@@ -23,7 +23,7 @@ import { TABLEOEDTFLD } from './tableoedtfld';
  * @interface PagedTABLEOEDTFLD
  */
 export interface PagedTABLEOEDTFLD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

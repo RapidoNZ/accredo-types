@@ -20,7 +20,7 @@
  * @interface UserSettings
  */
 export interface UserSettings {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

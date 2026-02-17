@@ -23,7 +23,7 @@ import { TABLEOELINK } from './tableoelink';
  * @interface PagedTABLEOELINK
  */
 export interface PagedTABLEOELINK {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

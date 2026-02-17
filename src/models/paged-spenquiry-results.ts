@@ -23,7 +23,7 @@ import { SPEnquiryResults } from './spenquiry-results';
  * @interface PagedSPEnquiryResults
  */
 export interface PagedSPEnquiryResults {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

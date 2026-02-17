@@ -23,7 +23,7 @@ import { TABLECBRUDISS } from './tablecbrudiss';
  * @interface PagedTABLECBRUDISS
  */
 export interface PagedTABLECBRUDISS {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

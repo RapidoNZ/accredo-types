@@ -23,7 +23,7 @@ import { TABLEARANL } from './tablearanl';
  * @interface PagedTABLEARANL
  */
 export interface PagedTABLEARANL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

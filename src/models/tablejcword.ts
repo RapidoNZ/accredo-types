@@ -20,7 +20,7 @@
  * @interface TABLEJCWORD
  */
 export interface TABLEJCWORD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

@@ -23,7 +23,7 @@ import { TABLEJCJOB } from './tablejcjob';
  * @interface PagedTABLEJCJOB
  */
 export interface PagedTABLEJCJOB {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

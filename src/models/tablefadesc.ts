@@ -20,7 +20,7 @@
  * @interface TABLEFADESC
  */
 export interface TABLEFADESC {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

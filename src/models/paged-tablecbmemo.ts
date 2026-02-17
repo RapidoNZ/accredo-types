@@ -23,7 +23,7 @@ import { TABLECBMEMO } from './tablecbmemo';
  * @interface PagedTABLECBMEMO
  */
 export interface PagedTABLECBMEMO {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

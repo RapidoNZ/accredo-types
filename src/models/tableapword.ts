@@ -20,7 +20,7 @@
  * @interface TABLEAPWORD
  */
 export interface TABLEAPWORD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

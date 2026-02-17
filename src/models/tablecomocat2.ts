@@ -20,7 +20,7 @@
  * @interface TABLECOMOCAT2
  */
 export interface TABLECOMOCAT2 {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

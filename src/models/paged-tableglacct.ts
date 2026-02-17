@@ -23,7 +23,7 @@ import { TABLEGLACCT } from './tableglacct';
  * @interface PagedTABLEGLACCT
  */
 export interface PagedTABLEGLACCT {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

@@ -20,7 +20,7 @@
  * @interface TABLEICBAL
  */
 export interface TABLEICBAL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

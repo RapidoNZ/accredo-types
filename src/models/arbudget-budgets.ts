@@ -20,7 +20,7 @@
  * @interface ARBudgetBudgets
  */
 export interface ARBudgetBudgets {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

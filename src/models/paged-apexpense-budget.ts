@@ -23,7 +23,7 @@ import { APExpenseBudget } from './apexpense-budget';
  * @interface PagedAPExpenseBudget
  */
 export interface PagedAPExpenseBudget {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

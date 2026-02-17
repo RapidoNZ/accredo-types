@@ -23,7 +23,7 @@ import { TABLECOTDTAB } from './tablecotdtab';
  * @interface PagedTABLECOTDTAB
  */
 export interface PagedTABLECOTDTAB {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

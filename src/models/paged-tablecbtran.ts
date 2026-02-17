@@ -23,7 +23,7 @@ import { TABLECBTRAN } from './tablecbtran';
  * @interface PagedTABLECBTRAN
  */
 export interface PagedTABLECBTRAN {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

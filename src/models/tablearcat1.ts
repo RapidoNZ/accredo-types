@@ -20,7 +20,7 @@
  * @interface TABLEARCAT1
  */
 export interface TABLEARCAT1 {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

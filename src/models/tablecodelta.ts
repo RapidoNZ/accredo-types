@@ -20,7 +20,7 @@
  * @interface TABLECODELTA
  */
 export interface TABLECODELTA {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

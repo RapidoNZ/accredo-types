@@ -23,7 +23,7 @@ import { TABLECBDTFLD } from './tablecbdtfld';
  * @interface PagedTABLECBDTFLD
  */
 export interface PagedTABLECBDTFLD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

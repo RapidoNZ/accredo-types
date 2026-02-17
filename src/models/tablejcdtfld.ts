@@ -20,7 +20,7 @@
  * @interface TABLEJCDTFLD
  */
 export interface TABLEJCDTFLD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

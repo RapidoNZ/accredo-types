@@ -23,7 +23,7 @@ import { TABLEGLLINE } from './tableglline';
  * @interface PagedTABLEGLLINE
  */
 export interface PagedTABLEGLLINE {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

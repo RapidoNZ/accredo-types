@@ -23,7 +23,7 @@ import { TABLECOGSTRT } from './tablecogstrt';
  * @interface PagedTABLECOGSTRT
  */
 export interface PagedTABLECOGSTRT {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

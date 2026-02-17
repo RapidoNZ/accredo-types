@@ -23,7 +23,7 @@ import { TABLECBREVAL } from './tablecbreval';
  * @interface PagedTABLECBREVAL
  */
 export interface PagedTABLECBREVAL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

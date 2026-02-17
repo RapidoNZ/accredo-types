@@ -23,7 +23,7 @@ import { JCComponent } from './jccomponent';
  * @interface PagedJCComponent
  */
 export interface PagedJCComponent {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

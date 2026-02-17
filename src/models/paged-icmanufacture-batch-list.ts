@@ -23,7 +23,7 @@ import { ICManufactureBatchList } from './icmanufacture-batch-list';
  * @interface PagedICManufactureBatchList
  */
 export interface PagedICManufactureBatchList {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

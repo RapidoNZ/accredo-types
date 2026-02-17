@@ -20,7 +20,7 @@
  * @interface TABLECBDTFLD
  */
 export interface TABLECBDTFLD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

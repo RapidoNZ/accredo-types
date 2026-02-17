@@ -20,7 +20,7 @@
  * @interface TABLEARPERS
  */
 export interface TABLEARPERS {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

@@ -20,7 +20,7 @@
  * @interface TABLESPWHAT
  */
 export interface TABLESPWHAT {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

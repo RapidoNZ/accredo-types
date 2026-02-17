@@ -20,7 +20,7 @@
  * @interface JCJobInformation
  */
 export interface JCJobInformation {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

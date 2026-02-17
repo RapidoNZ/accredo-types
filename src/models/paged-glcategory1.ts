@@ -23,7 +23,7 @@ import { GLCategory1 } from './glcategory1';
  * @interface PagedGLCategory1
  */
 export interface PagedGLCategory1 {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

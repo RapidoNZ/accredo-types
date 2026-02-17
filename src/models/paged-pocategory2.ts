@@ -23,7 +23,7 @@ import { POCategory2 } from './pocategory2';
  * @interface PagedPOCategory2
  */
 export interface PagedPOCategory2 {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

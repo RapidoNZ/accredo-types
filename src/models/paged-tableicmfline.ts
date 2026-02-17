@@ -23,7 +23,7 @@ import { TABLEICMFLINE } from './tableicmfline';
  * @interface PagedTABLEICMFLINE
  */
 export interface PagedTABLEICMFLINE {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

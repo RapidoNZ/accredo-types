@@ -20,7 +20,7 @@
  * @interface TABLEFADELTA
  */
 export interface TABLEFADELTA {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

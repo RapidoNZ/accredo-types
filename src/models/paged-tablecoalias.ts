@@ -23,7 +23,7 @@ import { TABLECOALIAS } from './tablecoalias';
  * @interface PagedTABLECOALIAS
  */
 export interface PagedTABLECOALIAS {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

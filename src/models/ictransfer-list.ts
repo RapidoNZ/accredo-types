@@ -20,7 +20,7 @@
  * @interface ICTransferList
  */
 export interface ICTransferList {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

@@ -41,7 +41,7 @@ const response: PagedAPCreditor = {
 
 ### Custom fields (Z\_\*)
 
-All Accredo custom fields start with `Z_`. Every generated interface includes an index signature so custom fields just work — no wrappers needed:
+All Accredo custom fields start with `Z_`. Every generated interface includes a `[key: `Z_${string}`]: any` index signature so custom fields just work while keeping type safety on standard fields:
 
 ```typescript
 import { APCreditor } from "@rapidonz/accredo-types";

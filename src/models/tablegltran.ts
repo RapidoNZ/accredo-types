@@ -20,7 +20,7 @@
  * @interface TABLEGLTRAN
  */
 export interface TABLEGLTRAN {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

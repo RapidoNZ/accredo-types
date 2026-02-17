@@ -20,7 +20,7 @@
  * @interface TABLEGLBUDGET
  */
 export interface TABLEGLBUDGET {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

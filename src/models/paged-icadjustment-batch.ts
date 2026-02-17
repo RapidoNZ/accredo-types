@@ -23,7 +23,7 @@ import { ICAdjustmentBatch } from './icadjustment-batch';
  * @interface PagedICAdjustmentBatch
  */
 export interface PagedICAdjustmentBatch {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

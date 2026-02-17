@@ -23,7 +23,7 @@ import { TABLEICTRKLOT } from './tableictrklot';
  * @interface PagedTABLEICTRKLOT
  */
 export interface PagedTABLEICTRKLOT {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

@@ -20,7 +20,7 @@
  * @interface TABLEICMEMOLN
  */
 export interface TABLEICMEMOLN {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

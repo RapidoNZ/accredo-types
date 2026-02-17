@@ -20,7 +20,7 @@
  * @interface COMemoMemo
  */
 export interface COMemoMemo {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

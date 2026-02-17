@@ -20,7 +20,7 @@
  * @interface TABLEGLBUDBAL
  */
 export interface TABLEGLBUDBAL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

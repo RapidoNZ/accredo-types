@@ -23,7 +23,7 @@ import { Settings } from './settings';
  * @interface PagedSettings
  */
 export interface PagedSettings {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

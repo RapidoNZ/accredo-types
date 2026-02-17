@@ -23,7 +23,7 @@ import { SPWho } from './spwho';
  * @interface PagedSPWho
  */
 export interface PagedSPWho {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

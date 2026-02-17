@@ -20,7 +20,7 @@
  * @interface TABLEGLCTRL
  */
 export interface TABLEGLCTRL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

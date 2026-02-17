@@ -20,7 +20,7 @@
  * @interface JCJobLink
  */
 export interface JCJobLink {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

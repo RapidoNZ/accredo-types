@@ -20,7 +20,7 @@
  * @interface ARCustomerInformation
  */
 export interface ARCustomerInformation {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

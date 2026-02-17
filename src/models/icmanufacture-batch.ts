@@ -26,7 +26,7 @@ import { ICManufactureBatchLink } from './icmanufacture-batch-link';
  * @interface ICManufactureBatch
  */
 export interface ICManufactureBatch {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

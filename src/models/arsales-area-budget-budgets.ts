@@ -20,7 +20,7 @@
  * @interface ARSalesAreaBudgetBudgets
  */
 export interface ARSalesAreaBudgetBudgets {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

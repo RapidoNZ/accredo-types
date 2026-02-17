@@ -23,7 +23,7 @@ import { GSTTransactionLink } from './gsttransaction-link';
  * @interface GSTTransaction
  */
 export interface GSTTransaction {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

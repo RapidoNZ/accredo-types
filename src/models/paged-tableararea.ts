@@ -23,7 +23,7 @@ import { TABLEARAREA } from './tableararea';
  * @interface PagedTABLEARAREA
  */
 export interface PagedTABLEARAREA {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

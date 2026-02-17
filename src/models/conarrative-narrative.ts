@@ -20,7 +20,7 @@
  * @interface CONarrativeNarrative
  */
 export interface CONarrativeNarrative {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

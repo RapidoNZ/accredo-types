@@ -20,7 +20,7 @@
  * @interface CBRuleDissection
  */
 export interface CBRuleDissection {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

@@ -20,7 +20,7 @@
  * @interface CBBankingItemsDissection
  */
 export interface CBBankingItemsDissection {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

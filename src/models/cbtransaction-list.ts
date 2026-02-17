@@ -20,7 +20,7 @@
  * @interface CBTransactionList
  */
 export interface CBTransactionList {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

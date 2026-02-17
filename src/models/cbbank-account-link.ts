@@ -20,7 +20,7 @@
  * @interface CBBankAccountLink
  */
 export interface CBBankAccountLink {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

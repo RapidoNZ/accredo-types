@@ -20,7 +20,7 @@
  * @interface TABLECODOMUSE
  */
 export interface TABLECODOMUSE {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

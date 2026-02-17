@@ -23,7 +23,7 @@ import { CORecoveryLog } from './corecovery-log';
  * @interface PagedCORecoveryLog
  */
 export interface PagedCORecoveryLog {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

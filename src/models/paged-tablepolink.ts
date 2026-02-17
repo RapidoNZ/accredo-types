@@ -23,7 +23,7 @@ import { TABLEPOLINK } from './tablepolink';
  * @interface PagedTABLEPOLINK
  */
 export interface PagedTABLEPOLINK {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

@@ -20,7 +20,7 @@
  * @interface TABLEICTRKLOT
  */
 export interface TABLEICTRKLOT {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

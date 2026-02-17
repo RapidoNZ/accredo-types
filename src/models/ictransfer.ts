@@ -26,7 +26,7 @@ import { ICTransferLink } from './ictransfer-link';
  * @interface ICTransfer
  */
 export interface ICTransfer {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

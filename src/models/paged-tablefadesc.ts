@@ -23,7 +23,7 @@ import { TABLEFADESC } from './tablefadesc';
  * @interface PagedTABLEFADESC
  */
 export interface PagedTABLEFADESC {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

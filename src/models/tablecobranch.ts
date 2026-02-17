@@ -20,7 +20,7 @@
  * @interface TABLECOBRANCH
  */
 export interface TABLECOBRANCH {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

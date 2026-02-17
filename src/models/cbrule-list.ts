@@ -20,7 +20,7 @@
  * @interface CBRuleList
  */
 export interface CBRuleList {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

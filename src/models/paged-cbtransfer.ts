@@ -23,7 +23,7 @@ import { CBTransfer } from './cbtransfer';
  * @interface PagedCBTransfer
  */
 export interface PagedCBTransfer {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

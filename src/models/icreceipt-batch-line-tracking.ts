@@ -20,7 +20,7 @@
  * @interface ICReceiptBatchLineTracking
  */
 export interface ICReceiptBatchLineTracking {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

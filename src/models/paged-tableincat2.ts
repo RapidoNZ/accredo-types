@@ -23,7 +23,7 @@ import { TABLEINCAT2 } from './tableincat2';
  * @interface PagedTABLEINCAT2
  */
 export interface PagedTABLEINCAT2 {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

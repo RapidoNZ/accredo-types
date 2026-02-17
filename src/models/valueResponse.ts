@@ -18,7 +18,7 @@
  * @interface ValueResponse
  */
 export interface ValueResponse {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
   /**
    *
    * @type {string}

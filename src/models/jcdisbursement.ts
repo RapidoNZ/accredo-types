@@ -26,7 +26,7 @@ import { JCDisbursementLink } from './jcdisbursement-link';
  * @interface JCDisbursement
  */
 export interface JCDisbursement {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

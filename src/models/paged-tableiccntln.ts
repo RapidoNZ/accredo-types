@@ -23,7 +23,7 @@ import { TABLEICCNTLN } from './tableiccntln';
  * @interface PagedTABLEICCNTLN
  */
 export interface PagedTABLEICCNTLN {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

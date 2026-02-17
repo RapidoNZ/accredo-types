@@ -20,7 +20,7 @@
  * @interface TABLEJCPERS
  */
 export interface TABLEJCPERS {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

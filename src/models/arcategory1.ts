@@ -20,7 +20,7 @@
  * @interface ARCategory1
  */
 export interface ARCategory1 {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

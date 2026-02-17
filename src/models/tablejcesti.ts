@@ -20,7 +20,7 @@
  * @interface TABLEJCESTI
  */
 export interface TABLEJCESTI {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

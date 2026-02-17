@@ -23,7 +23,7 @@ import { TABLECBSMDISS } from './tablecbsmdiss';
  * @interface PagedTABLECBSMDISS
  */
 export interface PagedTABLECBSMDISS {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

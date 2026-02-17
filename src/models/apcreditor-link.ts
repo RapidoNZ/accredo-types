@@ -20,7 +20,7 @@
  * @interface APCreditorLink
  */
 export interface APCreditorLink {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

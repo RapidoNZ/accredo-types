@@ -20,7 +20,7 @@
  * @interface TABLECOBRWORD
  */
 export interface TABLECOBRWORD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

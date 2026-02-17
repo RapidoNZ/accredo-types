@@ -20,7 +20,7 @@
  * @interface TABLECBAUDISS
  */
 export interface TABLECBAUDISS {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

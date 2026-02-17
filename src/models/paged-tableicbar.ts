@@ -23,7 +23,7 @@ import { TABLEICBAR } from './tableicbar';
  * @interface PagedTABLEICBAR
  */
 export interface PagedTABLEICBAR {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

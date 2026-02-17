@@ -23,7 +23,7 @@ import { TABLECBDISS } from './tablecbdiss';
  * @interface PagedTABLECBDISS
  */
 export interface PagedTABLECBDISS {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

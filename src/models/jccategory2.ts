@@ -20,7 +20,7 @@
  * @interface JCCategory2
  */
 export interface JCCategory2 {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

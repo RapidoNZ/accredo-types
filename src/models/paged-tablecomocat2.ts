@@ -23,7 +23,7 @@ import { TABLECOMOCAT2 } from './tablecomocat2';
  * @interface PagedTABLECOMOCAT2
  */
 export interface PagedTABLECOMOCAT2 {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

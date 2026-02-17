@@ -23,7 +23,7 @@ import { TABLEICPEND } from './tableicpend';
  * @interface PagedTABLEICPEND
  */
 export interface PagedTABLEICPEND {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

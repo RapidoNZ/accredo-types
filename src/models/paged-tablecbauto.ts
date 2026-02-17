@@ -23,7 +23,7 @@ import { TABLECBAUTO } from './tablecbauto';
  * @interface PagedTABLECBAUTO
  */
 export interface PagedTABLECBAUTO {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

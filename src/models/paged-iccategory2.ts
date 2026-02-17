@@ -23,7 +23,7 @@ import { ICCategory2 } from './iccategory2';
  * @interface PagedICCategory2
  */
 export interface PagedICCategory2 {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

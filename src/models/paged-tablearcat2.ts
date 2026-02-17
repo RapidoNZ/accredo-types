@@ -23,7 +23,7 @@ import { TABLEARCAT2 } from './tablearcat2';
  * @interface PagedTABLEARCAT2
  */
 export interface PagedTABLEARCAT2 {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

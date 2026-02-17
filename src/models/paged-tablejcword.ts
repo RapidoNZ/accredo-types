@@ -23,7 +23,7 @@ import { TABLEJCWORD } from './tablejcword';
  * @interface PagedTABLEJCWORD
  */
 export interface PagedTABLEJCWORD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

@@ -23,7 +23,7 @@ import { TABLECOMEMOLN } from './tablecomemoln';
  * @interface PagedTABLECOMEMOLN
  */
 export interface PagedTABLECOMEMOLN {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

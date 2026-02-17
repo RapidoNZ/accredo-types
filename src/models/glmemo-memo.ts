@@ -20,7 +20,7 @@
  * @interface GLMemoMemo
  */
 export interface GLMemoMemo {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

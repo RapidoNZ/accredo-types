@@ -20,7 +20,7 @@
  * @interface TABLECOTEXTLN
  */
 export interface TABLECOTEXTLN {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

@@ -23,7 +23,7 @@ import { TABLEINMEMO } from './tableinmemo';
  * @interface PagedTABLEINMEMO
  */
 export interface PagedTABLEINMEMO {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

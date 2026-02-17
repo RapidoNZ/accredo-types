@@ -20,7 +20,7 @@
  * @interface ICManufactureUsage
  */
 export interface ICManufactureUsage {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

@@ -20,7 +20,7 @@
  * @interface ICTransactionLink
  */
 export interface ICTransactionLink {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

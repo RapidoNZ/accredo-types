@@ -20,7 +20,7 @@
  * @interface ICBinMovementLineTracking
  */
 export interface ICBinMovementLineTracking {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

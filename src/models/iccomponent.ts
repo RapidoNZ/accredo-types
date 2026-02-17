@@ -26,7 +26,7 @@ import { ICComponentPrice } from './iccomponent-price';
  * @interface ICComponent
  */
 export interface ICComponent {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

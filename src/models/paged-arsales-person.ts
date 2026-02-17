@@ -23,7 +23,7 @@ import { ARSalesPerson } from './arsales-person';
  * @interface PagedARSalesPerson
  */
 export interface PagedARSalesPerson {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

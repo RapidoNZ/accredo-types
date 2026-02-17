@@ -20,7 +20,7 @@
  * @interface TABLEICBIN
  */
 export interface TABLEICBIN {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

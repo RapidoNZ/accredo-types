@@ -23,7 +23,7 @@ import { TABLEARCTWORD } from './tablearctword';
  * @interface PagedTABLEARCTWORD
  */
 export interface PagedTABLEARCTWORD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

@@ -23,7 +23,7 @@ import { TABLEGSRTHD } from './tablegsrthd';
  * @interface PagedTABLEGSRTHD
  */
 export interface PagedTABLEGSRTHD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

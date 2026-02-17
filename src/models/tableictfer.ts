@@ -20,7 +20,7 @@
  * @interface TABLEICTFER
  */
 export interface TABLEICTFER {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

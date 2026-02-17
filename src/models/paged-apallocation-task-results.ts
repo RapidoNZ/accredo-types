@@ -23,7 +23,7 @@ import { APAllocationTaskResults } from './apallocation-task-results';
  * @interface PagedAPAllocationTaskResults
  */
 export interface PagedAPAllocationTaskResults {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

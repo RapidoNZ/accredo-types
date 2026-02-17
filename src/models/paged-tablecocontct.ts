@@ -23,7 +23,7 @@ import { TABLECOCONTCT } from './tablecocontct';
  * @interface PagedTABLECOCONTCT
  */
 export interface PagedTABLECOCONTCT {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

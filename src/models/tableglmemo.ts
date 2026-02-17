@@ -20,7 +20,7 @@
  * @interface TABLEGLMEMO
  */
 export interface TABLEGLMEMO {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

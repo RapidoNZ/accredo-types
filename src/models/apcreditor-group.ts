@@ -20,7 +20,7 @@
  * @interface APCreditorGroup
  */
 export interface APCreditorGroup {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

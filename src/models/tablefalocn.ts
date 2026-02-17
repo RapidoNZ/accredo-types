@@ -20,7 +20,7 @@
  * @interface TABLEFALOCN
  */
 export interface TABLEFALOCN {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

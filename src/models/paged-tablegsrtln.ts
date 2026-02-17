@@ -23,7 +23,7 @@ import { TABLEGSRTLN } from './tablegsrtln';
  * @interface PagedTABLEGSRTLN
  */
 export interface PagedTABLEGSRTLN {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

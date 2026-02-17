@@ -23,7 +23,7 @@ import { TABLEGLLINK } from './tablegllink';
  * @interface PagedTABLEGLLINK
  */
 export interface PagedTABLEGLLINK {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

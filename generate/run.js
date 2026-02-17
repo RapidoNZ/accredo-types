@@ -185,7 +185,7 @@ async function run() {
     // Add index signature after every "export interface Foo {" line
     content = content.replace(
       /^(export interface \w+[^{]*\{)$/gm,
-      "$1\n    [key: string]: any;"
+      "$1\n    [key: `Z_${string}`]: any;"
     );
     fs.writeFileSync(filePath, content);
   });

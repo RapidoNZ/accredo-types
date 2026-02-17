@@ -23,7 +23,7 @@ import { TABLEICLINK } from './tableiclink';
  * @interface PagedTABLEICLINK
  */
 export interface PagedTABLEICLINK {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

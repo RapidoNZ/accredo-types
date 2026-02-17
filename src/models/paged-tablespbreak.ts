@@ -23,7 +23,7 @@ import { TABLESPBREAK } from './tablespbreak';
  * @interface PagedTABLESPBREAK
  */
 export interface PagedTABLESPBREAK {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

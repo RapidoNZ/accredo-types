@@ -20,7 +20,7 @@
  * @interface TABLECOREPORT
  */
 export interface TABLECOREPORT {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

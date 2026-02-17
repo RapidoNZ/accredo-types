@@ -23,7 +23,7 @@ import { TABLEINLINE } from './tableinline';
  * @interface PagedTABLEINLINE
  */
 export interface PagedTABLEINLINE {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

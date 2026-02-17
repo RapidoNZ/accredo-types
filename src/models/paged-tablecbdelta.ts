@@ -23,7 +23,7 @@ import { TABLECBDELTA } from './tablecbdelta';
  * @interface PagedTABLECBDELTA
  */
 export interface PagedTABLECBDELTA {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

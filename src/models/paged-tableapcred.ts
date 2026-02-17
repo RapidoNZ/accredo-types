@@ -23,7 +23,7 @@ import { TABLEAPCRED } from './tableapcred';
  * @interface PagedTABLEAPCRED
  */
 export interface PagedTABLEAPCRED {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

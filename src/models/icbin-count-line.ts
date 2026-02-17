@@ -23,7 +23,7 @@ import { ICBinCountLineTracking } from './icbin-count-line-tracking';
  * @interface ICBinCountLine
  */
 export interface ICBinCountLine {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

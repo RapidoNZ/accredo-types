@@ -23,7 +23,7 @@ import { TABLECOUPLOAD } from './tablecoupload';
  * @interface PagedTABLECOUPLOAD
  */
 export interface PagedTABLECOUPLOAD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

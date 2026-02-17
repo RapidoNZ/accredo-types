@@ -23,7 +23,7 @@ import { TABLESPRULE } from './tablesprule';
  * @interface PagedTABLESPRULE
  */
 export interface PagedTABLESPRULE {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

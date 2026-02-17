@@ -23,7 +23,7 @@ import { ReportLayout } from './report-layout';
  * @interface PagedReportLayout
  */
 export interface PagedReportLayout {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

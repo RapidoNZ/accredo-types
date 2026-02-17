@@ -20,7 +20,7 @@
  * @interface APMemoMemo
  */
 export interface APMemoMemo {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

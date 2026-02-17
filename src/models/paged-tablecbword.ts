@@ -23,7 +23,7 @@ import { TABLECBWORD } from './tablecbword';
  * @interface PagedTABLECBWORD
  */
 export interface PagedTABLECBWORD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

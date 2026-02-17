@@ -23,7 +23,7 @@ import { JCBatch } from './jcbatch';
  * @interface PagedJCBatch
  */
 export interface PagedJCBatch {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

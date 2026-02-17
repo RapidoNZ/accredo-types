@@ -26,7 +26,7 @@ import { ICBinCountLink } from './icbin-count-link';
  * @interface ICBinCount
  */
 export interface ICBinCount {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

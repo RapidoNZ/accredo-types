@@ -4,7 +4,7 @@
  * @interface OData4Params
  */
 export interface OData4Params {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
   $filter?: string;
   $select?: string;
   $orderby?: string;

@@ -20,7 +20,7 @@
  * @interface COMOCategory2
  */
 export interface COMOCategory2 {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

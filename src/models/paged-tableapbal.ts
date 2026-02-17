@@ -23,7 +23,7 @@ import { TABLEAPBAL } from './tableapbal';
  * @interface PagedTABLEAPBAL
  */
 export interface PagedTABLEAPBAL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

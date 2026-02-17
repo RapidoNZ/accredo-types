@@ -23,7 +23,7 @@ import { TABLEJCACTUAL } from './tablejcactual';
  * @interface PagedTABLEJCACTUAL
  */
 export interface PagedTABLEJCACTUAL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

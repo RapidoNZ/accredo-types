@@ -23,7 +23,7 @@ import { ICAdjustmentBatchLineTracking } from './icadjustment-batch-line-trackin
  * @interface ICAdjustmentBatchLine
  */
 export interface ICAdjustmentBatchLine {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

@@ -20,7 +20,7 @@
  * @interface AboutResults
  */
 export interface AboutResults {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

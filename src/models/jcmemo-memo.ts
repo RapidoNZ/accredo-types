@@ -20,7 +20,7 @@
  * @interface JCMemoMemo
  */
 export interface JCMemoMemo {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

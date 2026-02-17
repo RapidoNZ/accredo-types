@@ -23,7 +23,7 @@ import { TABLECOTEXT } from './tablecotext';
  * @interface PagedTABLECOTEXT
  */
 export interface PagedTABLECOTEXT {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

@@ -20,7 +20,7 @@
  * @interface TABLEGSTTRAN
  */
 export interface TABLEGSTTRAN {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

@@ -23,7 +23,7 @@ import { TABLEPOLINE } from './tablepoline';
  * @interface PagedTABLEPOLINE
  */
 export interface PagedTABLEPOLINE {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

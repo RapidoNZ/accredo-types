@@ -23,7 +23,7 @@ import { TABLECOFXCURR } from './tablecofxcurr';
  * @interface PagedTABLECOFXCURR
  */
 export interface PagedTABLECOFXCURR {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

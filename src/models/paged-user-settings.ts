@@ -23,7 +23,7 @@ import { UserSettings } from './user-settings';
  * @interface PagedUserSettings
  */
 export interface PagedUserSettings {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

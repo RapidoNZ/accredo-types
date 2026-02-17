@@ -23,7 +23,7 @@ import { OEOrder } from './oeorder';
  * @interface PagedOEOrder
  */
 export interface PagedOEOrder {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

@@ -20,7 +20,7 @@
  * @interface ICBinCountLineTracking
  */
 export interface ICBinCountLineTracking {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

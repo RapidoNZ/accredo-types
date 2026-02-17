@@ -20,7 +20,7 @@
  * @interface TABLECOBIND
  */
 export interface TABLECOBIND {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

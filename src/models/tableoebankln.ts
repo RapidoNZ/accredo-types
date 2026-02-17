@@ -20,7 +20,7 @@
  * @interface TABLEOEBANKLN
  */
 export interface TABLEOEBANKLN {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

@@ -23,7 +23,7 @@ import { APBudget } from './apbudget';
  * @interface PagedAPBudget
  */
 export interface PagedAPBudget {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

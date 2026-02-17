@@ -23,7 +23,7 @@ import { ReportLayoutSelections } from './report-layout-selections';
  * @interface ReportLayout
  */
 export interface ReportLayout {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

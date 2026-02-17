@@ -23,7 +23,7 @@ import { ARAllocationTaskResults } from './arallocation-task-results';
  * @interface PagedARAllocationTaskResults
  */
 export interface PagedARAllocationTaskResults {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

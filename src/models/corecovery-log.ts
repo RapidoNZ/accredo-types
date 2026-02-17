@@ -20,7 +20,7 @@
  * @interface CORecoveryLog
  */
 export interface CORecoveryLog {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

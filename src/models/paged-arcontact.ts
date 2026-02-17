@@ -23,7 +23,7 @@ import { ARContact } from './arcontact';
  * @interface PagedARContact
  */
 export interface PagedARContact {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

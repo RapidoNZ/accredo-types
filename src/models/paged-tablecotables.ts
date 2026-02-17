@@ -23,7 +23,7 @@ import { TABLECOTABLES } from './tablecotables';
  * @interface PagedTABLECOTABLES
  */
 export interface PagedTABLECOTABLES {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

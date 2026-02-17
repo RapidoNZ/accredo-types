@@ -23,7 +23,7 @@ import { SPWhat } from './spwhat';
  * @interface PagedSPWhat
  */
 export interface PagedSPWhat {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

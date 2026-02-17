@@ -20,7 +20,7 @@
  * @interface TABLEPOMEMOLN
  */
 export interface TABLEPOMEMOLN {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

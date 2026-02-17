@@ -26,7 +26,7 @@ import { CBBankingSummaryUnbanked } from './cbbanking-summary-unbanked';
  * @interface CBBankingSummary
  */
 export interface CBBankingSummary {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {Array<CBBankingSummaryUnbanked>}

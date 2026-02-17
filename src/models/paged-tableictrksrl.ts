@@ -23,7 +23,7 @@ import { TABLEICTRKSRL } from './tableictrksrl';
  * @interface PagedTABLEICTRKSRL
  */
 export interface PagedTABLEICTRKSRL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

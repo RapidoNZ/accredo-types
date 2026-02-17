@@ -23,7 +23,7 @@ import { TABLECOUOM } from './tablecouom';
  * @interface PagedTABLECOUOM
  */
 export interface PagedTABLECOUOM {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

@@ -20,7 +20,7 @@
  * @interface FACategory1
  */
 export interface FACategory1 {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

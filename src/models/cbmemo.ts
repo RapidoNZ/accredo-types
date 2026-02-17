@@ -23,7 +23,7 @@ import { CBMemoMemo } from './cbmemo-memo';
  * @interface CBMemo
  */
 export interface CBMemo {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

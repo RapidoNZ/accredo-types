@@ -23,7 +23,7 @@ import { TABLEJCDESC } from './tablejcdesc';
  * @interface PagedTABLEJCDESC
  */
 export interface PagedTABLEJCDESC {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

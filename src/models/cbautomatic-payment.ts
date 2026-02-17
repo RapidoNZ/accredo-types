@@ -26,7 +26,7 @@ import { CBAutomaticPaymentLink } from './cbautomatic-payment-link';
  * @interface CBAutomaticPayment
  */
 export interface CBAutomaticPayment {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

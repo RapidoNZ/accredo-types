@@ -20,7 +20,7 @@
  * @interface TABLECOMODULE
  */
 export interface TABLECOMODULE {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

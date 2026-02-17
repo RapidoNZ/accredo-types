@@ -20,7 +20,7 @@
  * @interface CBTransferLink
  */
 export interface CBTransferLink {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

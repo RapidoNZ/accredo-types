@@ -23,7 +23,7 @@ import { APSHCategory1 } from './apshcategory1';
  * @interface PagedAPSHCategory1
  */
 export interface PagedAPSHCategory1 {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

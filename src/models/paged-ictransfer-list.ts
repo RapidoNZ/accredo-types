@@ -23,7 +23,7 @@ import { ICTransferList } from './ictransfer-list';
  * @interface PagedICTransferList
  */
 export interface PagedICTransferList {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

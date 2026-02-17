@@ -23,7 +23,7 @@ import { APMemoMemo } from './apmemo-memo';
  * @interface APMemo
  */
 export interface APMemo {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

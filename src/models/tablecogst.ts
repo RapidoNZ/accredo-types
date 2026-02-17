@@ -20,7 +20,7 @@
  * @interface TABLECOGST
  */
 export interface TABLECOGST {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

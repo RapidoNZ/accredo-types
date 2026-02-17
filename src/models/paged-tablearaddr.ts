@@ -23,7 +23,7 @@ import { TABLEARADDR } from './tablearaddr';
  * @interface PagedTABLEARADDR
  */
 export interface PagedTABLEARADDR {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

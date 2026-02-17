@@ -23,7 +23,7 @@ import { TABLEFALINE } from './tablefaline';
  * @interface PagedTABLEFALINE
  */
 export interface PagedTABLEFALINE {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

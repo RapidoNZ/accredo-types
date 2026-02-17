@@ -23,7 +23,7 @@ import { JCBatchLineTracking } from './jcbatch-line-tracking';
  * @interface JCBatchLine
  */
 export interface JCBatchLine {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

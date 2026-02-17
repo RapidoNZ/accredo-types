@@ -23,7 +23,7 @@ import { APContact } from './apcontact';
  * @interface PagedAPContact
  */
 export interface PagedAPContact {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

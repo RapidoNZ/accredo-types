@@ -20,7 +20,7 @@
  * @interface TABLECODOMAIN
  */
 export interface TABLECODOMAIN {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

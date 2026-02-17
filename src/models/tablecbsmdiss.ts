@@ -20,7 +20,7 @@
  * @interface TABLECBSMDISS
  */
 export interface TABLECBSMDISS {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

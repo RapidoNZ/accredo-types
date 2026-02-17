@@ -23,7 +23,7 @@ import { TABLECOPRTLOG } from './tablecoprtlog';
  * @interface PagedTABLECOPRTLOG
  */
 export interface PagedTABLECOPRTLOG {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

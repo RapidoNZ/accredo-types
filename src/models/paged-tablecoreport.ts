@@ -23,7 +23,7 @@ import { TABLECOREPORT } from './tablecoreport';
  * @interface PagedTABLECOREPORT
  */
 export interface PagedTABLECOREPORT {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

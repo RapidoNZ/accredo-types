@@ -20,7 +20,7 @@
  * @interface TABLEOEDTFLD
  */
 export interface TABLEOEDTFLD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

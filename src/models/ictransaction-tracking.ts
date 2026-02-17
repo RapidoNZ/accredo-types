@@ -20,7 +20,7 @@
  * @interface ICTransactionTracking
  */
 export interface ICTransactionTracking {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

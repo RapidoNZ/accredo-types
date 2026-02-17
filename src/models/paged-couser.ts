@@ -23,7 +23,7 @@ import { COUser } from './couser';
  * @interface PagedCOUser
  */
 export interface PagedCOUser {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

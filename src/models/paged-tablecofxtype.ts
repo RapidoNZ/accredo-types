@@ -23,7 +23,7 @@ import { TABLECOFXTYPE } from './tablecofxtype';
  * @interface PagedTABLECOFXTYPE
  */
 export interface PagedTABLECOFXTYPE {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

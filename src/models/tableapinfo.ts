@@ -20,7 +20,7 @@
  * @interface TABLEAPINFO
  */
 export interface TABLEAPINFO {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

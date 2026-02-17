@@ -20,7 +20,7 @@
  * @interface ARCustomerLink
  */
 export interface ARCustomerLink {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

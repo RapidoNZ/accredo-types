@@ -23,7 +23,7 @@ import { COLinkCategory2 } from './colink-category2';
  * @interface PagedCOLinkCategory2
  */
 export interface PagedCOLinkCategory2 {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

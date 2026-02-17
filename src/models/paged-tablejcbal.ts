@@ -23,7 +23,7 @@ import { TABLEJCBAL } from './tablejcbal';
  * @interface PagedTABLEJCBAL
  */
 export interface PagedTABLEJCBAL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

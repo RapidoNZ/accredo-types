@@ -23,7 +23,7 @@ import { TABLEICTFER } from './tableictfer';
  * @interface PagedTABLEICTFER
  */
 export interface PagedTABLEICTFER {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

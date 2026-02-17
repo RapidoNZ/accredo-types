@@ -20,7 +20,7 @@
  * @interface TABLECOPHXFRM
  */
 export interface TABLECOPHXFRM {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

@@ -23,7 +23,7 @@ import { ICStockTakeCount } from './icstock-take-count';
  * @interface PagedICStockTakeCount
  */
 export interface PagedICStockTakeCount {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

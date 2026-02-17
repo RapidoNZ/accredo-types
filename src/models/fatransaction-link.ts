@@ -20,7 +20,7 @@
  * @interface FATransactionLink
  */
 export interface FATransactionLink {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

@@ -23,7 +23,7 @@ import { TABLEARMEMOLN } from './tablearmemoln';
  * @interface PagedTABLEARMEMOLN
  */
 export interface PagedTABLEARMEMOLN {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

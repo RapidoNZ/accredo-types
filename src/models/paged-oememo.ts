@@ -23,7 +23,7 @@ import { OEMemo } from './oememo';
  * @interface PagedOEMemo
  */
 export interface PagedOEMemo {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

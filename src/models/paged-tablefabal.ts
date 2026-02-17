@@ -23,7 +23,7 @@ import { TABLEFABAL } from './tablefabal';
  * @interface PagedTABLEFABAL
  */
 export interface PagedTABLEFABAL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

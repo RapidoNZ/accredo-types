@@ -20,7 +20,7 @@
  * @interface TABLEARTRAN
  */
 export interface TABLEARTRAN {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

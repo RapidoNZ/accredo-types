@@ -23,7 +23,7 @@ import { ICManufacture } from './icmanufacture';
  * @interface PagedICManufacture
  */
 export interface PagedICManufacture {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

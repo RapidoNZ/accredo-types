@@ -20,7 +20,7 @@
  * @interface ICProductBarCodes
  */
 export interface ICProductBarCodes {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

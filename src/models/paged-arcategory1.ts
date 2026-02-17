@@ -23,7 +23,7 @@ import { ARCategory1 } from './arcategory1';
  * @interface PagedARCategory1
  */
 export interface PagedARCategory1 {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

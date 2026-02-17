@@ -23,7 +23,7 @@ import { TABLEICBNMVHD } from './tableicbnmvhd';
  * @interface PagedTABLEICBNMVHD
  */
 export interface PagedTABLEICBNMVHD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

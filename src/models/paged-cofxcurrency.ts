@@ -23,7 +23,7 @@ import { COFXCurrency } from './cofxcurrency';
  * @interface PagedCOFXCurrency
  */
 export interface PagedCOFXCurrency {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

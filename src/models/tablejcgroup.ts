@@ -20,7 +20,7 @@
  * @interface TABLEJCGROUP
  */
 export interface TABLEJCGROUP {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

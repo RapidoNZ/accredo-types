@@ -26,7 +26,7 @@ import { POOrderLink } from './poorder-link';
  * @interface POOrder
  */
 export interface POOrder {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

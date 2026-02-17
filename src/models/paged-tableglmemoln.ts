@@ -23,7 +23,7 @@ import { TABLEGLMEMOLN } from './tableglmemoln';
  * @interface PagedTABLEGLMEMOLN
  */
 export interface PagedTABLEGLMEMOLN {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

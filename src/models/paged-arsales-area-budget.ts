@@ -23,7 +23,7 @@ import { ARSalesAreaBudget } from './arsales-area-budget';
  * @interface PagedARSalesAreaBudget
  */
 export interface PagedARSalesAreaBudget {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

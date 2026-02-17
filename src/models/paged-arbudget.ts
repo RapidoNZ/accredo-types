@@ -23,7 +23,7 @@ import { ARBudget } from './arbudget';
  * @interface PagedARBudget
  */
 export interface PagedARBudget {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

@@ -20,7 +20,7 @@
  * @interface TABLEICWORD
  */
 export interface TABLEICWORD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

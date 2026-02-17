@@ -20,7 +20,7 @@
  * @interface TABLEOEDELTA
  */
 export interface TABLEOEDELTA {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

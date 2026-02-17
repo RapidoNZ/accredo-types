@@ -23,7 +23,7 @@ import { COMemo } from './comemo';
  * @interface PagedCOMemo
  */
 export interface PagedCOMemo {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

@@ -20,7 +20,7 @@
  * @interface OEOrderCharge
  */
 export interface OEOrderCharge {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

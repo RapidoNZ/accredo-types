@@ -23,7 +23,7 @@ import { ARTransactionList } from './artransaction-list';
  * @interface PagedARTransactionList
  */
 export interface PagedARTransactionList {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

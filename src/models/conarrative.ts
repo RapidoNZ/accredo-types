@@ -23,7 +23,7 @@ import { CONarrativeNarrative } from './conarrative-narrative';
  * @interface CONarrative
  */
 export interface CONarrative {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

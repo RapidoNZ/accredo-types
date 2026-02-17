@@ -23,7 +23,7 @@ import { TABLECOCTCAT2 } from './tablecoctcat2';
  * @interface PagedTABLECOCTCAT2
  */
 export interface PagedTABLECOCTCAT2 {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

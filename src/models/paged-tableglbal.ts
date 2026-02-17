@@ -23,7 +23,7 @@ import { TABLEGLBAL } from './tableglbal';
  * @interface PagedTABLEGLBAL
  */
 export interface PagedTABLEGLBAL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

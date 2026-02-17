@@ -20,7 +20,7 @@
  * @interface FAAssetDescription
  */
 export interface FAAssetDescription {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

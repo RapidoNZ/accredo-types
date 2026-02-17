@@ -23,7 +23,7 @@ import { TABLEJCCAT1 } from './tablejccat1';
  * @interface PagedTABLEJCCAT1
  */
 export interface PagedTABLEJCCAT1 {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

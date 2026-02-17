@@ -20,7 +20,7 @@
  * @interface GLAccountLink
  */
 export interface GLAccountLink {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

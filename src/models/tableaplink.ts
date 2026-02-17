@@ -20,7 +20,7 @@
  * @interface TABLEAPLINK
  */
 export interface TABLEAPLINK {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

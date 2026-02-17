@@ -23,7 +23,7 @@ import { TABLEICPROD } from './tableicprod';
  * @interface PagedTABLEICPROD
  */
 export interface PagedTABLEICPROD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

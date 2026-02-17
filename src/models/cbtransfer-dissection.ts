@@ -20,7 +20,7 @@
  * @interface CBTransferDissection
  */
 export interface CBTransferDissection {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

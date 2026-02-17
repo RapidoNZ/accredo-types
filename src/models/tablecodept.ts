@@ -20,7 +20,7 @@
  * @interface TABLECODEPT
  */
 export interface TABLECODEPT {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

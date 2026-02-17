@@ -23,7 +23,7 @@ import { TABLEGSMEMOLN } from './tablegsmemoln';
  * @interface PagedTABLEGSMEMOLN
  */
 export interface PagedTABLEGSMEMOLN {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

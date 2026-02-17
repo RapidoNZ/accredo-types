@@ -23,7 +23,7 @@ import { APExpenseBudgetBudgets } from './apexpense-budget-budgets';
  * @interface APExpenseBudget
  */
 export interface APExpenseBudget {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

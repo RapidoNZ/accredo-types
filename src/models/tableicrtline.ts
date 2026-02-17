@@ -20,7 +20,7 @@
  * @interface TABLEICRTLINE
  */
 export interface TABLEICRTLINE {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

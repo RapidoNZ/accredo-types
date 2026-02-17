@@ -23,7 +23,7 @@ import { TABLEFAMEMOLN } from './tablefamemoln';
  * @interface PagedTABLEFAMEMOLN
  */
 export interface PagedTABLEFAMEMOLN {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

@@ -23,7 +23,7 @@ import { TABLECBBAL } from './tablecbbal';
  * @interface PagedTABLECBBAL
  */
 export interface PagedTABLECBBAL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

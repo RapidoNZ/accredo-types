@@ -23,7 +23,7 @@ import { TABLEJCESTI } from './tablejcesti';
  * @interface PagedTABLEJCESTI
  */
 export interface PagedTABLEJCESTI {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

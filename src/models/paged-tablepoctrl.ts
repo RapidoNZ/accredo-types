@@ -23,7 +23,7 @@ import { TABLEPOCTRL } from './tablepoctrl';
  * @interface PagedTABLEPOCTRL
  */
 export interface PagedTABLEPOCTRL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

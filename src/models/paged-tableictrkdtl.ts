@@ -23,7 +23,7 @@ import { TABLEICTRKDTL } from './tableictrkdtl';
  * @interface PagedTABLEICTRKDTL
  */
 export interface PagedTABLEICTRKDTL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

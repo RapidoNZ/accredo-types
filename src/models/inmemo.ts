@@ -23,7 +23,7 @@ import { INMemoMemo } from './inmemo-memo';
  * @interface INMemo
  */
 export interface INMemo {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

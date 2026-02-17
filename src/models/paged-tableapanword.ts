@@ -23,7 +23,7 @@ import { TABLEAPANWORD } from './tableapanword';
  * @interface PagedTABLEAPANWORD
  */
 export interface PagedTABLEAPANWORD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

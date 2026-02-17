@@ -23,7 +23,7 @@ import { ICReceiptBatch } from './icreceipt-batch';
  * @interface PagedICReceiptBatch
  */
 export interface PagedICReceiptBatch {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

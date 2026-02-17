@@ -23,7 +23,7 @@ import { TABLECOFXRATE } from './tablecofxrate';
  * @interface PagedTABLECOFXRATE
  */
 export interface PagedTABLECOFXRATE {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

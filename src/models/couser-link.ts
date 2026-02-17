@@ -20,7 +20,7 @@
  * @interface COUserLink
  */
 export interface COUserLink {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

@@ -23,7 +23,7 @@ import { TABLEFAASSET } from './tablefaasset';
  * @interface PagedTABLEFAASSET
  */
 export interface PagedTABLEFAASSET {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

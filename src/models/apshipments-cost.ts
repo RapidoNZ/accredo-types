@@ -20,7 +20,7 @@
  * @interface APShipmentsCost
  */
 export interface APShipmentsCost {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

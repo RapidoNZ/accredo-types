@@ -20,7 +20,7 @@
  * @interface TABLEICRTHEAD
  */
 export interface TABLEICRTHEAD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

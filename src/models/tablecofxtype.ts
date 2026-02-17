@@ -20,7 +20,7 @@
  * @interface TABLECOFXTYPE
  */
 export interface TABLECOFXTYPE {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

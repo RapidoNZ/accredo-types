@@ -23,7 +23,7 @@ import { TABLECBRULE } from './tablecbrule';
  * @interface PagedTABLECBRULE
  */
 export interface PagedTABLECBRULE {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

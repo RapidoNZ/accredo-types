@@ -20,7 +20,7 @@
  * @interface TABLEAPANL
  */
 export interface TABLEAPANL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

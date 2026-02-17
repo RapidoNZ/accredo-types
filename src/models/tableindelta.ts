@@ -20,7 +20,7 @@
  * @interface TABLEINDELTA
  */
 export interface TABLEINDELTA {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

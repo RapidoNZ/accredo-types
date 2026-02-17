@@ -26,7 +26,7 @@ import { JCTimeSheetLink } from './jctime-sheet-link';
  * @interface JCTimeSheet
  */
 export interface JCTimeSheet {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

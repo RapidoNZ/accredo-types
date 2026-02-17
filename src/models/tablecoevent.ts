@@ -20,7 +20,7 @@
  * @interface TABLECOEVENT
  */
 export interface TABLECOEVENT {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

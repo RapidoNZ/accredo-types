@@ -35,7 +35,7 @@ import { INInvoiceShip } from './ininvoice-ship';
  * @interface INInvoice
  */
 export interface INInvoice {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

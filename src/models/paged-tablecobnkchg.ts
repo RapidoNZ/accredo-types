@@ -23,7 +23,7 @@ import { TABLECOBNKCHG } from './tablecobnkchg';
  * @interface PagedTABLECOBNKCHG
  */
 export interface PagedTABLECOBNKCHG {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

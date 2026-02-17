@@ -23,7 +23,7 @@ import { FAAssetBook } from './faasset-book';
  * @interface PagedFAAssetBook
  */
 export interface PagedFAAssetBook {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

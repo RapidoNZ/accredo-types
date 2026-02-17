@@ -23,7 +23,7 @@ import { JCBudgetBudgets } from './jcbudget-budgets';
  * @interface JCBudget
  */
 export interface JCBudget {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

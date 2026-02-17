@@ -20,7 +20,7 @@
  * @interface TABLEPODELTA
  */
 export interface TABLEPODELTA {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

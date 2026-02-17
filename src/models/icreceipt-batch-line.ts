@@ -23,7 +23,7 @@ import { ICReceiptBatchLineTracking } from './icreceipt-batch-line-tracking';
  * @interface ICReceiptBatchLine
  */
 export interface ICReceiptBatchLine {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

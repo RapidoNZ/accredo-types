@@ -20,7 +20,7 @@
  * @interface TABLEINHEAD
  */
 export interface TABLEINHEAD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

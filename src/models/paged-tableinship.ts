@@ -23,7 +23,7 @@ import { TABLEINSHIP } from './tableinship';
  * @interface PagedTABLEINSHIP
  */
 export interface PagedTABLEINSHIP {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

@@ -23,7 +23,7 @@ import { TABLEGLCAT2 } from './tableglcat2';
  * @interface PagedTABLEGLCAT2
  */
 export interface PagedTABLEGLCAT2 {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

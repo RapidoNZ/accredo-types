@@ -20,7 +20,7 @@
  * @interface TABLEAPSHCAT2
  */
 export interface TABLEAPSHCAT2 {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

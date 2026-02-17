@@ -20,7 +20,7 @@
  * @interface TABLEAPDISS
  */
 export interface TABLEAPDISS {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

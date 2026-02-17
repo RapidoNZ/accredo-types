@@ -23,7 +23,7 @@ import { TABLEOECTRL } from './tableoectrl';
  * @interface PagedTABLEOECTRL
  */
 export interface PagedTABLEOECTRL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

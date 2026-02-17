@@ -20,7 +20,7 @@
  * @interface TABLEJCWIPGL
  */
 export interface TABLEJCWIPGL {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

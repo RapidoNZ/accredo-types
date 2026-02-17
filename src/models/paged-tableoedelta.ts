@@ -23,7 +23,7 @@ import { TABLEOEDELTA } from './tableoedelta';
  * @interface PagedTABLEOEDELTA
  */
 export interface PagedTABLEOEDELTA {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

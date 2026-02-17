@@ -23,7 +23,7 @@ import { ICStorePerson } from './icstore-person';
  * @interface PagedICStorePerson
  */
 export interface PagedICStorePerson {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

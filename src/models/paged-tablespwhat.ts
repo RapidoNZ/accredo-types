@@ -23,7 +23,7 @@ import { TABLESPWHAT } from './tablespwhat';
  * @interface PagedTABLESPWHAT
  */
 export interface PagedTABLESPWHAT {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

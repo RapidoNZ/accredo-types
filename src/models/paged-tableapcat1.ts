@@ -23,7 +23,7 @@ import { TABLEAPCAT1 } from './tableapcat1';
  * @interface PagedTABLEAPCAT1
  */
 export interface PagedTABLEAPCAT1 {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

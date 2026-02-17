@@ -20,7 +20,7 @@
  * @interface TABLECBSTMT
  */
 export interface TABLECBSTMT {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

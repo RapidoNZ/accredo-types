@@ -23,7 +23,7 @@ import { CBRule } from './cbrule';
  * @interface PagedCBRule
  */
 export interface PagedCBRule {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

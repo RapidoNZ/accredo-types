@@ -23,7 +23,7 @@ import { COMOCategory1 } from './comocategory1';
  * @interface PagedCOMOCategory1
  */
 export interface PagedCOMOCategory1 {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

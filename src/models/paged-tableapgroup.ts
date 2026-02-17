@@ -23,7 +23,7 @@ import { TABLEAPGROUP } from './tableapgroup';
  * @interface PagedTABLEAPGROUP
  */
 export interface PagedTABLEAPGROUP {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

@@ -23,7 +23,7 @@ import { COBranch } from './cobranch';
  * @interface PagedCOBranch
  */
 export interface PagedCOBranch {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

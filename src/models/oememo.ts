@@ -23,7 +23,7 @@ import { OEMemoMemo } from './oememo-memo';
  * @interface OEMemo
  */
 export interface OEMemo {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

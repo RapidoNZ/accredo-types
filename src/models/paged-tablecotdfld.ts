@@ -23,7 +23,7 @@ import { TABLECOTDFLD } from './tablecotdfld';
  * @interface PagedTABLECOTDFLD
  */
 export interface PagedTABLECOTDFLD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

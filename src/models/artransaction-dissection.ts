@@ -20,7 +20,7 @@
  * @interface ARTransactionDissection
  */
 export interface ARTransactionDissection {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

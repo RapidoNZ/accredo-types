@@ -23,7 +23,7 @@ import { APCostCode } from './apcost-code';
  * @interface PagedAPCostCode
  */
 export interface PagedAPCostCode {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

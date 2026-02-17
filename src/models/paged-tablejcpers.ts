@@ -23,7 +23,7 @@ import { TABLEJCPERS } from './tablejcpers';
  * @interface PagedTABLEJCPERS
  */
 export interface PagedTABLEJCPERS {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

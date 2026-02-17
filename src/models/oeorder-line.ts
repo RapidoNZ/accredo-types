@@ -23,7 +23,7 @@ import { OEOrderLineTracking } from './oeorder-line-tracking';
  * @interface OEOrderLine
  */
 export interface OEOrderLine {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

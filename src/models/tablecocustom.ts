@@ -20,7 +20,7 @@
  * @interface TABLECOCUSTOM
  */
 export interface TABLECOCUSTOM {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

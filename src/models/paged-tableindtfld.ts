@@ -23,7 +23,7 @@ import { TABLEINDTFLD } from './tableindtfld';
  * @interface PagedTABLEINDTFLD
  */
 export interface PagedTABLEINDTFLD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

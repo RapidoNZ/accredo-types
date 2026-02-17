@@ -20,7 +20,7 @@
  * @interface TABLEJCMEMO
  */
 export interface TABLEJCMEMO {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

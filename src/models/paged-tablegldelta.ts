@@ -23,7 +23,7 @@ import { TABLEGLDELTA } from './tablegldelta';
  * @interface PagedTABLEGLDELTA
  */
 export interface PagedTABLEGLDELTA {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

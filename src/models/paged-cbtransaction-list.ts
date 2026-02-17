@@ -23,7 +23,7 @@ import { CBTransactionList } from './cbtransaction-list';
  * @interface PagedCBTransactionList
  */
 export interface PagedCBTransactionList {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

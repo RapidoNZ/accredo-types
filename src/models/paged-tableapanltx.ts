@@ -23,7 +23,7 @@ import { TABLEAPANLTX } from './tableapanltx';
  * @interface PagedTABLEAPANLTX
  */
 export interface PagedTABLEAPANLTX {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

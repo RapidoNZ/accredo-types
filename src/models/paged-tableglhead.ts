@@ -23,7 +23,7 @@ import { TABLEGLHEAD } from './tableglhead';
  * @interface PagedTABLEGLHEAD
  */
 export interface PagedTABLEGLHEAD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

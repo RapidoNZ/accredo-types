@@ -20,7 +20,7 @@
  * @interface TABLEICPART
  */
 export interface TABLEICPART {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

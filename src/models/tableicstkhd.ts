@@ -20,7 +20,7 @@
  * @interface TABLEICSTKHD
  */
 export interface TABLEICSTKHD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

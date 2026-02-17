@@ -26,7 +26,7 @@ import { ICTransferLineTracking } from './ictransfer-line-tracking';
  * @interface ICTransferLine
  */
 export interface ICTransferLine {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}

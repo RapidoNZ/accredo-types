@@ -23,7 +23,7 @@ import { CBExpenseCode } from './cbexpense-code';
  * @interface PagedCBExpenseCode
  */
 export interface PagedCBExpenseCode {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

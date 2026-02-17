@@ -23,7 +23,7 @@ import { TABLEOELINE } from './tableoeline';
  * @interface PagedTABLEOELINE
  */
 export interface PagedTABLEOELINE {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

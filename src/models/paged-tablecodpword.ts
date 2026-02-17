@@ -23,7 +23,7 @@ import { TABLECODPWORD } from './tablecodpword';
  * @interface PagedTABLECODPWORD
  */
 export interface PagedTABLECODPWORD {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

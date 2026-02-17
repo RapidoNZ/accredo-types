@@ -23,7 +23,7 @@ import { CONarrative } from './conarrative';
  * @interface PagedCONarrative
  */
 export interface PagedCONarrative {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

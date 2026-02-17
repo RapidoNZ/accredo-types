@@ -20,7 +20,7 @@
  * @interface CompanyResults
  */
 export interface CompanyResults {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

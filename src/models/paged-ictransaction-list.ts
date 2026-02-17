@@ -23,7 +23,7 @@ import { ICTransactionList } from './ictransaction-list';
  * @interface PagedICTransactionList
  */
 export interface PagedICTransactionList {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

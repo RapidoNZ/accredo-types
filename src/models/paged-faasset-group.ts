@@ -23,7 +23,7 @@ import { FAAssetGroup } from './faasset-group';
  * @interface PagedFAAssetGroup
  */
 export interface PagedFAAssetGroup {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {string}

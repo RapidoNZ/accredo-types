@@ -20,7 +20,7 @@
  * @interface TABLEGLLINK
  */
 export interface TABLEGLLINK {
-    [key: string]: any;
+    [key: `Z_${string}`]: any;
     /**
      * 
      * @type {number}
