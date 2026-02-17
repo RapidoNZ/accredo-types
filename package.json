@@ -1,6 +1,6 @@
 {
   "name": "@rapidonz/accredo-types",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "TypeScript type definitions for Accredo ERP entities",
   "author": "RapidoNZ<adam@rapido.co.nz>",
   "repository": {
