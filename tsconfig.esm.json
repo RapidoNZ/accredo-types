@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "target": "ES6",
+    "module": "ES2015",
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "./dist/esm",
+    "rootDir": "./src",
+    "moduleResolution": "node"
+  },
+  "exclude": ["dist", "node_modules", "generate"],
+  "include": ["src/**/*.ts"]
+}

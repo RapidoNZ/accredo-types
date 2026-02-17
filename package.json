@@ -1,0 +1,30 @@
+{
+  "name": "@rapidonz/accredo-types",
+  "version": "1.0.0",
+  "description": "TypeScript type definitions for Accredo ERP entities",
+  "author": "RapidoNZ<adam@rapido.co.nz>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RapidoNZ/accredo-types.git"
+  },
+  "keywords": [
+    "accredo",
+    "erp",
+    "typescript",
+    "types",
+    "rapido"
+  ],
+  "homepage": "www.rapido.co.nz",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "typings": "./dist/cjs/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig.esm.json",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}

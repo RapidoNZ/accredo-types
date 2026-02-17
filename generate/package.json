@@ -1,0 +1,14 @@
+{
+  "name": "accredo-types-generator",
+  "version": "1.0.0",
+  "main": "run.js",
+  "license": "MIT",
+  "scripts": {
+    "generate": "openapi-generator-cli generate -i openapiToGenerate.json -g typescript-axios -o ../src --global-property models,modelDocs=false,modelTests=false --additional-properties=npmName=accredo-types,supportsES6=true,npmVersion=1.0.0,withInterfaces=true,modelPropertyNaming=original,withSeparateModelsAndApi=true,apiPackage=apis,modelPackage=models"
+  },
+  "dependencies": {
+    "@openapitools/openapi-generator-cli": "^2.13.1",
+    "axios": "^1.6.8",
+    "ora": "^8.0.1"
+  }
+}
