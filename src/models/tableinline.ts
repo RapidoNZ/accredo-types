@@ -20,6 +20,7 @@
  * @interface TABLEINLINE
  */
 export interface TABLEINLINE {
+    [key: string]: any;
     /**
      * 
      * @type {number}

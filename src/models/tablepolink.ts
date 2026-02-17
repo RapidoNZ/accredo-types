@@ -20,6 +20,7 @@
  * @interface TABLEPOLINK
  */
 export interface TABLEPOLINK {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -20,6 +20,7 @@
  * @interface APShipmentsLineTracking
  */
 export interface APShipmentsLineTracking {
+    [key: string]: any;
     /**
      * 
      * @type {number}

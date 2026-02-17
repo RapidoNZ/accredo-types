@@ -20,6 +20,7 @@
  * @interface INCategory1
  */
 export interface INCategory1 {
+    [key: string]: any;
     /**
      * 
      * @type {number}

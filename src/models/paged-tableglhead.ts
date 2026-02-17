@@ -23,6 +23,7 @@ import { TABLEGLHEAD } from './tableglhead';
  * @interface PagedTABLEGLHEAD
  */
 export interface PagedTABLEGLHEAD {
+    [key: string]: any;
     /**
      * 
      * @type {string}

@@ -20,6 +20,7 @@
  * @interface CBCategory1
  */
 export interface CBCategory1 {
+    [key: string]: any;
     /**
      * 
      * @type {number}

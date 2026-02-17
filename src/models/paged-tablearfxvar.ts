@@ -23,6 +23,7 @@ import { TABLEARFXVAR } from './tablearfxvar';
  * @interface PagedTABLEARFXVAR
  */
 export interface PagedTABLEARFXVAR {
+    [key: string]: any;
     /**
      * 
      * @type {string}

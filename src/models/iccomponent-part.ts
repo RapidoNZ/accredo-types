@@ -20,6 +20,7 @@
  * @interface ICComponentPart
  */
 export interface ICComponentPart {
+    [key: string]: any;
     /**
      * 
      * @type {number}

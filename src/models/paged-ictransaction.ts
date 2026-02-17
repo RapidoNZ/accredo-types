@@ -23,6 +23,7 @@ import { ICTransaction } from './ictransaction';
  * @interface PagedICTransaction
  */
 export interface PagedICTransaction {
+    [key: string]: any;
     /**
      * 
      * @type {string}

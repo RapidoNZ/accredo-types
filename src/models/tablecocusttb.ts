@@ -20,6 +20,7 @@
  * @interface TABLECOCUSTTB
  */
 export interface TABLECOCUSTTB {
+    [key: string]: any;
     /**
      * 
      * @type {number}

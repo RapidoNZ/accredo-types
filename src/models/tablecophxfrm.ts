@@ -20,6 +20,7 @@
  * @interface TABLECOPHXFRM
  */
 export interface TABLECOPHXFRM {
+    [key: string]: any;
     /**
      * 
      * @type {number}

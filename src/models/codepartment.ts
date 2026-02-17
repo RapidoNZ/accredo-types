@@ -20,6 +20,7 @@
  * @interface CODepartment
  */
 export interface CODepartment {
+    [key: string]: any;
     /**
      * 
      * @type {number}

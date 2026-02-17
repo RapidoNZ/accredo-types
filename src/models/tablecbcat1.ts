@@ -20,6 +20,7 @@
  * @interface TABLECBCAT1
  */
 export interface TABLECBCAT1 {
+    [key: string]: any;
     /**
      * 
      * @type {number}

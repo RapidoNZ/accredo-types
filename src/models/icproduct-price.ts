@@ -20,6 +20,7 @@
  * @interface ICProductPrice
  */
 export interface ICProductPrice {
+    [key: string]: any;
     /**
      * 
      * @type {number}

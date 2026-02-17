@@ -20,6 +20,7 @@
  * @interface JCJobList
  */
 export interface JCJobList {
+    [key: string]: any;
     /**
      * 
      * @type {number}

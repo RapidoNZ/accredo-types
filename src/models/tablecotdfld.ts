@@ -20,6 +20,7 @@
  * @interface TABLECOTDFLD
  */
 export interface TABLECOTDFLD {
+    [key: string]: any;
     /**
      * 
      * @type {number}

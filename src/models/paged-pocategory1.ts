@@ -23,6 +23,7 @@ import { POCategory1 } from './pocategory1';
  * @interface PagedPOCategory1
  */
 export interface PagedPOCategory1 {
+    [key: string]: any;
     /**
      * 
      * @type {string}

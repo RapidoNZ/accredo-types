@@ -20,6 +20,7 @@
  * @interface ARCustomerDeliveryAddress
  */
 export interface ARCustomerDeliveryAddress {
+    [key: string]: any;
     /**
      * 
      * @type {number}

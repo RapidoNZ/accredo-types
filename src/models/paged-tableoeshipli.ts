@@ -23,6 +23,7 @@ import { TABLEOESHIPLI } from './tableoeshipli';
  * @interface PagedTABLEOESHIPLI
  */
 export interface PagedTABLEOESHIPLI {
+    [key: string]: any;
     /**
      * 
      * @type {string}

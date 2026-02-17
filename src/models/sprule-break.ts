@@ -20,6 +20,7 @@
  * @interface SPRuleBreak
  */
 export interface SPRuleBreak {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -20,6 +20,7 @@
  * @interface TABLEFABAL
  */
 export interface TABLEFABAL {
+    [key: string]: any;
     /**
      * 
      * @type {number}

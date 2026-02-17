@@ -23,6 +23,7 @@ import { TABLEICADHEAD } from './tableicadhead';
  * @interface PagedTABLEICADHEAD
  */
 export interface PagedTABLEICADHEAD {
+    [key: string]: any;
     /**
      * 
      * @type {string}

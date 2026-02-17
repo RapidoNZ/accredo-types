@@ -20,6 +20,7 @@
  * @interface TABLECOUPLOAD
  */
 export interface TABLECOUPLOAD {
+    [key: string]: any;
     /**
      * 
      * @type {number}

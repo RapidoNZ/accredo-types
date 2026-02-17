@@ -20,6 +20,7 @@
  * @interface UserSettings
  */
 export interface UserSettings {
+    [key: string]: any;
     /**
      * 
      * @type {string}

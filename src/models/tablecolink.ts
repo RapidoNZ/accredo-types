@@ -20,6 +20,7 @@
  * @interface TABLECOLINK
  */
 export interface TABLECOLINK {
+    [key: string]: any;
     /**
      * 
      * @type {number}

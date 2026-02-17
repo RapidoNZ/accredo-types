@@ -20,6 +20,7 @@
  * @interface TABLECOTDTAB
  */
 export interface TABLECOTDTAB {
+    [key: string]: any;
     /**
      * 
      * @type {number}

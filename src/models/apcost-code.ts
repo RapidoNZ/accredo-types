@@ -20,6 +20,7 @@
  * @interface APCostCode
  */
 export interface APCostCode {
+    [key: string]: any;
     /**
      * 
      * @type {number}

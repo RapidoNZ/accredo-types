@@ -20,6 +20,7 @@
  * @interface JCJobEstimate
  */
 export interface JCJobEstimate {
+    [key: string]: any;
     /**
      * 
      * @type {number}

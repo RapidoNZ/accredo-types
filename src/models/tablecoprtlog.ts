@@ -20,6 +20,7 @@
  * @interface TABLECOPRTLOG
  */
 export interface TABLECOPRTLOG {
+    [key: string]: any;
     /**
      * 
      * @type {number}

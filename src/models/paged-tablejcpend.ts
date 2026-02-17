@@ -23,6 +23,7 @@ import { TABLEJCPEND } from './tablejcpend';
  * @interface PagedTABLEJCPEND
  */
 export interface PagedTABLEJCPEND {
+    [key: string]: any;
     /**
      * 
      * @type {string}

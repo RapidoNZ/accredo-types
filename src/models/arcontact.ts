@@ -20,6 +20,7 @@
  * @interface ARContact
  */
 export interface ARContact {
+    [key: string]: any;
     /**
      * 
      * @type {number}

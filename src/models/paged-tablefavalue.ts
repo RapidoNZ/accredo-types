@@ -23,6 +23,7 @@ import { TABLEFAVALUE } from './tablefavalue';
  * @interface PagedTABLEFAVALUE
  */
 export interface PagedTABLEFAVALUE {
+    [key: string]: any;
     /**
      * 
      * @type {string}

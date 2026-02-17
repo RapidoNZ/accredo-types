@@ -20,6 +20,7 @@
  * @interface JCJobPending
  */
 export interface JCJobPending {
+    [key: string]: any;
     /**
      * 
      * @type {number}

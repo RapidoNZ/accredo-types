@@ -23,6 +23,7 @@ import { JCMemo } from './jcmemo';
  * @interface PagedJCMemo
  */
 export interface PagedJCMemo {
+    [key: string]: any;
     /**
      * 
      * @type {string}

@@ -20,6 +20,7 @@
  * @interface ICBinCountLineTracking
  */
 export interface ICBinCountLineTracking {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -20,6 +20,7 @@
  * @interface TABLEFACODE
  */
 export interface TABLEFACODE {
+    [key: string]: any;
     /**
      * 
      * @type {number}

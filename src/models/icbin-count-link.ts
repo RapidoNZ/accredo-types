@@ -20,6 +20,7 @@
  * @interface ICBinCountLink
  */
 export interface ICBinCountLink {
+    [key: string]: any;
     /**
      * 
      * @type {number}

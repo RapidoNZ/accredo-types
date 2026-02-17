@@ -23,6 +23,7 @@ import { JCInvoiceAmounts } from './jcinvoice-amounts';
  * @interface PagedJCInvoiceAmounts
  */
 export interface PagedJCInvoiceAmounts {
+    [key: string]: any;
     /**
      * 
      * @type {string}

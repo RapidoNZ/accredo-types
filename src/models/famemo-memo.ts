@@ -20,6 +20,7 @@
  * @interface FAMemoMemo
  */
 export interface FAMemoMemo {
+    [key: string]: any;
     /**
      * 
      * @type {string}

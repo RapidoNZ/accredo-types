@@ -20,6 +20,7 @@
  * @interface SPWho
  */
 export interface SPWho {
+    [key: string]: any;
     /**
      * 
      * @type {number}

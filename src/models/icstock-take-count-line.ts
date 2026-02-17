@@ -20,6 +20,7 @@
  * @interface ICStockTakeCountLine
  */
 export interface ICStockTakeCountLine {
+    [key: string]: any;
     /**
      * 
      * @type {number}

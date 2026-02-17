@@ -20,6 +20,7 @@
  * @interface ARSalesArea
  */
 export interface ARSalesArea {
+    [key: string]: any;
     /**
      * 
      * @type {number}

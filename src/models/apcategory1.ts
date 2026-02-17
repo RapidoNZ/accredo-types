@@ -20,6 +20,7 @@
  * @interface APCategory1
  */
 export interface APCategory1 {
+    [key: string]: any;
     /**
      * 
      * @type {number}

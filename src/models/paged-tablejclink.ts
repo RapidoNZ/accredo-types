@@ -23,6 +23,7 @@ import { TABLEJCLINK } from './tablejclink';
  * @interface PagedTABLEJCLINK
  */
 export interface PagedTABLEJCLINK {
+    [key: string]: any;
     /**
      * 
      * @type {string}

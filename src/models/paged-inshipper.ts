@@ -23,6 +23,7 @@ import { INShipper } from './inshipper';
  * @interface PagedINShipper
  */
 export interface PagedINShipper {
+    [key: string]: any;
     /**
      * 
      * @type {string}

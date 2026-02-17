@@ -23,6 +23,7 @@ import { APBudget } from './apbudget';
  * @interface PagedAPBudget
  */
 export interface PagedAPBudget {
+    [key: string]: any;
     /**
      * 
      * @type {string}

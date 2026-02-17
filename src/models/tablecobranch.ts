@@ -20,6 +20,7 @@
  * @interface TABLECOBRANCH
  */
 export interface TABLECOBRANCH {
+    [key: string]: any;
     /**
      * 
      * @type {number}

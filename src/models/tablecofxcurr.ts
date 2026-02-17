@@ -20,6 +20,7 @@
  * @interface TABLECOFXCURR
  */
 export interface TABLECOFXCURR {
+    [key: string]: any;
     /**
      * 
      * @type {number}

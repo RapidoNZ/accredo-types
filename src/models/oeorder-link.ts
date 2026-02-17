@@ -20,6 +20,7 @@
  * @interface OEOrderLink
  */
 export interface OEOrderLink {
+    [key: string]: any;
     /**
      * 
      * @type {number}

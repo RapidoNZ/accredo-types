@@ -23,6 +23,7 @@ import { JCInvoiceAmountsTransaction } from './jcinvoice-amounts-transaction';
  * @interface JCInvoiceAmounts
  */
 export interface JCInvoiceAmounts {
+    [key: string]: any;
     /**
      * 
      * @type {Array<JCInvoiceAmountsTransaction>}

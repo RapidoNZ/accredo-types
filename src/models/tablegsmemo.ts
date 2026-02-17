@@ -20,6 +20,7 @@
  * @interface TABLEGSMEMO
  */
 export interface TABLEGSMEMO {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -23,6 +23,7 @@ import { JCTimeSheet } from './jctime-sheet';
  * @interface PagedJCTimeSheet
  */
 export interface PagedJCTimeSheet {
+    [key: string]: any;
     /**
      * 
      * @type {string}

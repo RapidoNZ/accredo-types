@@ -23,6 +23,7 @@ import { TABLEINBANKLN } from './tableinbankln';
  * @interface PagedTABLEINBANKLN
  */
 export interface PagedTABLEINBANKLN {
+    [key: string]: any;
     /**
      * 
      * @type {string}

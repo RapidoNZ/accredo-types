@@ -23,6 +23,7 @@ import { ICLocation } from './iclocation';
  * @interface PagedICLocation
  */
 export interface PagedICLocation {
+    [key: string]: any;
     /**
      * 
      * @type {string}

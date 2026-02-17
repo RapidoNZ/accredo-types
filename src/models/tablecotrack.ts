@@ -20,6 +20,7 @@
  * @interface TABLECOTRACK
  */
 export interface TABLECOTRACK {
+    [key: string]: any;
     /**
      * 
      * @type {number}

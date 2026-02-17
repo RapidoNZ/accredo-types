@@ -29,6 +29,7 @@ import { ARTransactionLink } from './artransaction-link';
  * @interface ARTransaction
  */
 export interface ARTransaction {
+    [key: string]: any;
     /**
      * 
      * @type {string}

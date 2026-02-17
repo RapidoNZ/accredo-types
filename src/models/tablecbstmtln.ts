@@ -20,6 +20,7 @@
  * @interface TABLECBSTMTLN
  */
 export interface TABLECBSTMTLN {
+    [key: string]: any;
     /**
      * 
      * @type {number}

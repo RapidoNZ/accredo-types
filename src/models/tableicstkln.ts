@@ -20,6 +20,7 @@
  * @interface TABLEICSTKLN
  */
 export interface TABLEICSTKLN {
+    [key: string]: any;
     /**
      * 
      * @type {number}

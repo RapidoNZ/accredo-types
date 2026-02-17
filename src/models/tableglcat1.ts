@@ -20,6 +20,7 @@
  * @interface TABLEGLCAT1
  */
 export interface TABLEGLCAT1 {
+    [key: string]: any;
     /**
      * 
      * @type {number}

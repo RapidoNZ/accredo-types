@@ -23,6 +23,7 @@ import { COAddress } from './coaddress';
  * @interface PagedCOAddress
  */
 export interface PagedCOAddress {
+    [key: string]: any;
     /**
      * 
      * @type {string}

@@ -20,6 +20,7 @@
  * @interface UserRemindersResults
  */
 export interface UserRemindersResults {
+    [key: string]: any;
     /**
      * 
      * @type {number}

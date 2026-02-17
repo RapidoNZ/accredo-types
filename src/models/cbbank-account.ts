@@ -23,6 +23,7 @@ import { CBBankAccountLink } from './cbbank-account-link';
  * @interface CBBankAccount
  */
 export interface CBBankAccount {
+    [key: string]: any;
     /**
      * 
      * @type {number}

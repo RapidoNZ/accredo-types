@@ -23,6 +23,7 @@ import { FATransactionList } from './fatransaction-list';
  * @interface PagedFATransactionList
  */
 export interface PagedFATransactionList {
+    [key: string]: any;
     /**
      * 
      * @type {string}

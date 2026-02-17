@@ -20,6 +20,7 @@
  * @interface APCreditorGroup
  */
 export interface APCreditorGroup {
+    [key: string]: any;
     /**
      * 
      * @type {number}

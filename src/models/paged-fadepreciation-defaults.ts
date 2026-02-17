@@ -23,6 +23,7 @@ import { FADepreciationDefaults } from './fadepreciation-defaults';
  * @interface PagedFADepreciationDefaults
  */
 export interface PagedFADepreciationDefaults {
+    [key: string]: any;
     /**
      * 
      * @type {string}

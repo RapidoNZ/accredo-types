@@ -23,6 +23,7 @@ import { TABLECOPERIOD } from './tablecoperiod';
  * @interface PagedTABLECOPERIOD
  */
 export interface PagedTABLECOPERIOD {
+    [key: string]: any;
     /**
      * 
      * @type {string}

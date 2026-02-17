@@ -20,6 +20,7 @@
  * @interface FAAssetDescription
  */
 export interface FAAssetDescription {
+    [key: string]: any;
     /**
      * 
      * @type {string}

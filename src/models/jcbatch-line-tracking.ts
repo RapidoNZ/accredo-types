@@ -20,6 +20,7 @@
  * @interface JCBatchLineTracking
  */
 export interface JCBatchLineTracking {
+    [key: string]: any;
     /**
      * 
      * @type {number}

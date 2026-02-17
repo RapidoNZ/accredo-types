@@ -20,6 +20,7 @@
  * @interface COLinkCategory2
  */
 export interface COLinkCategory2 {
+    [key: string]: any;
     /**
      * 
      * @type {number}

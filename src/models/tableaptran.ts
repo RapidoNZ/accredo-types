@@ -20,6 +20,7 @@
  * @interface TABLEAPTRAN
  */
 export interface TABLEAPTRAN {
+    [key: string]: any;
     /**
      * 
      * @type {number}

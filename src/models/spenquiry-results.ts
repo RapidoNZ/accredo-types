@@ -20,6 +20,7 @@
  * @interface SPEnquiryResults
  */
 export interface SPEnquiryResults {
+    [key: string]: any;
     /**
      * 
      * @type {number}

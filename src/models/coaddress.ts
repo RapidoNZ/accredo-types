@@ -20,6 +20,7 @@
  * @interface COAddress
  */
 export interface COAddress {
+    [key: string]: any;
     /**
      * 
      * @type {number}

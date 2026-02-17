@@ -23,6 +23,7 @@ import { ARSalesAreaBudgetBudgets } from './arsales-area-budget-budgets';
  * @interface ARSalesAreaBudget
  */
 export interface ARSalesAreaBudget {
+    [key: string]: any;
     /**
      * 
      * @type {number}

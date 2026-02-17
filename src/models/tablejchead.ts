@@ -20,6 +20,7 @@
  * @interface TABLEJCHEAD
  */
 export interface TABLEJCHEAD {
+    [key: string]: any;
     /**
      * 
      * @type {number}

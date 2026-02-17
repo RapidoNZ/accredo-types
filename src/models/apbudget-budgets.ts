@@ -20,6 +20,7 @@
  * @interface APBudgetBudgets
  */
 export interface APBudgetBudgets {
+    [key: string]: any;
     /**
      * 
      * @type {number}

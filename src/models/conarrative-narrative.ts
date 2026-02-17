@@ -20,6 +20,7 @@
  * @interface CONarrativeNarrative
  */
 export interface CONarrativeNarrative {
+    [key: string]: any;
     /**
      * 
      * @type {string}

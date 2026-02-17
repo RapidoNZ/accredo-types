@@ -20,6 +20,7 @@
  * @interface TABLECOLAYOUT
  */
 export interface TABLECOLAYOUT {
+    [key: string]: any;
     /**
      * 
      * @type {number}

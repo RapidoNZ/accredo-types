@@ -20,6 +20,7 @@
  * @interface CBRuleList
  */
 export interface CBRuleList {
+    [key: string]: any;
     /**
      * 
      * @type {number}

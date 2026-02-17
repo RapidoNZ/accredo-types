@@ -23,6 +23,7 @@ import { INCategory1 } from './incategory1';
  * @interface PagedINCategory1
  */
 export interface PagedINCategory1 {
+    [key: string]: any;
     /**
      * 
      * @type {string}

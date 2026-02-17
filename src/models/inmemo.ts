@@ -23,6 +23,7 @@ import { INMemoMemo } from './inmemo-memo';
  * @interface INMemo
  */
 export interface INMemo {
+    [key: string]: any;
     /**
      * 
      * @type {number}

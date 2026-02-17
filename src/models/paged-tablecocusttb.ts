@@ -23,6 +23,7 @@ import { TABLECOCUSTTB } from './tablecocusttb';
  * @interface PagedTABLECOCUSTTB
  */
 export interface PagedTABLECOCUSTTB {
+    [key: string]: any;
     /**
      * 
      * @type {string}

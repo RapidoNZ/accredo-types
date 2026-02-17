@@ -23,6 +23,7 @@ import { TABLECOBRANCH } from './tablecobranch';
  * @interface PagedTABLECOBRANCH
  */
 export interface PagedTABLECOBRANCH {
+    [key: string]: any;
     /**
      * 
      * @type {string}

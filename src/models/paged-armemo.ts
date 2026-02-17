@@ -23,6 +23,7 @@ import { ARMemo } from './armemo';
  * @interface PagedARMemo
  */
 export interface PagedARMemo {
+    [key: string]: any;
     /**
      * 
      * @type {string}

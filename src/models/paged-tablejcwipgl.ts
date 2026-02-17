@@ -23,6 +23,7 @@ import { TABLEJCWIPGL } from './tablejcwipgl';
  * @interface PagedTABLEJCWIPGL
  */
 export interface PagedTABLEJCWIPGL {
+    [key: string]: any;
     /**
      * 
      * @type {string}

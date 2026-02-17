@@ -20,6 +20,7 @@
  * @interface ICAdjustmentBatchLineTracking
  */
 export interface ICAdjustmentBatchLineTracking {
+    [key: string]: any;
     /**
      * 
      * @type {number}

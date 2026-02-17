@@ -20,6 +20,7 @@
  * @interface TABLESPCTRL
  */
 export interface TABLESPCTRL {
+    [key: string]: any;
     /**
      * 
      * @type {number}

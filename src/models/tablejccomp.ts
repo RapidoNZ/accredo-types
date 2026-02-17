@@ -20,6 +20,7 @@
  * @interface TABLEJCCOMP
  */
 export interface TABLEJCCOMP {
+    [key: string]: any;
     /**
      * 
      * @type {number}

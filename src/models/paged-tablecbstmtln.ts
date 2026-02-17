@@ -23,6 +23,7 @@ import { TABLECBSTMTLN } from './tablecbstmtln';
  * @interface PagedTABLECBSTMTLN
  */
 export interface PagedTABLECBSTMTLN {
+    [key: string]: any;
     /**
      * 
      * @type {string}

@@ -23,6 +23,7 @@ import { TABLEGSLINK } from './tablegslink';
  * @interface PagedTABLEGSLINK
  */
 export interface PagedTABLEGSLINK {
+    [key: string]: any;
     /**
      * 
      * @type {string}

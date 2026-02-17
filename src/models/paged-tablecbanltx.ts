@@ -23,6 +23,7 @@ import { TABLECBANLTX } from './tablecbanltx';
  * @interface PagedTABLECBANLTX
  */
 export interface PagedTABLECBANLTX {
+    [key: string]: any;
     /**
      * 
      * @type {string}

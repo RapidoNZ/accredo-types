@@ -20,6 +20,7 @@
  * @interface FACategory2
  */
 export interface FACategory2 {
+    [key: string]: any;
     /**
      * 
      * @type {number}

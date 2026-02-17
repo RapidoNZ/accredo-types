@@ -20,6 +20,7 @@
  * @interface TABLECBSUMEXP
  */
 export interface TABLECBSUMEXP {
+    [key: string]: any;
     /**
      * 
      * @type {number}

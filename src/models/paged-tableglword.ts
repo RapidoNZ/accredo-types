@@ -23,6 +23,7 @@ import { TABLEGLWORD } from './tableglword';
  * @interface PagedTABLEGLWORD
  */
 export interface PagedTABLEGLWORD {
+    [key: string]: any;
     /**
      * 
      * @type {string}

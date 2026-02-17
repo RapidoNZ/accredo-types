@@ -23,6 +23,7 @@ import { TABLEGLSUB } from './tableglsub';
  * @interface PagedTABLEGLSUB
  */
 export interface PagedTABLEGLSUB {
+    [key: string]: any;
     /**
      * 
      * @type {string}

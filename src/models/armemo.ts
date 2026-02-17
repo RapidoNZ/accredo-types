@@ -23,6 +23,7 @@ import { ARMemoMemo } from './armemo-memo';
  * @interface ARMemo
  */
 export interface ARMemo {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -20,6 +20,7 @@
  * @interface APSHCategory1
  */
 export interface APSHCategory1 {
+    [key: string]: any;
     /**
      * 
      * @type {number}

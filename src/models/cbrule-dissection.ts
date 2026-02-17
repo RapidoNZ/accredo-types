@@ -20,6 +20,7 @@
  * @interface CBRuleDissection
  */
 export interface CBRuleDissection {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -20,6 +20,7 @@
  * @interface TABLEGLSUB
  */
 export interface TABLEGLSUB {
+    [key: string]: any;
     /**
      * 
      * @type {number}

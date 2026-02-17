@@ -20,6 +20,7 @@
  * @interface TABLECBMEMO
  */
 export interface TABLECBMEMO {
+    [key: string]: any;
     /**
      * 
      * @type {number}

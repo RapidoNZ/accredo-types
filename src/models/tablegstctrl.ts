@@ -20,6 +20,7 @@
  * @interface TABLEGSTCTRL
  */
 export interface TABLEGSTCTRL {
+    [key: string]: any;
     /**
      * 
      * @type {number}

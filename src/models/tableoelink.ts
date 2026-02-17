@@ -20,6 +20,7 @@
  * @interface TABLEOELINK
  */
 export interface TABLEOELINK {
+    [key: string]: any;
     /**
      * 
      * @type {number}

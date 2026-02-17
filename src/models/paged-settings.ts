@@ -23,6 +23,7 @@ import { Settings } from './settings';
  * @interface PagedSettings
  */
 export interface PagedSettings {
+    [key: string]: any;
     /**
      * 
      * @type {string}

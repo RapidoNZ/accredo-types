@@ -23,6 +23,7 @@ import { TABLEICRTHEAD } from './tableicrthead';
  * @interface PagedTABLEICRTHEAD
  */
 export interface PagedTABLEICRTHEAD {
+    [key: string]: any;
     /**
      * 
      * @type {string}

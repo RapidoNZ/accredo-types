@@ -20,6 +20,7 @@
  * @interface TABLEGLLINK
  */
 export interface TABLEGLLINK {
+    [key: string]: any;
     /**
      * 
      * @type {number}

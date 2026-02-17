@@ -20,6 +20,7 @@
  * @interface TABLEARCTRL
  */
 export interface TABLEARCTRL {
+    [key: string]: any;
     /**
      * 
      * @type {number}

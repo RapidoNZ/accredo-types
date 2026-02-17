@@ -20,6 +20,7 @@
  * @interface ICReceiptBatchLink
  */
 export interface ICReceiptBatchLink {
+    [key: string]: any;
     /**
      * 
      * @type {number}

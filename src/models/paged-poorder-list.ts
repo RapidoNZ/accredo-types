@@ -23,6 +23,7 @@ import { POOrderList } from './poorder-list';
  * @interface PagedPOOrderList
  */
 export interface PagedPOOrderList {
+    [key: string]: any;
     /**
      * 
      * @type {string}

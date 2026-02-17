@@ -23,6 +23,7 @@ import { TABLEJCDELTA } from './tablejcdelta';
  * @interface PagedTABLEJCDELTA
  */
 export interface PagedTABLEJCDELTA {
+    [key: string]: any;
     /**
      * 
      * @type {string}

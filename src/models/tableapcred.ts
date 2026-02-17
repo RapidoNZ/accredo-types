@@ -20,6 +20,7 @@
  * @interface TABLEAPCRED
  */
 export interface TABLEAPCRED {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -23,6 +23,7 @@ import { JCDisbursement } from './jcdisbursement';
  * @interface PagedJCDisbursement
  */
 export interface PagedJCDisbursement {
+    [key: string]: any;
     /**
      * 
      * @type {string}

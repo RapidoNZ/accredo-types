@@ -20,6 +20,7 @@
  * @interface TABLECOTAXREG
  */
 export interface TABLECOTAXREG {
+    [key: string]: any;
     /**
      * 
      * @type {number}

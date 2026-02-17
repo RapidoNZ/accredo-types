@@ -23,6 +23,7 @@ import { TABLEJCMEMOLN } from './tablejcmemoln';
  * @interface PagedTABLEJCMEMOLN
  */
 export interface PagedTABLEJCMEMOLN {
+    [key: string]: any;
     /**
      * 
      * @type {string}

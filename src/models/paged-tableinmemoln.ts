@@ -23,6 +23,7 @@ import { TABLEINMEMOLN } from './tableinmemoln';
  * @interface PagedTABLEINMEMOLN
  */
 export interface PagedTABLEINMEMOLN {
+    [key: string]: any;
     /**
      * 
      * @type {string}

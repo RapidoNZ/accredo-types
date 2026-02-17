@@ -23,6 +23,7 @@ import { TABLEJCINV } from './tablejcinv';
  * @interface PagedTABLEJCINV
  */
 export interface PagedTABLEJCINV {
+    [key: string]: any;
     /**
      * 
      * @type {string}

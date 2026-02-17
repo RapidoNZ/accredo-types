@@ -23,6 +23,7 @@ import { ICStockTake } from './icstock-take';
  * @interface PagedICStockTake
  */
 export interface PagedICStockTake {
+    [key: string]: any;
     /**
      * 
      * @type {string}

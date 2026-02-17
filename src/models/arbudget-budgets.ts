@@ -20,6 +20,7 @@
  * @interface ARBudgetBudgets
  */
 export interface ARBudgetBudgets {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -20,6 +20,7 @@
  * @interface ICTransferLineInwardsTracking
  */
 export interface ICTransferLineInwardsTracking {
+    [key: string]: any;
     /**
      * 
      * @type {number}

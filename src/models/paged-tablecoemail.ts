@@ -23,6 +23,7 @@ import { TABLECOEMAIL } from './tablecoemail';
  * @interface PagedTABLECOEMAIL
  */
 export interface PagedTABLECOEMAIL {
+    [key: string]: any;
     /**
      * 
      * @type {string}

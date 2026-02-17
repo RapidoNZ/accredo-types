@@ -20,6 +20,7 @@
  * @interface TABLESPDTFLD
  */
 export interface TABLESPDTFLD {
+    [key: string]: any;
     /**
      * 
      * @type {number}

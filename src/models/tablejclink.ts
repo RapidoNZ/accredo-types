@@ -20,6 +20,7 @@
  * @interface TABLEJCLINK
  */
 export interface TABLEJCLINK {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -29,6 +29,7 @@ import { ICStockTakeProduct } from './icstock-take-product';
  * @interface ICStockTake
  */
 export interface ICStockTake {
+    [key: string]: any;
     /**
      * 
      * @type {number}

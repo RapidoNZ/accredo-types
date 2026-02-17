@@ -20,6 +20,7 @@
  * @interface JCJobGroup
  */
 export interface JCJobGroup {
+    [key: string]: any;
     /**
      * 
      * @type {number}

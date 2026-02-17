@@ -23,6 +23,7 @@ import { TABLEAPLINE } from './tableapline';
  * @interface PagedTABLEAPLINE
  */
 export interface PagedTABLEAPLINE {
+    [key: string]: any;
     /**
      * 
      * @type {string}

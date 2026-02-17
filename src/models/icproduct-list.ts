@@ -20,6 +20,7 @@
  * @interface ICProductList
  */
 export interface ICProductList {
+    [key: string]: any;
     /**
      * 
      * @type {number}

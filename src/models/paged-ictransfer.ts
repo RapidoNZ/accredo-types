@@ -23,6 +23,7 @@ import { ICTransfer } from './ictransfer';
  * @interface PagedICTransfer
  */
 export interface PagedICTransfer {
+    [key: string]: any;
     /**
      * 
      * @type {string}

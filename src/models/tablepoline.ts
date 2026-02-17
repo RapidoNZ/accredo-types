@@ -20,6 +20,7 @@
  * @interface TABLEPOLINE
  */
 export interface TABLEPOLINE {
+    [key: string]: any;
     /**
      * 
      * @type {number}

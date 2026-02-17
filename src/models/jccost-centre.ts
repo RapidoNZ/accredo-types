@@ -20,6 +20,7 @@
  * @interface JCCostCentre
  */
 export interface JCCostCentre {
+    [key: string]: any;
     /**
      * 
      * @type {number}

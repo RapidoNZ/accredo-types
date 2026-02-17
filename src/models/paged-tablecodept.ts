@@ -23,6 +23,7 @@ import { TABLECODEPT } from './tablecodept';
  * @interface PagedTABLECODEPT
  */
 export interface PagedTABLECODEPT {
+    [key: string]: any;
     /**
      * 
      * @type {string}

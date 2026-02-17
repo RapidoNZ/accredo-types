@@ -23,6 +23,7 @@ import { GLMemoMemo } from './glmemo-memo';
  * @interface GLMemo
  */
 export interface GLMemo {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -20,6 +20,7 @@
  * @interface TABLEARANLTX
  */
 export interface TABLEARANLTX {
+    [key: string]: any;
     /**
      * 
      * @type {number}

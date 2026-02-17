@@ -23,6 +23,7 @@ import { TABLECOUOMGRP } from './tablecouomgrp';
  * @interface PagedTABLECOUOMGRP
  */
 export interface PagedTABLECOUOMGRP {
+    [key: string]: any;
     /**
      * 
      * @type {string}

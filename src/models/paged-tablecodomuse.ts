@@ -23,6 +23,7 @@ import { TABLECODOMUSE } from './tablecodomuse';
  * @interface PagedTABLECODOMUSE
  */
 export interface PagedTABLECODOMUSE {
+    [key: string]: any;
     /**
      * 
      * @type {string}

@@ -20,6 +20,7 @@
  * @interface TABLEFALOCN
  */
 export interface TABLEFALOCN {
+    [key: string]: any;
     /**
      * 
      * @type {number}

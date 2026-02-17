@@ -20,6 +20,7 @@
  * @interface ARAllocationTaskCredit
  */
 export interface ARAllocationTaskCredit {
+    [key: string]: any;
     /**
      * 
      * @type {number}

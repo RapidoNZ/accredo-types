@@ -20,6 +20,7 @@
  * @interface TABLEOECTRL
  */
 export interface TABLEOECTRL {
+    [key: string]: any;
     /**
      * 
      * @type {number}

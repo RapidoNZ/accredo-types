@@ -20,6 +20,7 @@
  * @interface ARCustomerGroup
  */
 export interface ARCustomerGroup {
+    [key: string]: any;
     /**
      * 
      * @type {number}

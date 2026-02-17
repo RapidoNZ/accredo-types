@@ -20,6 +20,7 @@
  * @interface FAAssetLink
  */
 export interface FAAssetLink {
+    [key: string]: any;
     /**
      * 
      * @type {number}

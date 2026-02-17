@@ -20,6 +20,7 @@
  * @interface COBranch
  */
 export interface COBranch {
+    [key: string]: any;
     /**
      * 
      * @type {number}

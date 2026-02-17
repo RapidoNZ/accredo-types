@@ -23,6 +23,7 @@ import { TABLEARMEMO } from './tablearmemo';
  * @interface PagedTABLEARMEMO
  */
 export interface PagedTABLEARMEMO {
+    [key: string]: any;
     /**
      * 
      * @type {string}

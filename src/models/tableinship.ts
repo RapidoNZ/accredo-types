@@ -20,6 +20,7 @@
  * @interface TABLEINSHIP
  */
 export interface TABLEINSHIP {
+    [key: string]: any;
     /**
      * 
      * @type {number}

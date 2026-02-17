@@ -23,6 +23,7 @@ import { TABLECOPHXFRM } from './tablecophxfrm';
  * @interface PagedTABLECOPHXFRM
  */
 export interface PagedTABLECOPHXFRM {
+    [key: string]: any;
     /**
      * 
      * @type {string}

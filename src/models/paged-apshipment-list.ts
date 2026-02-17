@@ -23,6 +23,7 @@ import { APShipmentList } from './apshipment-list';
  * @interface PagedAPShipmentList
  */
 export interface PagedAPShipmentList {
+    [key: string]: any;
     /**
      * 
      * @type {string}

@@ -23,6 +23,7 @@ import { TABLEICPRODTX } from './tableicprodtx';
  * @interface PagedTABLEICPRODTX
  */
 export interface PagedTABLEICPRODTX {
+    [key: string]: any;
     /**
      * 
      * @type {string}

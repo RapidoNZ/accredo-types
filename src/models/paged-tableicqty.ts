@@ -23,6 +23,7 @@ import { TABLEICQTY } from './tableicqty';
  * @interface PagedTABLEICQTY
  */
 export interface PagedTABLEICQTY {
+    [key: string]: any;
     /**
      * 
      * @type {string}

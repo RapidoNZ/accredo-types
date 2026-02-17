@@ -20,6 +20,7 @@
  * @interface TABLESPDELTA
  */
 export interface TABLESPDELTA {
+    [key: string]: any;
     /**
      * 
      * @type {number}

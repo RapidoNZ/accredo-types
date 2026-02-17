@@ -23,6 +23,7 @@ import { TABLECOUSER } from './tablecouser';
  * @interface PagedTABLECOUSER
  */
 export interface PagedTABLECOUSER {
+    [key: string]: any;
     /**
      * 
      * @type {string}

@@ -20,6 +20,7 @@
  * @interface ICAvailableResults
  */
 export interface ICAvailableResults {
+    [key: string]: any;
     /**
      * 
      * @type {number}

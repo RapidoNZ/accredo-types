@@ -20,6 +20,7 @@
  * @interface ICStockGroup
  */
 export interface ICStockGroup {
+    [key: string]: any;
     /**
      * 
      * @type {number}

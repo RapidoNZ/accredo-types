@@ -20,6 +20,7 @@
  * @interface TABLEARCONTCT
  */
 export interface TABLEARCONTCT {
+    [key: string]: any;
     /**
      * 
      * @type {number}

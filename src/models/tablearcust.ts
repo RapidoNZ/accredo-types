@@ -20,6 +20,7 @@
  * @interface TABLEARCUST
  */
 export interface TABLEARCUST {
+    [key: string]: any;
     /**
      * 
      * @type {number}

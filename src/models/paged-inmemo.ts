@@ -23,6 +23,7 @@ import { INMemo } from './inmemo';
  * @interface PagedINMemo
  */
 export interface PagedINMemo {
+    [key: string]: any;
     /**
      * 
      * @type {string}

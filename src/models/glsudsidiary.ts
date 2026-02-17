@@ -20,6 +20,7 @@
  * @interface GLSudsidiary
  */
 export interface GLSudsidiary {
+    [key: string]: any;
     /**
      * 
      * @type {number}

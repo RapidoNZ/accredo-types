@@ -23,6 +23,7 @@ import { APAllocationTaskResults } from './apallocation-task-results';
  * @interface PagedAPAllocationTaskResults
  */
 export interface PagedAPAllocationTaskResults {
+    [key: string]: any;
     /**
      * 
      * @type {string}

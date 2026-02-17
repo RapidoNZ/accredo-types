@@ -23,6 +23,7 @@ import { TABLECOCNTRY } from './tablecocntry';
  * @interface PagedTABLECOCNTRY
  */
 export interface PagedTABLECOCNTRY {
+    [key: string]: any;
     /**
      * 
      * @type {string}

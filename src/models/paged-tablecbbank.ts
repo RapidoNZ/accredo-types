@@ -23,6 +23,7 @@ import { TABLECBBANK } from './tablecbbank';
  * @interface PagedTABLECBBANK
  */
 export interface PagedTABLECBBANK {
+    [key: string]: any;
     /**
      * 
      * @type {string}

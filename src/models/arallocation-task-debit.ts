@@ -20,6 +20,7 @@
  * @interface ARAllocationTaskDebit
  */
 export interface ARAllocationTaskDebit {
+    [key: string]: any;
     /**
      * 
      * @type {number}

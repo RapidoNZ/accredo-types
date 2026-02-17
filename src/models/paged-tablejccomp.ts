@@ -23,6 +23,7 @@ import { TABLEJCCOMP } from './tablejccomp';
  * @interface PagedTABLEJCCOMP
  */
 export interface PagedTABLEJCCOMP {
+    [key: string]: any;
     /**
      * 
      * @type {string}

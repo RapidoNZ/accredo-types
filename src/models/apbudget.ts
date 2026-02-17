@@ -23,6 +23,7 @@ import { APBudgetBudgets } from './apbudget-budgets';
  * @interface APBudget
  */
 export interface APBudget {
+    [key: string]: any;
     /**
      * 
      * @type {number}

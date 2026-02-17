@@ -20,6 +20,7 @@
  * @interface TABLEAPREVAL
  */
 export interface TABLEAPREVAL {
+    [key: string]: any;
     /**
      * 
      * @type {number}

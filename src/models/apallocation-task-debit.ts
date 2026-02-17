@@ -20,6 +20,7 @@
  * @interface APAllocationTaskDebit
  */
 export interface APAllocationTaskDebit {
+    [key: string]: any;
     /**
      * 
      * @type {number}

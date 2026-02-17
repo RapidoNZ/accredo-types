@@ -20,6 +20,7 @@
  * @interface TABLECOPRICE
  */
 export interface TABLECOPRICE {
+    [key: string]: any;
     /**
      * 
      * @type {number}

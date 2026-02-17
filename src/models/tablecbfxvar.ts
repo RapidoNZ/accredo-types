@@ -20,6 +20,7 @@
  * @interface TABLECBFXVAR
  */
 export interface TABLECBFXVAR {
+    [key: string]: any;
     /**
      * 
      * @type {number}

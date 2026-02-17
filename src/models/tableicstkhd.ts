@@ -20,6 +20,7 @@
  * @interface TABLEICSTKHD
  */
 export interface TABLEICSTKHD {
+    [key: string]: any;
     /**
      * 
      * @type {number}

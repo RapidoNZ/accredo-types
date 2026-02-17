@@ -20,6 +20,7 @@
  * @interface TABLEJCBAL
  */
 export interface TABLEJCBAL {
+    [key: string]: any;
     /**
      * 
      * @type {number}

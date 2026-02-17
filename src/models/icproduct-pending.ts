@@ -20,6 +20,7 @@
  * @interface ICProductPending
  */
 export interface ICProductPending {
+    [key: string]: any;
     /**
      * 
      * @type {number}

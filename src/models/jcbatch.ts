@@ -26,6 +26,7 @@ import { JCBatchLink } from './jcbatch-link';
  * @interface JCBatch
  */
 export interface JCBatch {
+    [key: string]: any;
     /**
      * 
      * @type {number}

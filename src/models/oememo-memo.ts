@@ -20,6 +20,7 @@
  * @interface OEMemoMemo
  */
 export interface OEMemoMemo {
+    [key: string]: any;
     /**
      * 
      * @type {string}

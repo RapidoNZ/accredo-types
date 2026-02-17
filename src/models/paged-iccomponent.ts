@@ -23,6 +23,7 @@ import { ICComponent } from './iccomponent';
  * @interface PagedICComponent
  */
 export interface PagedICComponent {
+    [key: string]: any;
     /**
      * 
      * @type {string}

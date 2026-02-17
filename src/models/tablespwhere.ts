@@ -20,6 +20,7 @@
  * @interface TABLESPWHERE
  */
 export interface TABLESPWHERE {
+    [key: string]: any;
     /**
      * 
      * @type {number}

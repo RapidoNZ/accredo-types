@@ -20,6 +20,7 @@
  * @interface TABLEPOCAT2
  */
 export interface TABLEPOCAT2 {
+    [key: string]: any;
     /**
      * 
      * @type {number}

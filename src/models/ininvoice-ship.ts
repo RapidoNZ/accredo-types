@@ -20,6 +20,7 @@
  * @interface INInvoiceShip
  */
 export interface INInvoiceShip {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -23,6 +23,7 @@ import { TABLECOYEAR } from './tablecoyear';
  * @interface PagedTABLECOYEAR
  */
 export interface PagedTABLECOYEAR {
+    [key: string]: any;
     /**
      * 
      * @type {string}

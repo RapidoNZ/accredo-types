@@ -23,6 +23,7 @@ import { GLMemo } from './glmemo';
  * @interface PagedGLMemo
  */
 export interface PagedGLMemo {
+    [key: string]: any;
     /**
      * 
      * @type {string}

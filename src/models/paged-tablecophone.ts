@@ -23,6 +23,7 @@ import { TABLECOPHONE } from './tablecophone';
  * @interface PagedTABLECOPHONE
  */
 export interface PagedTABLECOPHONE {
+    [key: string]: any;
     /**
      * 
      * @type {string}

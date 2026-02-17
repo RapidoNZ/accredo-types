@@ -20,6 +20,7 @@
  * @interface TABLEARFXVAR
  */
 export interface TABLEARFXVAR {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -20,6 +20,7 @@
  * @interface ICLocation
  */
 export interface ICLocation {
+    [key: string]: any;
     /**
      * 
      * @type {number}

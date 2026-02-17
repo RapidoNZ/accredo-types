@@ -23,6 +23,7 @@ import { TABLEJCPERS } from './tablejcpers';
  * @interface PagedTABLEJCPERS
  */
 export interface PagedTABLEJCPERS {
+    [key: string]: any;
     /**
      * 
      * @type {string}

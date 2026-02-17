@@ -20,6 +20,7 @@
  * @interface TABLECBDISS
  */
 export interface TABLECBDISS {
+    [key: string]: any;
     /**
      * 
      * @type {number}

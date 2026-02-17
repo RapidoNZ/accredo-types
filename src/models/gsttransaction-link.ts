@@ -20,6 +20,7 @@
  * @interface GSTTransactionLink
  */
 export interface GSTTransactionLink {
+    [key: string]: any;
     /**
      * 
      * @type {number}

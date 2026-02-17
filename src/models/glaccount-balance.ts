@@ -20,6 +20,7 @@
  * @interface GLAccountBalance
  */
 export interface GLAccountBalance {
+    [key: string]: any;
     /**
      * 
      * @type {number}

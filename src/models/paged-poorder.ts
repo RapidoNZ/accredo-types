@@ -23,6 +23,7 @@ import { POOrder } from './poorder';
  * @interface PagedPOOrder
  */
 export interface PagedPOOrder {
+    [key: string]: any;
     /**
      * 
      * @type {string}

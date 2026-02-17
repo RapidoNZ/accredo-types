@@ -20,6 +20,7 @@
  * @interface COUserRoles
  */
 export interface COUserRoles {
+    [key: string]: any;
     /**
      * 
      * @type {number}

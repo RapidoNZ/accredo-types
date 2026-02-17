@@ -23,6 +23,7 @@ import { TABLEARREVAL } from './tablearreval';
  * @interface PagedTABLEARREVAL
  */
 export interface PagedTABLEARREVAL {
+    [key: string]: any;
     /**
      * 
      * @type {string}

@@ -20,6 +20,7 @@
  * @interface FAAssetSplit
  */
 export interface FAAssetSplit {
+    [key: string]: any;
     /**
      * 
      * @type {number}

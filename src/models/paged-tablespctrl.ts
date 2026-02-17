@@ -23,6 +23,7 @@ import { TABLESPCTRL } from './tablespctrl';
  * @interface PagedTABLESPCTRL
  */
 export interface PagedTABLESPCTRL {
+    [key: string]: any;
     /**
      * 
      * @type {string}

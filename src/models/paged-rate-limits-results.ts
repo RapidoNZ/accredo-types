@@ -23,6 +23,7 @@ import { RateLimitsResults } from './rate-limits-results';
  * @interface PagedRateLimitsResults
  */
 export interface PagedRateLimitsResults {
+    [key: string]: any;
     /**
      * 
      * @type {string}

@@ -23,6 +23,7 @@ import { JCCategory2 } from './jccategory2';
  * @interface PagedJCCategory2
  */
 export interface PagedJCCategory2 {
+    [key: string]: any;
     /**
      * 
      * @type {string}

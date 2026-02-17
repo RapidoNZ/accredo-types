@@ -20,6 +20,7 @@
  * @interface TABLEICTRKDTL
  */
 export interface TABLEICTRKDTL {
+    [key: string]: any;
     /**
      * 
      * @type {number}

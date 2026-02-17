@@ -20,6 +20,7 @@
  * @interface TABLEGLWORD
  */
 export interface TABLEGLWORD {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -20,6 +20,7 @@
  * @interface ICManufactureTransaction
  */
 export interface ICManufactureTransaction {
+    [key: string]: any;
     /**
      * 
      * @type {number}

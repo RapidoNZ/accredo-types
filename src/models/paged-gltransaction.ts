@@ -23,6 +23,7 @@ import { GLTransaction } from './gltransaction';
  * @interface PagedGLTransaction
  */
 export interface PagedGLTransaction {
+    [key: string]: any;
     /**
      * 
      * @type {string}

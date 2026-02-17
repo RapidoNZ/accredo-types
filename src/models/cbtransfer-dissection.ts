@@ -20,6 +20,7 @@
  * @interface CBTransferDissection
  */
 export interface CBTransferDissection {
+    [key: string]: any;
     /**
      * 
      * @type {number}

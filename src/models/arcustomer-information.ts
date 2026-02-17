@@ -20,6 +20,7 @@
  * @interface ARCustomerInformation
  */
 export interface ARCustomerInformation {
+    [key: string]: any;
     /**
      * 
      * @type {string}

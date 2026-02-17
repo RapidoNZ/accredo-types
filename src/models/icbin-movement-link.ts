@@ -20,6 +20,7 @@
  * @interface ICBinMovementLink
  */
 export interface ICBinMovementLink {
+    [key: string]: any;
     /**
      * 
      * @type {number}

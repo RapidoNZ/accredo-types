@@ -23,6 +23,7 @@ import { FAAssetLocation } from './faasset-location';
  * @interface PagedFAAssetLocation
  */
 export interface PagedFAAssetLocation {
+    [key: string]: any;
     /**
      * 
      * @type {string}

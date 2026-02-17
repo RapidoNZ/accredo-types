@@ -23,6 +23,7 @@ import { TABLECBCAT2 } from './tablecbcat2';
  * @interface PagedTABLECBCAT2
  */
 export interface PagedTABLECBCAT2 {
+    [key: string]: any;
     /**
      * 
      * @type {string}

@@ -20,6 +20,7 @@
  * @interface TABLEARLINK
  */
 export interface TABLEARLINK {
+    [key: string]: any;
     /**
      * 
      * @type {number}

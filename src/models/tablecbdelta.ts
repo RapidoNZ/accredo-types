@@ -20,6 +20,7 @@
  * @interface TABLECBDELTA
  */
 export interface TABLECBDELTA {
+    [key: string]: any;
     /**
      * 
      * @type {number}

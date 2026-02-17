@@ -23,6 +23,7 @@ import { ICMemo } from './icmemo';
  * @interface PagedICMemo
  */
 export interface PagedICMemo {
+    [key: string]: any;
     /**
      * 
      * @type {string}

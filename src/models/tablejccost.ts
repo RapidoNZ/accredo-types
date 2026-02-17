@@ -20,6 +20,7 @@
  * @interface TABLEJCCOST
  */
 export interface TABLEJCCOST {
+    [key: string]: any;
     /**
      * 
      * @type {number}

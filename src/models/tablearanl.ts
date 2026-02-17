@@ -20,6 +20,7 @@
  * @interface TABLEARANL
  */
 export interface TABLEARANL {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -23,6 +23,7 @@ import { TABLEICPERS } from './tableicpers';
  * @interface PagedTABLEICPERS
  */
 export interface PagedTABLEICPERS {
+    [key: string]: any;
     /**
      * 
      * @type {string}

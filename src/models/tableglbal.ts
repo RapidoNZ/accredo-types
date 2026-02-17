@@ -20,6 +20,7 @@
  * @interface TABLEGLBAL
  */
 export interface TABLEGLBAL {
+    [key: string]: any;
     /**
      * 
      * @type {number}

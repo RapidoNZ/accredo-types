@@ -23,6 +23,7 @@ import { TABLECBAUDISS } from './tablecbaudiss';
  * @interface PagedTABLECBAUDISS
  */
 export interface PagedTABLECBAUDISS {
+    [key: string]: any;
     /**
      * 
      * @type {string}

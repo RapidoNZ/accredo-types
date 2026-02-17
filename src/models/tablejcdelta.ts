@@ -20,6 +20,7 @@
  * @interface TABLEJCDELTA
  */
 export interface TABLEJCDELTA {
+    [key: string]: any;
     /**
      * 
      * @type {number}

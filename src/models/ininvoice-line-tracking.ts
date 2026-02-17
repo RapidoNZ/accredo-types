@@ -20,6 +20,7 @@
  * @interface INInvoiceLineTracking
  */
 export interface INInvoiceLineTracking {
+    [key: string]: any;
     /**
      * 
      * @type {number}

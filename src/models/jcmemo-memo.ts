@@ -20,6 +20,7 @@
  * @interface JCMemoMemo
  */
 export interface JCMemoMemo {
+    [key: string]: any;
     /**
      * 
      * @type {string}

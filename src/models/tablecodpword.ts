@@ -20,6 +20,7 @@
  * @interface TABLECODPWORD
  */
 export interface TABLECODPWORD {
+    [key: string]: any;
     /**
      * 
      * @type {number}

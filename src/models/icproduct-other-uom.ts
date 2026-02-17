@@ -20,6 +20,7 @@
  * @interface ICProductOtherUOM
  */
 export interface ICProductOtherUOM {
+    [key: string]: any;
     /**
      * 
      * @type {number}

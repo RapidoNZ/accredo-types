@@ -23,6 +23,7 @@ import { TABLESPWHAT } from './tablespwhat';
  * @interface PagedTABLESPWHAT
  */
 export interface PagedTABLESPWHAT {
+    [key: string]: any;
     /**
      * 
      * @type {string}

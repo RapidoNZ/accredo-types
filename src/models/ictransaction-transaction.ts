@@ -20,6 +20,7 @@
  * @interface ICTransactionTransaction
  */
 export interface ICTransactionTransaction {
+    [key: string]: any;
     /**
      * 
      * @type {number}

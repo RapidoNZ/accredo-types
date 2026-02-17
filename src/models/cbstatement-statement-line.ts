@@ -20,6 +20,7 @@
  * @interface CBStatementStatementLine
  */
 export interface CBStatementStatementLine {
+    [key: string]: any;
     /**
      * 
      * @type {number}

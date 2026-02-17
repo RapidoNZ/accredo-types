@@ -20,6 +20,7 @@
  * @interface ICAdjustmentBatchLink
  */
 export interface ICAdjustmentBatchLink {
+    [key: string]: any;
     /**
      * 
      * @type {number}

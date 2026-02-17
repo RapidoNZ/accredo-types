@@ -20,6 +20,7 @@
  * @interface TABLEINDTFLD
  */
 export interface TABLEINDTFLD {
+    [key: string]: any;
     /**
      * 
      * @type {number}

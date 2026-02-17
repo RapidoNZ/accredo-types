@@ -26,6 +26,7 @@ import { APTransactionLink } from './aptransaction-link';
  * @interface APTransaction
  */
 export interface APTransaction {
+    [key: string]: any;
     /**
      * 
      * @type {number}

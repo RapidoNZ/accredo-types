@@ -23,6 +23,7 @@ import { GSTTransaction } from './gsttransaction';
  * @interface PagedGSTTransaction
  */
 export interface PagedGSTTransaction {
+    [key: string]: any;
     /**
      * 
      * @type {string}

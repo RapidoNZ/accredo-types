@@ -23,6 +23,7 @@ import { OEMemo } from './oememo';
  * @interface PagedOEMemo
  */
 export interface PagedOEMemo {
+    [key: string]: any;
     /**
      * 
      * @type {string}

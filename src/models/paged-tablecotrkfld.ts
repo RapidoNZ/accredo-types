@@ -23,6 +23,7 @@ import { TABLECOTRKFLD } from './tablecotrkfld';
  * @interface PagedTABLECOTRKFLD
  */
 export interface PagedTABLECOTRKFLD {
+    [key: string]: any;
     /**
      * 
      * @type {string}

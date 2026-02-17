@@ -23,6 +23,7 @@ import { TABLEARDISS } from './tableardiss';
  * @interface PagedTABLEARDISS
  */
 export interface PagedTABLEARDISS {
+    [key: string]: any;
     /**
      * 
      * @type {string}

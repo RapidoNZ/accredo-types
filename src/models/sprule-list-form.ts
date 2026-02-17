@@ -20,6 +20,7 @@
  * @interface SPRuleListForm
  */
 export interface SPRuleListForm {
+    [key: string]: any;
     /**
      * 
      * @type {number}

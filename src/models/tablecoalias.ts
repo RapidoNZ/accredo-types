@@ -20,6 +20,7 @@
  * @interface TABLECOALIAS
  */
 export interface TABLECOALIAS {
+    [key: string]: any;
     /**
      * 
      * @type {number}

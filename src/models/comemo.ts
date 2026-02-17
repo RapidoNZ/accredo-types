@@ -23,6 +23,7 @@ import { COMemoMemo } from './comemo-memo';
  * @interface COMemo
  */
 export interface COMemo {
+    [key: string]: any;
     /**
      * 
      * @type {number}

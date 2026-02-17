@@ -23,6 +23,7 @@ import { TABLEAPCTWORD } from './tableapctword';
  * @interface PagedTABLEAPCTWORD
  */
 export interface PagedTABLEAPCTWORD {
+    [key: string]: any;
     /**
      * 
      * @type {string}

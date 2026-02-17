@@ -20,6 +20,7 @@
  * @interface ICProductInformation
  */
 export interface ICProductInformation {
+    [key: string]: any;
     /**
      * 
      * @type {string}

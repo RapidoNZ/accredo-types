@@ -23,6 +23,7 @@ import { TABLEICDTFLD } from './tableicdtfld';
  * @interface PagedTABLEICDTFLD
  */
 export interface PagedTABLEICDTFLD {
+    [key: string]: any;
     /**
      * 
      * @type {string}

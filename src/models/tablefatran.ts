@@ -20,6 +20,7 @@
  * @interface TABLEFATRAN
  */
 export interface TABLEFATRAN {
+    [key: string]: any;
     /**
      * 
      * @type {number}

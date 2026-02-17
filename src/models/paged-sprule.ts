@@ -23,6 +23,7 @@ import { SPRule } from './sprule';
  * @interface PagedSPRule
  */
 export interface PagedSPRule {
+    [key: string]: any;
     /**
      * 
      * @type {string}

@@ -20,6 +20,7 @@
  * @interface TABLEFADELTA
  */
 export interface TABLEFADELTA {
+    [key: string]: any;
     /**
      * 
      * @type {number}

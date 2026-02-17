@@ -20,6 +20,7 @@
  * @interface ICProductLink
  */
 export interface ICProductLink {
+    [key: string]: any;
     /**
      * 
      * @type {number}

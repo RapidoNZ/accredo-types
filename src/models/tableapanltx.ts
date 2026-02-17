@@ -20,6 +20,7 @@
  * @interface TABLEAPANLTX
  */
 export interface TABLEAPANLTX {
+    [key: string]: any;
     /**
      * 
      * @type {number}

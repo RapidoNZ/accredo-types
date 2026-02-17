@@ -23,6 +23,7 @@ import { FADepreciationDefaultsGroup } from './fadepreciation-defaults-group';
  * @interface FADepreciationDefaults
  */
 export interface FADepreciationDefaults {
+    [key: string]: any;
     /**
      * 
      * @type {number}

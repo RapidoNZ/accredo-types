@@ -20,6 +20,7 @@
  * @interface TABLEFASPLIT
  */
 export interface TABLEFASPLIT {
+    [key: string]: any;
     /**
      * 
      * @type {number}

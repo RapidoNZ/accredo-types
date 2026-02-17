@@ -23,6 +23,7 @@ import { TABLEGLMEMOLN } from './tableglmemoln';
  * @interface PagedTABLEGLMEMOLN
  */
 export interface PagedTABLEGLMEMOLN {
+    [key: string]: any;
     /**
      * 
      * @type {string}

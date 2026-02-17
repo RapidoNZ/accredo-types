@@ -20,6 +20,7 @@
  * @interface INShipper
  */
 export interface INShipper {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -23,6 +23,7 @@ import { JCJobGroup } from './jcjob-group';
  * @interface PagedJCJobGroup
  */
 export interface PagedJCJobGroup {
+    [key: string]: any;
     /**
      * 
      * @type {string}

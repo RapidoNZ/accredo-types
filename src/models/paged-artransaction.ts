@@ -23,6 +23,7 @@ import { ARTransaction } from './artransaction';
  * @interface PagedARTransaction
  */
 export interface PagedARTransaction {
+    [key: string]: any;
     /**
      * 
      * @type {string}

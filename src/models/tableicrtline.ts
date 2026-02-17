@@ -20,6 +20,7 @@
  * @interface TABLEICRTLINE
  */
 export interface TABLEICRTLINE {
+    [key: string]: any;
     /**
      * 
      * @type {number}

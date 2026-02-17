@@ -23,6 +23,7 @@ import { ICMemoMemo } from './icmemo-memo';
  * @interface ICMemo
  */
 export interface ICMemo {
+    [key: string]: any;
     /**
      * 
      * @type {number}

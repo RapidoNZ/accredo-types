@@ -23,6 +23,7 @@ import { TABLECBCTRL } from './tablecbctrl';
  * @interface PagedTABLECBCTRL
  */
 export interface PagedTABLECBCTRL {
+    [key: string]: any;
     /**
      * 
      * @type {string}

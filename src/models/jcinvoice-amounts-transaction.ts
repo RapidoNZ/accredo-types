@@ -20,6 +20,7 @@
  * @interface JCInvoiceAmountsTransaction
  */
 export interface JCInvoiceAmountsTransaction {
+    [key: string]: any;
     /**
      * 
      * @type {number}

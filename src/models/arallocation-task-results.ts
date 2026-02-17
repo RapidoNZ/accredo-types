@@ -26,6 +26,7 @@ import { ARAllocationTaskDebit } from './arallocation-task-debit';
  * @interface ARAllocationTaskResults
  */
 export interface ARAllocationTaskResults {
+    [key: string]: any;
     /**
      * 
      * @type {string}

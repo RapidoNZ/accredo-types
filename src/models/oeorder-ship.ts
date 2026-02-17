@@ -20,6 +20,7 @@
  * @interface OEOrderShip
  */
 export interface OEOrderShip {
+    [key: string]: any;
     /**
      * 
      * @type {number}

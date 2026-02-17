@@ -20,6 +20,7 @@
  * @interface TABLEJCLINE
  */
 export interface TABLEJCLINE {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -20,6 +20,7 @@
  * @interface APTransactionLink
  */
 export interface APTransactionLink {
+    [key: string]: any;
     /**
      * 
      * @type {number}

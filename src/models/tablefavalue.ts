@@ -20,6 +20,7 @@
  * @interface TABLEFAVALUE
  */
 export interface TABLEFAVALUE {
+    [key: string]: any;
     /**
      * 
      * @type {number}

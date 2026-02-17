@@ -20,6 +20,7 @@
  * @interface ICStockTakeProductTracking
  */
 export interface ICStockTakeProductTracking {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -23,6 +23,7 @@ import { TABLEARINFO } from './tablearinfo';
  * @interface PagedTABLEARINFO
  */
 export interface PagedTABLEARINFO {
+    [key: string]: any;
     /**
      * 
      * @type {string}

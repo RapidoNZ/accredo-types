@@ -20,6 +20,7 @@
  * @interface TABLECBSUM
  */
 export interface TABLECBSUM {
+    [key: string]: any;
     /**
      * 
      * @type {number}

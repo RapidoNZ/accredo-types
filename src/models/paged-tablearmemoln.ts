@@ -23,6 +23,7 @@ import { TABLEARMEMOLN } from './tablearmemoln';
  * @interface PagedTABLEARMEMOLN
  */
 export interface PagedTABLEARMEMOLN {
+    [key: string]: any;
     /**
      * 
      * @type {string}

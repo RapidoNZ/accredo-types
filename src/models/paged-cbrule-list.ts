@@ -23,6 +23,7 @@ import { CBRuleList } from './cbrule-list';
  * @interface PagedCBRuleList
  */
 export interface PagedCBRuleList {
+    [key: string]: any;
     /**
      * 
      * @type {string}

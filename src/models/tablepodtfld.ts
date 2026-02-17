@@ -20,6 +20,7 @@
  * @interface TABLEPODTFLD
  */
 export interface TABLEPODTFLD {
+    [key: string]: any;
     /**
      * 
      * @type {number}

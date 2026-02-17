@@ -20,6 +20,7 @@
  * @interface TABLEFADEPN
  */
 export interface TABLEFADEPN {
+    [key: string]: any;
     /**
      * 
      * @type {number}

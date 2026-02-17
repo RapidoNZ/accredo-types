@@ -20,6 +20,7 @@
  * @interface TABLECOGSTRT
  */
 export interface TABLECOGSTRT {
+    [key: string]: any;
     /**
      * 
      * @type {number}

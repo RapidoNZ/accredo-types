@@ -20,6 +20,7 @@
  * @interface TABLECBSTMT
  */
 export interface TABLECBSTMT {
+    [key: string]: any;
     /**
      * 
      * @type {number}

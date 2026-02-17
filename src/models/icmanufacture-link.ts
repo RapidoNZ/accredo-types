@@ -20,6 +20,7 @@
  * @interface ICManufactureLink
  */
 export interface ICManufactureLink {
+    [key: string]: any;
     /**
      * 
      * @type {number}

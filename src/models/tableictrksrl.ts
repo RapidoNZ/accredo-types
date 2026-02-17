@@ -20,6 +20,7 @@
  * @interface TABLEICTRKSRL
  */
 export interface TABLEICTRKSRL {
+    [key: string]: any;
     /**
      * 
      * @type {number}

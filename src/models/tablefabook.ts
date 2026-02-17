@@ -20,6 +20,7 @@
  * @interface TABLEFABOOK
  */
 export interface TABLEFABOOK {
+    [key: string]: any;
     /**
      * 
      * @type {number}

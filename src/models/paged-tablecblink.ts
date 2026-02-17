@@ -23,6 +23,7 @@ import { TABLECBLINK } from './tablecblink';
  * @interface PagedTABLECBLINK
  */
 export interface PagedTABLECBLINK {
+    [key: string]: any;
     /**
      * 
      * @type {string}

@@ -23,6 +23,7 @@ import { TABLEICTRAN } from './tableictran';
  * @interface PagedTABLEICTRAN
  */
 export interface PagedTABLEICTRAN {
+    [key: string]: any;
     /**
      * 
      * @type {string}

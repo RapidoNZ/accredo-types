@@ -20,6 +20,7 @@
  * @interface CompanyResults
  */
 export interface CompanyResults {
+    [key: string]: any;
     /**
      * 
      * @type {string}

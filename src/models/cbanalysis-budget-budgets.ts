@@ -20,6 +20,7 @@
  * @interface CBAnalysisBudgetBudgets
  */
 export interface CBAnalysisBudgetBudgets {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -20,6 +20,7 @@
  * @interface TABLEOEHEAD
  */
 export interface TABLEOEHEAD {
+    [key: string]: any;
     /**
      * 
      * @type {number}

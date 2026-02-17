@@ -20,6 +20,7 @@
  * @interface TABLEICTRKQTY
  */
 export interface TABLEICTRKQTY {
+    [key: string]: any;
     /**
      * 
      * @type {number}

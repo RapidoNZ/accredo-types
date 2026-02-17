@@ -23,6 +23,7 @@ import { ARAllocation } from './arallocation';
  * @interface PagedARAllocation
  */
 export interface PagedARAllocation {
+    [key: string]: any;
     /**
      * 
      * @type {string}

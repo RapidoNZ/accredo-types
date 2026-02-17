@@ -23,6 +23,7 @@ import { TABLEARGROUP } from './tableargroup';
  * @interface PagedTABLEARGROUP
  */
 export interface PagedTABLEARGROUP {
+    [key: string]: any;
     /**
      * 
      * @type {string}

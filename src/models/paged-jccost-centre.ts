@@ -23,6 +23,7 @@ import { JCCostCentre } from './jccost-centre';
  * @interface PagedJCCostCentre
  */
 export interface PagedJCCostCentre {
+    [key: string]: any;
     /**
      * 
      * @type {string}

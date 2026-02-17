@@ -20,6 +20,7 @@
  * @interface ARCustomerList
  */
 export interface ARCustomerList {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -23,6 +23,7 @@ import { TABLEFADTFLD } from './tablefadtfld';
  * @interface PagedTABLEFADTFLD
  */
 export interface PagedTABLEFADTFLD {
+    [key: string]: any;
     /**
      * 
      * @type {string}

@@ -23,6 +23,7 @@ import { TABLEGLBUDGET } from './tableglbudget';
  * @interface PagedTABLEGLBUDGET
  */
 export interface PagedTABLEGLBUDGET {
+    [key: string]: any;
     /**
      * 
      * @type {string}

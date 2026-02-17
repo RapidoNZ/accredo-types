@@ -23,6 +23,7 @@ import { TABLEGLCTRL } from './tableglctrl';
  * @interface PagedTABLEGLCTRL
  */
 export interface PagedTABLEGLCTRL {
+    [key: string]: any;
     /**
      * 
      * @type {string}

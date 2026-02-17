@@ -23,6 +23,7 @@ import { APTransaction } from './aptransaction';
  * @interface PagedAPTransaction
  */
 export interface PagedAPTransaction {
+    [key: string]: any;
     /**
      * 
      * @type {string}

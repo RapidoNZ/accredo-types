@@ -20,6 +20,7 @@
  * @interface TABLEAPBAL
  */
 export interface TABLEAPBAL {
+    [key: string]: any;
     /**
      * 
      * @type {number}

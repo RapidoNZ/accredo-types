@@ -20,6 +20,7 @@
  * @interface TABLECOBNKCHG
  */
 export interface TABLECOBNKCHG {
+    [key: string]: any;
     /**
      * 
      * @type {number}

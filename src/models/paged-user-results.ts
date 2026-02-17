@@ -23,6 +23,7 @@ import { UserResults } from './user-results';
  * @interface PagedUserResults
  */
 export interface PagedUserResults {
+    [key: string]: any;
     /**
      * 
      * @type {string}

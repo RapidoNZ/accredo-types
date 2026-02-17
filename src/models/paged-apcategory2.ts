@@ -23,6 +23,7 @@ import { APCategory2 } from './apcategory2';
  * @interface PagedAPCategory2
  */
 export interface PagedAPCategory2 {
+    [key: string]: any;
     /**
      * 
      * @type {string}

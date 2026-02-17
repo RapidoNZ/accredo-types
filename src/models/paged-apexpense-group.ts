@@ -23,6 +23,7 @@ import { APExpenseGroup } from './apexpense-group';
  * @interface PagedAPExpenseGroup
  */
 export interface PagedAPExpenseGroup {
+    [key: string]: any;
     /**
      * 
      * @type {string}

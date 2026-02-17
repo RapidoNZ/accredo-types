@@ -20,6 +20,7 @@
  * @interface COFXCurrencyRateType
  */
 export interface COFXCurrencyRateType {
+    [key: string]: any;
     /**
      * 
      * @type {number}

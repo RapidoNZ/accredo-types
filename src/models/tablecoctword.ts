@@ -20,6 +20,7 @@
  * @interface TABLECOCTWORD
  */
 export interface TABLECOCTWORD {
+    [key: string]: any;
     /**
      * 
      * @type {number}

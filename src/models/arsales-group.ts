@@ -20,6 +20,7 @@
  * @interface ARSalesGroup
  */
 export interface ARSalesGroup {
+    [key: string]: any;
     /**
      * 
      * @type {number}

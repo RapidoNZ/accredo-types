@@ -20,6 +20,7 @@
  * @interface TABLEGLHEAD
  */
 export interface TABLEGLHEAD {
+    [key: string]: any;
     /**
      * 
      * @type {number}

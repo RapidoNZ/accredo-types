@@ -20,6 +20,7 @@
  * @interface TABLEGSRTSM
  */
 export interface TABLEGSRTSM {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -23,6 +23,7 @@ import { TABLEAPBAL } from './tableapbal';
  * @interface PagedTABLEAPBAL
  */
 export interface PagedTABLEAPBAL {
+    [key: string]: any;
     /**
      * 
      * @type {string}

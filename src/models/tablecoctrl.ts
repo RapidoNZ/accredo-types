@@ -20,6 +20,7 @@
  * @interface TABLECOCTRL
  */
 export interface TABLECOCTRL {
+    [key: string]: any;
     /**
      * 
      * @type {number}

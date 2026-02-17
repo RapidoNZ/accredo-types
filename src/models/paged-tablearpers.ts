@@ -23,6 +23,7 @@ import { TABLEARPERS } from './tablearpers';
  * @interface PagedTABLEARPERS
  */
 export interface PagedTABLEARPERS {
+    [key: string]: any;
     /**
      * 
      * @type {string}

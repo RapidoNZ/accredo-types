@@ -20,6 +20,7 @@
  * @interface TABLESPWHAT
  */
 export interface TABLESPWHAT {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -20,6 +20,7 @@
  * @interface TABLECODOCDEF
  */
 export interface TABLECODOCDEF {
+    [key: string]: any;
     /**
      * 
      * @type {number}

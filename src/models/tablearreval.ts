@@ -20,6 +20,7 @@
  * @interface TABLEARREVAL
  */
 export interface TABLEARREVAL {
+    [key: string]: any;
     /**
      * 
      * @type {number}

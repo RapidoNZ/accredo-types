@@ -23,6 +23,7 @@ import { TABLECOLKCAT2 } from './tablecolkcat2';
  * @interface PagedTABLECOLKCAT2
  */
 export interface PagedTABLECOLKCAT2 {
+    [key: string]: any;
     /**
      * 
      * @type {string}

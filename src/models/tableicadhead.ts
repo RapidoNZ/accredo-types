@@ -20,6 +20,7 @@
  * @interface TABLEICADHEAD
  */
 export interface TABLEICADHEAD {
+    [key: string]: any;
     /**
      * 
      * @type {number}

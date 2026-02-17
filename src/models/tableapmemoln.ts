@@ -20,6 +20,7 @@
  * @interface TABLEAPMEMOLN
  */
 export interface TABLEAPMEMOLN {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -23,6 +23,7 @@ import { TABLEINDELTA } from './tableindelta';
  * @interface PagedTABLEINDELTA
  */
 export interface PagedTABLEINDELTA {
+    [key: string]: any;
     /**
      * 
      * @type {string}

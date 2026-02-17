@@ -23,6 +23,7 @@ import { TABLEFAMEMOLN } from './tablefamemoln';
  * @interface PagedTABLEFAMEMOLN
  */
 export interface PagedTABLEFAMEMOLN {
+    [key: string]: any;
     /**
      * 
      * @type {string}

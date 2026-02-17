@@ -20,6 +20,7 @@
  * @interface APCreditorList
  */
 export interface APCreditorList {
+    [key: string]: any;
     /**
      * 
      * @type {number}

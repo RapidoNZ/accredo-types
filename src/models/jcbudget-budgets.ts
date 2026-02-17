@@ -20,6 +20,7 @@
  * @interface JCBudgetBudgets
  */
 export interface JCBudgetBudgets {
+    [key: string]: any;
     /**
      * 
      * @type {number}

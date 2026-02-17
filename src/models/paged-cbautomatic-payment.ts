@@ -23,6 +23,7 @@ import { CBAutomaticPayment } from './cbautomatic-payment';
  * @interface PagedCBAutomaticPayment
  */
 export interface PagedCBAutomaticPayment {
+    [key: string]: any;
     /**
      * 
      * @type {string}

@@ -23,6 +23,7 @@ import { TABLECOCTCAT1 } from './tablecoctcat1';
  * @interface PagedTABLECOCTCAT1
  */
 export interface PagedTABLECOCTCAT1 {
+    [key: string]: any;
     /**
      * 
      * @type {string}

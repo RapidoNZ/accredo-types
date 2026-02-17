@@ -23,6 +23,7 @@ import { TABLEPOLINE } from './tablepoline';
  * @interface PagedTABLEPOLINE
  */
 export interface PagedTABLEPOLINE {
+    [key: string]: any;
     /**
      * 
      * @type {string}

@@ -175,6 +175,21 @@ async function run() {
     fs.copyFileSync(`../additions/models/${model}`, `../src/models/${model}`);
   });
 
+  // Inject [key: string]: any into all generated interfaces for Z_* custom field support
+  spinner.text = "Injecting custom field support into interfaces...";
+  const generatedFiles = fs.readdirSync("../src/models")
+    .filter((f) => f.endsWith(".ts") && f !== "index.ts");
+  generatedFiles.forEach((file) => {
+    const filePath = `../src/models/${file}`;
+    let content = fs.readFileSync(filePath, "utf8");
+    // Add index signature after every "export interface Foo {" line
+    content = content.replace(
+      /^(export interface \w+[^{]*\{)$/gm,
+      "$1\n    [key: string]: any;"
+    );
+    fs.writeFileSync(filePath, content);
+  });
+
   // Build models/index.ts from all .ts files in the directory
   spinner.text = "Building models/index.ts...";
   const modelsIndexPath = "../src/models/index.ts";

@@ -20,6 +20,7 @@
  * @interface ARAllocation
  */
 export interface ARAllocation {
+    [key: string]: any;
     /**
      * 
      * @type {number}

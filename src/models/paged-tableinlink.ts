@@ -23,6 +23,7 @@ import { TABLEINLINK } from './tableinlink';
  * @interface PagedTABLEINLINK
  */
 export interface PagedTABLEINLINK {
+    [key: string]: any;
     /**
      * 
      * @type {string}

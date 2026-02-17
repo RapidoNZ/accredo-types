@@ -23,6 +23,7 @@ import { CBAnalysisBudget } from './cbanalysis-budget';
  * @interface PagedCBAnalysisBudget
  */
 export interface PagedCBAnalysisBudget {
+    [key: string]: any;
     /**
      * 
      * @type {string}

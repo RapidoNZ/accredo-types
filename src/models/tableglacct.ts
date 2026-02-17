@@ -20,6 +20,7 @@
  * @interface TABLEGLACCT
  */
 export interface TABLEGLACCT {
+    [key: string]: any;
     /**
      * 
      * @type {number}

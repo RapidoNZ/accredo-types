@@ -23,6 +23,7 @@ import { TABLECODELTA } from './tablecodelta';
  * @interface PagedTABLECODELTA
  */
 export interface PagedTABLECODELTA {
+    [key: string]: any;
     /**
      * 
      * @type {string}

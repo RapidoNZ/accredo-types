@@ -23,6 +23,7 @@ import { APTransactionList } from './aptransaction-list';
  * @interface PagedAPTransactionList
  */
 export interface PagedAPTransactionList {
+    [key: string]: any;
     /**
      * 
      * @type {string}

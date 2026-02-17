@@ -23,6 +23,7 @@ import { GLCategory2 } from './glcategory2';
  * @interface PagedGLCategory2
  */
 export interface PagedGLCategory2 {
+    [key: string]: any;
     /**
      * 
      * @type {string}

@@ -23,6 +23,7 @@ import { GLBatch } from './glbatch';
  * @interface PagedGLBatch
  */
 export interface PagedGLBatch {
+    [key: string]: any;
     /**
      * 
      * @type {string}

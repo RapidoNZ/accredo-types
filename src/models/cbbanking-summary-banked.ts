@@ -20,6 +20,7 @@
  * @interface CBBankingSummaryBanked
  */
 export interface CBBankingSummaryBanked {
+    [key: string]: any;
     /**
      * 
      * @type {number}

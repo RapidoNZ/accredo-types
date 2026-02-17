@@ -23,6 +23,7 @@ import { TABLEAPFXVAR } from './tableapfxvar';
  * @interface PagedTABLEAPFXVAR
  */
 export interface PagedTABLEAPFXVAR {
+    [key: string]: any;
     /**
      * 
      * @type {string}

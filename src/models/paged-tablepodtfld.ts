@@ -23,6 +23,7 @@ import { TABLEPODTFLD } from './tablepodtfld';
  * @interface PagedTABLEPODTFLD
  */
 export interface PagedTABLEPODTFLD {
+    [key: string]: any;
     /**
      * 
      * @type {string}

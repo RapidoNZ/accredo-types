@@ -35,6 +35,7 @@ import { OEOrderShip } from './oeorder-ship';
  * @interface OEOrder
  */
 export interface OEOrder {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -20,6 +20,7 @@
  * @interface FATransactionDissection
  */
 export interface FATransactionDissection {
+    [key: string]: any;
     /**
      * 
      * @type {number}

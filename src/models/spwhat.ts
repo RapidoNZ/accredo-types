@@ -20,6 +20,7 @@
  * @interface SPWhat
  */
 export interface SPWhat {
+    [key: string]: any;
     /**
      * 
      * @type {number}

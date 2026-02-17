@@ -23,6 +23,7 @@ import { TABLEJCCTRL } from './tablejcctrl';
  * @interface PagedTABLEJCCTRL
  */
 export interface PagedTABLEJCCTRL {
+    [key: string]: any;
     /**
      * 
      * @type {string}

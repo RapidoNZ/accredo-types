@@ -20,6 +20,7 @@
  * @interface TABLEJCDTFLD
  */
 export interface TABLEJCDTFLD {
+    [key: string]: any;
     /**
      * 
      * @type {number}

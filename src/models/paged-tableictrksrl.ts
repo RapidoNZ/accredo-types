@@ -23,6 +23,7 @@ import { TABLEICTRKSRL } from './tableictrksrl';
  * @interface PagedTABLEICTRKSRL
  */
 export interface PagedTABLEICTRKSRL {
+    [key: string]: any;
     /**
      * 
      * @type {string}

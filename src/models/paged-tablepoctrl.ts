@@ -23,6 +23,7 @@ import { TABLEPOCTRL } from './tablepoctrl';
  * @interface PagedTABLEPOCTRL
  */
 export interface PagedTABLEPOCTRL {
+    [key: string]: any;
     /**
      * 
      * @type {string}

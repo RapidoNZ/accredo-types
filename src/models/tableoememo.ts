@@ -20,6 +20,7 @@
  * @interface TABLEOEMEMO
  */
 export interface TABLEOEMEMO {
+    [key: string]: any;
     /**
      * 
      * @type {number}

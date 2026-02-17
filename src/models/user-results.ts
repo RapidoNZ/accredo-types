@@ -20,6 +20,7 @@
  * @interface UserResults
  */
 export interface UserResults {
+    [key: string]: any;
     /**
      * 
      * @type {string}

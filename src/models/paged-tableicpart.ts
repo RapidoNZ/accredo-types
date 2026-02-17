@@ -23,6 +23,7 @@ import { TABLEICPART } from './tableicpart';
  * @interface PagedTABLEICPART
  */
 export interface PagedTABLEICPART {
+    [key: string]: any;
     /**
      * 
      * @type {string}

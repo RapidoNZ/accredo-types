@@ -23,6 +23,7 @@ import { TABLEAPSHCOST } from './tableapshcost';
  * @interface PagedTABLEAPSHCOST
  */
 export interface PagedTABLEAPSHCOST {
+    [key: string]: any;
     /**
      * 
      * @type {string}

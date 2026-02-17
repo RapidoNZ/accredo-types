@@ -20,6 +20,7 @@
  * @interface TABLEFACTRL
  */
 export interface TABLEFACTRL {
+    [key: string]: any;
     /**
      * 
      * @type {number}

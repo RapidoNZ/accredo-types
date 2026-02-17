@@ -23,6 +23,7 @@ import { TABLEOEBANKLN } from './tableoebankln';
  * @interface PagedTABLEOEBANKLN
  */
 export interface PagedTABLEOEBANKLN {
+    [key: string]: any;
     /**
      * 
      * @type {string}

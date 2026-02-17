@@ -20,6 +20,7 @@
  * @interface TABLESPWHO
  */
 export interface TABLESPWHO {
+    [key: string]: any;
     /**
      * 
      * @type {number}

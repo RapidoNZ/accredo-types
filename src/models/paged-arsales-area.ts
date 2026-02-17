@@ -23,6 +23,7 @@ import { ARSalesArea } from './arsales-area';
  * @interface PagedARSalesArea
  */
 export interface PagedARSalesArea {
+    [key: string]: any;
     /**
      * 
      * @type {string}

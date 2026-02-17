@@ -32,6 +32,7 @@ import { FAAssetValues } from './faasset-values';
  * @interface FAAsset
  */
 export interface FAAsset {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -23,6 +23,7 @@ import { AboutResults } from './about-results';
  * @interface PagedAboutResults
  */
 export interface PagedAboutResults {
+    [key: string]: any;
     /**
      * 
      * @type {string}

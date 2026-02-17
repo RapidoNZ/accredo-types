@@ -23,6 +23,7 @@ import { TABLECBANLBAL } from './tablecbanlbal';
  * @interface PagedTABLECBANLBAL
  */
 export interface PagedTABLECBANLBAL {
+    [key: string]: any;
     /**
      * 
      * @type {string}

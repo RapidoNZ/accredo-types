@@ -26,6 +26,7 @@ import { CBTransactionLink } from './cbtransaction-link';
  * @interface CBTransaction
  */
 export interface CBTransaction {
+    [key: string]: any;
     /**
      * 
      * @type {string}

@@ -23,6 +23,7 @@ import { FAMemo } from './famemo';
  * @interface PagedFAMemo
  */
 export interface PagedFAMemo {
+    [key: string]: any;
     /**
      * 
      * @type {string}

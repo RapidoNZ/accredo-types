@@ -29,6 +29,7 @@ import { FATransactionLink } from './fatransaction-link';
  * @interface FATransaction
  */
 export interface FATransaction {
+    [key: string]: any;
     /**
      * 
      * @type {string}

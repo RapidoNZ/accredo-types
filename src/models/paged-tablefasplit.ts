@@ -23,6 +23,7 @@ import { TABLEFASPLIT } from './tablefasplit';
  * @interface PagedTABLEFASPLIT
  */
 export interface PagedTABLEFASPLIT {
+    [key: string]: any;
     /**
      * 
      * @type {string}

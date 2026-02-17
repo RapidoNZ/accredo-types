@@ -20,6 +20,7 @@
  * @interface TABLEICLNWORD
  */
 export interface TABLEICLNWORD {
+    [key: string]: any;
     /**
      * 
      * @type {number}

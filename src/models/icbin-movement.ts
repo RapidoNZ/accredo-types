@@ -26,6 +26,7 @@ import { ICBinMovementLink } from './icbin-movement-link';
  * @interface ICBinMovement
  */
 export interface ICBinMovement {
+    [key: string]: any;
     /**
      * 
      * @type {number}

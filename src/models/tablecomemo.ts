@@ -20,6 +20,7 @@
  * @interface TABLECOMEMO
  */
 export interface TABLECOMEMO {
+    [key: string]: any;
     /**
      * 
      * @type {number}

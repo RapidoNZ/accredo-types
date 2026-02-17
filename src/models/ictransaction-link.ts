@@ -20,6 +20,7 @@
  * @interface ICTransactionLink
  */
 export interface ICTransactionLink {
+    [key: string]: any;
     /**
      * 
      * @type {number}

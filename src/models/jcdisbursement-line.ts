@@ -23,6 +23,7 @@ import { JCDisbursementLineTracking } from './jcdisbursement-line-tracking';
  * @interface JCDisbursementLine
  */
 export interface JCDisbursementLine {
+    [key: string]: any;
     /**
      * 
      * @type {number}

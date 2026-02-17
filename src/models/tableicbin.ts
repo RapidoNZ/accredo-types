@@ -20,6 +20,7 @@
  * @interface TABLEICBIN
  */
 export interface TABLEICBIN {
+    [key: string]: any;
     /**
      * 
      * @type {number}

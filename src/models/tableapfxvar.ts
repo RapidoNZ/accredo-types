@@ -20,6 +20,7 @@
  * @interface TABLEAPFXVAR
  */
 export interface TABLEAPFXVAR {
+    [key: string]: any;
     /**
      * 
      * @type {number}

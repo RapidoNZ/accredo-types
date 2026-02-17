@@ -20,6 +20,7 @@
  * @interface TABLEAPDISS
  */
 export interface TABLEAPDISS {
+    [key: string]: any;
     /**
      * 
      * @type {number}

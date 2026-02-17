@@ -20,6 +20,7 @@
  * @interface TABLEARPERBAL
  */
 export interface TABLEARPERBAL {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -23,6 +23,7 @@ import { POAuthorisation } from './poauthorisation';
  * @interface PagedPOAuthorisation
  */
 export interface PagedPOAuthorisation {
+    [key: string]: any;
     /**
      * 
      * @type {string}

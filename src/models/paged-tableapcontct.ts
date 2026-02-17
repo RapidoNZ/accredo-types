@@ -23,6 +23,7 @@ import { TABLEAPCONTCT } from './tableapcontct';
  * @interface PagedTABLEAPCONTCT
  */
 export interface PagedTABLEAPCONTCT {
+    [key: string]: any;
     /**
      * 
      * @type {string}

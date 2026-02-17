@@ -23,6 +23,7 @@ import { POMemoMemo } from './pomemo-memo';
  * @interface POMemo
  */
 export interface POMemo {
+    [key: string]: any;
     /**
      * 
      * @type {number}

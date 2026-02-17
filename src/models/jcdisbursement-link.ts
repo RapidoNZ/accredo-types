@@ -20,6 +20,7 @@
  * @interface JCDisbursementLink
  */
 export interface JCDisbursementLink {
+    [key: string]: any;
     /**
      * 
      * @type {number}

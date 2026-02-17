@@ -20,6 +20,7 @@
  * @interface APShipmentList
  */
 export interface APShipmentList {
+    [key: string]: any;
     /**
      * 
      * @type {number}

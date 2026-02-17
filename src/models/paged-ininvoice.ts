@@ -23,6 +23,7 @@ import { INInvoice } from './ininvoice';
  * @interface PagedINInvoice
  */
 export interface PagedINInvoice {
+    [key: string]: any;
     /**
      * 
      * @type {string}

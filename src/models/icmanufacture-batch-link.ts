@@ -20,6 +20,7 @@
  * @interface ICManufactureBatchLink
  */
 export interface ICManufactureBatchLink {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -20,6 +20,7 @@
  * @interface TABLEJCINFO
  */
 export interface TABLEJCINFO {
+    [key: string]: any;
     /**
      * 
      * @type {number}

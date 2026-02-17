@@ -20,6 +20,7 @@
  * @interface TABLEICUOM
  */
 export interface TABLEICUOM {
+    [key: string]: any;
     /**
      * 
      * @type {number}

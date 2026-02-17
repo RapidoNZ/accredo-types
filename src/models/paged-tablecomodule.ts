@@ -23,6 +23,7 @@ import { TABLECOMODULE } from './tablecomodule';
  * @interface PagedTABLECOMODULE
  */
 export interface PagedTABLECOMODULE {
+    [key: string]: any;
     /**
      * 
      * @type {string}

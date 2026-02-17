@@ -20,6 +20,7 @@
  * @interface TABLECOADDR
  */
 export interface TABLECOADDR {
+    [key: string]: any;
     /**
      * 
      * @type {number}

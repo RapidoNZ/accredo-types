@@ -117,7 +117,6 @@ export * from "./corecovery-log";
 export * from "./couser";
 export * from "./couser-link";
 export * from "./couser-roles";
-export * from "./custom-fields";
 export * from "./faasset";
 export * from "./faasset-book";
 export * from "./faasset-description";

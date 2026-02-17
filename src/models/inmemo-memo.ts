@@ -20,6 +20,7 @@
  * @interface INMemoMemo
  */
 export interface INMemoMemo {
+    [key: string]: any;
     /**
      * 
      * @type {string}

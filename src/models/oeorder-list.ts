@@ -20,6 +20,7 @@
  * @interface OEOrderList
  */
 export interface OEOrderList {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -20,6 +20,7 @@
  * @interface TABLEJCTRAN
  */
 export interface TABLEJCTRAN {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -20,6 +20,7 @@
  * @interface TABLECOPHONE
  */
 export interface TABLECOPHONE {
+    [key: string]: any;
     /**
      * 
      * @type {number}

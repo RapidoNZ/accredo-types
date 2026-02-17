@@ -20,6 +20,7 @@
  * @interface TABLEARALLOC
  */
 export interface TABLEARALLOC {
+    [key: string]: any;
     /**
      * 
      * @type {number}

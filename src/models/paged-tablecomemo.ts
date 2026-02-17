@@ -23,6 +23,7 @@ import { TABLECOMEMO } from './tablecomemo';
  * @interface PagedTABLECOMEMO
  */
 export interface PagedTABLECOMEMO {
+    [key: string]: any;
     /**
      * 
      * @type {string}

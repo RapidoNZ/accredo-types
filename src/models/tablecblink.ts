@@ -20,6 +20,7 @@
  * @interface TABLECBLINK
  */
 export interface TABLECBLINK {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -20,6 +20,7 @@
  * @interface POMemoMemo
  */
 export interface POMemoMemo {
+    [key: string]: any;
     /**
      * 
      * @type {string}

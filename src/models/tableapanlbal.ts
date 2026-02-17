@@ -20,6 +20,7 @@
  * @interface TABLEAPANLBAL
  */
 export interface TABLEAPANLBAL {
+    [key: string]: any;
     /**
      * 
      * @type {number}

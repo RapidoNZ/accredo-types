@@ -23,6 +23,7 @@ import { TABLEFADEPN } from './tablefadepn';
  * @interface PagedTABLEFADEPN
  */
 export interface PagedTABLEFADEPN {
+    [key: string]: any;
     /**
      * 
      * @type {string}

@@ -20,6 +20,7 @@
  * @interface POAuthorisation
  */
 export interface POAuthorisation {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -23,6 +23,7 @@ import { TABLECOTAXREG } from './tablecotaxreg';
  * @interface PagedTABLECOTAXREG
  */
 export interface PagedTABLECOTAXREG {
+    [key: string]: any;
     /**
      * 
      * @type {string}

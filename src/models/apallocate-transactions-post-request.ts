@@ -20,6 +20,7 @@
  * @interface APAllocateTransactionsPostRequest
  */
 export interface APAllocateTransactionsPostRequest {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -20,6 +20,7 @@
  * @interface TABLEICLOCN
  */
 export interface TABLEICLOCN {
+    [key: string]: any;
     /**
      * 
      * @type {number}

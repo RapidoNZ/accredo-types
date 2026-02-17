@@ -20,6 +20,7 @@
  * @interface TABLEICDESC
  */
 export interface TABLEICDESC {
+    [key: string]: any;
     /**
      * 
      * @type {number}

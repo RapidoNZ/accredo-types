@@ -20,6 +20,7 @@
  * @interface TABLEJCPEND
  */
 export interface TABLEJCPEND {
+    [key: string]: any;
     /**
      * 
      * @type {number}

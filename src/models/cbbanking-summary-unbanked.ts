@@ -20,6 +20,7 @@
  * @interface CBBankingSummaryUnbanked
  */
 export interface CBBankingSummaryUnbanked {
+    [key: string]: any;
     /**
      * 
      * @type {number}

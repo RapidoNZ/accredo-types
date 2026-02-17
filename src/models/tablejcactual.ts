@@ -20,6 +20,7 @@
  * @interface TABLEJCACTUAL
  */
 export interface TABLEJCACTUAL {
+    [key: string]: any;
     /**
      * 
      * @type {number}

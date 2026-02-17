@@ -20,6 +20,7 @@
  * @interface TABLECOUOM
  */
 export interface TABLECOUOM {
+    [key: string]: any;
     /**
      * 
      * @type {number}

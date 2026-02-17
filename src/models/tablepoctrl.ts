@@ -20,6 +20,7 @@
  * @interface TABLEPOCTRL
  */
 export interface TABLEPOCTRL {
+    [key: string]: any;
     /**
      * 
      * @type {number}

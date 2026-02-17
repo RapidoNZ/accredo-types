@@ -20,6 +20,7 @@
  * @interface TABLECOBIND
  */
 export interface TABLECOBIND {
+    [key: string]: any;
     /**
      * 
      * @type {number}

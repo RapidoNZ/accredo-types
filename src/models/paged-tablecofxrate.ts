@@ -23,6 +23,7 @@ import { TABLECOFXRATE } from './tablecofxrate';
  * @interface PagedTABLECOFXRATE
  */
 export interface PagedTABLECOFXRATE {
+    [key: string]: any;
     /**
      * 
      * @type {string}

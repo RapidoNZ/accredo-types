@@ -23,6 +23,7 @@ import { ARSalesPersonBudget } from './arsales-person-budget';
  * @interface PagedARSalesPersonBudget
  */
 export interface PagedARSalesPersonBudget {
+    [key: string]: any;
     /**
      * 
      * @type {string}

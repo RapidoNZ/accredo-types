@@ -20,6 +20,7 @@
  * @interface TABLEARBAL
  */
 export interface TABLEARBAL {
+    [key: string]: any;
     /**
      * 
      * @type {number}

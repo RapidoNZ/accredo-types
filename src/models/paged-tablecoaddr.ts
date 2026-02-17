@@ -23,6 +23,7 @@ import { TABLECOADDR } from './tablecoaddr';
  * @interface PagedTABLECOADDR
  */
 export interface PagedTABLECOADDR {
+    [key: string]: any;
     /**
      * 
      * @type {string}

@@ -23,6 +23,7 @@ import { TABLECBSMITEM } from './tablecbsmitem';
  * @interface PagedTABLECBSMITEM
  */
 export interface PagedTABLECBSMITEM {
+    [key: string]: any;
     /**
      * 
      * @type {string}

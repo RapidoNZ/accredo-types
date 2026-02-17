@@ -23,6 +23,7 @@ import { ICProduct } from './icproduct';
  * @interface PagedICProduct
  */
 export interface PagedICProduct {
+    [key: string]: any;
     /**
      * 
      * @type {string}

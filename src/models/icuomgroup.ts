@@ -20,6 +20,7 @@
  * @interface ICUOMGroup
  */
 export interface ICUOMGroup {
+    [key: string]: any;
     /**
      * 
      * @type {number}

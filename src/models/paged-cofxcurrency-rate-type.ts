@@ -23,6 +23,7 @@ import { COFXCurrencyRateType } from './cofxcurrency-rate-type';
  * @interface PagedCOFXCurrencyRateType
  */
 export interface PagedCOFXCurrencyRateType {
+    [key: string]: any;
     /**
      * 
      * @type {string}

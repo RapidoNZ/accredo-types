@@ -20,6 +20,7 @@
  * @interface JCComponent
  */
 export interface JCComponent {
+    [key: string]: any;
     /**
      * 
      * @type {number}

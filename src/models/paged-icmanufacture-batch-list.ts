@@ -23,6 +23,7 @@ import { ICManufactureBatchList } from './icmanufacture-batch-list';
  * @interface PagedICManufactureBatchList
  */
 export interface PagedICManufactureBatchList {
+    [key: string]: any;
     /**
      * 
      * @type {string}

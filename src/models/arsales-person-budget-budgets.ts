@@ -20,6 +20,7 @@
  * @interface ARSalesPersonBudgetBudgets
  */
 export interface ARSalesPersonBudgetBudgets {
+    [key: string]: any;
     /**
      * 
      * @type {number}

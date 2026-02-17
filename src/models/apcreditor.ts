@@ -29,6 +29,7 @@ import { APCreditorLink } from './apcreditor-link';
  * @interface APCreditor
  */
 export interface APCreditor {
+    [key: string]: any;
     /**
      * 
      * @type {number}

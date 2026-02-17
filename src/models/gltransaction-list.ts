@@ -20,6 +20,7 @@
  * @interface GLTransactionList
  */
 export interface GLTransactionList {
+    [key: string]: any;
     /**
      * 
      * @type {number}

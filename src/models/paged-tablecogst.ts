@@ -23,6 +23,7 @@ import { TABLECOGST } from './tablecogst';
  * @interface PagedTABLECOGST
  */
 export interface PagedTABLECOGST {
+    [key: string]: any;
     /**
      * 
      * @type {string}

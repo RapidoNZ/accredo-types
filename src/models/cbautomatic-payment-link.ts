@@ -20,6 +20,7 @@
  * @interface CBAutomaticPaymentLink
  */
 export interface CBAutomaticPaymentLink {
+    [key: string]: any;
     /**
      * 
      * @type {number}

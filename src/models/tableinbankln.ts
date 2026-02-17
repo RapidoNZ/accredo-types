@@ -20,6 +20,7 @@
  * @interface TABLEINBANKLN
  */
 export interface TABLEINBANKLN {
+    [key: string]: any;
     /**
      * 
      * @type {number}

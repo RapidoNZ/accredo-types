@@ -20,6 +20,7 @@
  * @interface TABLEFAMEMOLN
  */
 export interface TABLEFAMEMOLN {
+    [key: string]: any;
     /**
      * 
      * @type {number}

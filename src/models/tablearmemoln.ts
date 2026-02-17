@@ -20,6 +20,7 @@
  * @interface TABLEARMEMOLN
  */
 export interface TABLEARMEMOLN {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -20,6 +20,7 @@
  * @interface TABLECOMEMOLN
  */
 export interface TABLECOMEMOLN {
+    [key: string]: any;
     /**
      * 
      * @type {number}

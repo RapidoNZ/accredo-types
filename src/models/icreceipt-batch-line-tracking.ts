@@ -20,6 +20,7 @@
  * @interface ICReceiptBatchLineTracking
  */
 export interface ICReceiptBatchLineTracking {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -20,6 +20,7 @@
  * @interface TABLEAPCAT1
  */
 export interface TABLEAPCAT1 {
+    [key: string]: any;
     /**
      * 
      * @type {number}

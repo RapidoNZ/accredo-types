@@ -20,6 +20,7 @@
  * @interface TABLEARADDR
  */
 export interface TABLEARADDR {
+    [key: string]: any;
     /**
      * 
      * @type {number}

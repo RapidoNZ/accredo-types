@@ -23,6 +23,7 @@ import { TABLECBSUM } from './tablecbsum';
  * @interface PagedTABLECBSUM
  */
 export interface PagedTABLECBSUM {
+    [key: string]: any;
     /**
      * 
      * @type {string}

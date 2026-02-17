@@ -20,6 +20,7 @@
  * @interface TABLEICSELL
  */
 export interface TABLEICSELL {
+    [key: string]: any;
     /**
      * 
      * @type {number}

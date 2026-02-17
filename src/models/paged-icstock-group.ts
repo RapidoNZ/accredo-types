@@ -23,6 +23,7 @@ import { ICStockGroup } from './icstock-group';
  * @interface PagedICStockGroup
  */
 export interface PagedICStockGroup {
+    [key: string]: any;
     /**
      * 
      * @type {string}

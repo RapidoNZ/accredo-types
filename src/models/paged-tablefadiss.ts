@@ -23,6 +23,7 @@ import { TABLEFADISS } from './tablefadiss';
  * @interface PagedTABLEFADISS
  */
 export interface PagedTABLEFADISS {
+    [key: string]: any;
     /**
      * 
      * @type {string}

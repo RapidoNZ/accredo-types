@@ -23,6 +23,7 @@ import { TABLESPWHERE } from './tablespwhere';
  * @interface PagedTABLESPWHERE
  */
 export interface PagedTABLESPWHERE {
+    [key: string]: any;
     /**
      * 
      * @type {string}

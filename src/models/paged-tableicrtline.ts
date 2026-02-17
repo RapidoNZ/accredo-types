@@ -23,6 +23,7 @@ import { TABLEICRTLINE } from './tableicrtline';
  * @interface PagedTABLEICRTLINE
  */
 export interface PagedTABLEICRTLINE {
+    [key: string]: any;
     /**
      * 
      * @type {string}

@@ -23,6 +23,7 @@ import { APSHCategory2 } from './apshcategory2';
  * @interface PagedAPSHCategory2
  */
 export interface PagedAPSHCategory2 {
+    [key: string]: any;
     /**
      * 
      * @type {string}

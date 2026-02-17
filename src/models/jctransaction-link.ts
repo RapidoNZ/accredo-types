@@ -20,6 +20,7 @@
  * @interface JCTransactionLink
  */
 export interface JCTransactionLink {
+    [key: string]: any;
     /**
      * 
      * @type {number}

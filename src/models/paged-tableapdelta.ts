@@ -23,6 +23,7 @@ import { TABLEAPDELTA } from './tableapdelta';
  * @interface PagedTABLEAPDELTA
  */
 export interface PagedTABLEAPDELTA {
+    [key: string]: any;
     /**
      * 
      * @type {string}

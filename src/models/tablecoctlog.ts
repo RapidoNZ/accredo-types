@@ -20,6 +20,7 @@
  * @interface TABLECOCTLOG
  */
 export interface TABLECOCTLOG {
+    [key: string]: any;
     /**
      * 
      * @type {number}

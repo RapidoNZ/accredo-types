@@ -20,6 +20,7 @@
  * @interface TABLEJCCTRL
  */
 export interface TABLEJCCTRL {
+    [key: string]: any;
     /**
      * 
      * @type {number}

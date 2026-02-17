@@ -23,6 +23,7 @@ import { CODepartment } from './codepartment';
  * @interface PagedCODepartment
  */
 export interface PagedCODepartment {
+    [key: string]: any;
     /**
      * 
      * @type {string}

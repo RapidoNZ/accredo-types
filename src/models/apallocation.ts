@@ -20,6 +20,7 @@
  * @interface APAllocation
  */
 export interface APAllocation {
+    [key: string]: any;
     /**
      * 
      * @type {number}

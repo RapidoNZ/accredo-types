@@ -23,6 +23,7 @@ import { TABLEARCUST } from './tablearcust';
  * @interface PagedTABLEARCUST
  */
 export interface PagedTABLEARCUST {
+    [key: string]: any;
     /**
      * 
      * @type {string}

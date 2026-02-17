@@ -20,6 +20,7 @@
  * @interface CBBankList
  */
 export interface CBBankList {
+    [key: string]: any;
     /**
      * 
      * @type {number}

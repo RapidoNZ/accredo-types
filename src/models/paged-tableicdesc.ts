@@ -23,6 +23,7 @@ import { TABLEICDESC } from './tableicdesc';
  * @interface PagedTABLEICDESC
  */
 export interface PagedTABLEICDESC {
+    [key: string]: any;
     /**
      * 
      * @type {string}

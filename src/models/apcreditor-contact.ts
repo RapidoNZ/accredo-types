@@ -20,6 +20,7 @@
  * @interface APCreditorContact
  */
 export interface APCreditorContact {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -23,6 +23,7 @@ import { TABLEJCCOST } from './tablejccost';
  * @interface PagedTABLEJCCOST
  */
 export interface PagedTABLEJCCOST {
+    [key: string]: any;
     /**
      * 
      * @type {string}

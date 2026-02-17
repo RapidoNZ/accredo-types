@@ -20,6 +20,7 @@
  * @interface TABLEOESHIPLI
  */
 export interface TABLEOESHIPLI {
+    [key: string]: any;
     /**
      * 
      * @type {number}

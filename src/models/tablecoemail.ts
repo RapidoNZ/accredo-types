@@ -20,6 +20,7 @@
  * @interface TABLECOEMAIL
  */
 export interface TABLECOEMAIL {
+    [key: string]: any;
     /**
      * 
      * @type {number}

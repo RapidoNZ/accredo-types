@@ -35,6 +35,7 @@ import { JCJobPending } from './jcjob-pending';
  * @interface JCJob
  */
 export interface JCJob {
+    [key: string]: any;
     /**
      * 
      * @type {number}

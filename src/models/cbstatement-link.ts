@@ -20,6 +20,7 @@
  * @interface CBStatementLink
  */
 export interface CBStatementLink {
+    [key: string]: any;
     /**
      * 
      * @type {number}

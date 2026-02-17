@@ -20,6 +20,7 @@
  * @interface JCBatchLink
  */
 export interface JCBatchLink {
+    [key: string]: any;
     /**
      * 
      * @type {number}

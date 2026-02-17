@@ -20,6 +20,7 @@
  * @interface TABLEFADISS
  */
 export interface TABLEFADISS {
+    [key: string]: any;
     /**
      * 
      * @type {number}

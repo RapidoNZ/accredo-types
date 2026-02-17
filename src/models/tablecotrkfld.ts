@@ -20,6 +20,7 @@
  * @interface TABLECOTRKFLD
  */
 export interface TABLECOTRKFLD {
+    [key: string]: any;
     /**
      * 
      * @type {number}

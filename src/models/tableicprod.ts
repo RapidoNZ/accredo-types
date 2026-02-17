@@ -20,6 +20,7 @@
  * @interface TABLEICPROD
  */
 export interface TABLEICPROD {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -23,6 +23,7 @@ import { TABLEFALOCN } from './tablefalocn';
  * @interface PagedTABLEFALOCN
  */
 export interface PagedTABLEFALOCN {
+    [key: string]: any;
     /**
      * 
      * @type {string}

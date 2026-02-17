@@ -20,6 +20,7 @@
  * @interface ARMemoMemo
  */
 export interface ARMemoMemo {
+    [key: string]: any;
     /**
      * 
      * @type {string}

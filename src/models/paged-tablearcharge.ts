@@ -23,6 +23,7 @@ import { TABLEARCHARGE } from './tablearcharge';
  * @interface PagedTABLEARCHARGE
  */
 export interface PagedTABLEARCHARGE {
+    [key: string]: any;
     /**
      * 
      * @type {string}

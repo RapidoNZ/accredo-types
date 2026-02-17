@@ -23,6 +23,7 @@ import { CompanyResults } from './company-results';
  * @interface PagedCompanyResults
  */
 export interface PagedCompanyResults {
+    [key: string]: any;
     /**
      * 
      * @type {string}

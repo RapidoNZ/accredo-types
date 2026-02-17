@@ -20,6 +20,7 @@
  * @interface TABLEICRTHEAD
  */
 export interface TABLEICRTHEAD {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -23,6 +23,7 @@ import { CBBankingItems } from './cbbanking-items';
  * @interface PagedCBBankingItems
  */
 export interface PagedCBBankingItems {
+    [key: string]: any;
     /**
      * 
      * @type {string}

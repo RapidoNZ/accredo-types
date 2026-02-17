@@ -23,6 +23,7 @@ import { TABLEFALINK } from './tablefalink';
  * @interface PagedTABLEFALINK
  */
 export interface PagedTABLEFALINK {
+    [key: string]: any;
     /**
      * 
      * @type {string}

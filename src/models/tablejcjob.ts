@@ -20,6 +20,7 @@
  * @interface TABLEJCJOB
  */
 export interface TABLEJCJOB {
+    [key: string]: any;
     /**
      * 
      * @type {number}

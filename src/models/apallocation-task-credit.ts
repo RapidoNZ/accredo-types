@@ -20,6 +20,7 @@
  * @interface APAllocationTaskCredit
  */
 export interface APAllocationTaskCredit {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -23,6 +23,7 @@ import { TABLECOLINK } from './tablecolink';
  * @interface PagedTABLECOLINK
  */
 export interface PagedTABLECOLINK {
+    [key: string]: any;
     /**
      * 
      * @type {string}

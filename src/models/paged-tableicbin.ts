@@ -23,6 +23,7 @@ import { TABLEICBIN } from './tableicbin';
  * @interface PagedTABLEICBIN
  */
 export interface PagedTABLEICBIN {
+    [key: string]: any;
     /**
      * 
      * @type {string}

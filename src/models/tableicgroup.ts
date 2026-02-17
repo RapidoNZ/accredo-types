@@ -20,6 +20,7 @@
  * @interface TABLEICGROUP
  */
 export interface TABLEICGROUP {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -20,6 +20,7 @@
  * @interface APCreditorInformation
  */
 export interface APCreditorInformation {
+    [key: string]: any;
     /**
      * 
      * @type {string}

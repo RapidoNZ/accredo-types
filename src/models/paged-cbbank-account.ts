@@ -23,6 +23,7 @@ import { CBBankAccount } from './cbbank-account';
  * @interface PagedCBBankAccount
  */
 export interface PagedCBBankAccount {
+    [key: string]: any;
     /**
      * 
      * @type {string}

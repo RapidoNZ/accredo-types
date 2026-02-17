@@ -20,6 +20,7 @@
  * @interface ICTransactionList
  */
 export interface ICTransactionList {
+    [key: string]: any;
     /**
      * 
      * @type {number}

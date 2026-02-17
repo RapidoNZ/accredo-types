@@ -23,6 +23,7 @@ import { SPWhere } from './spwhere';
  * @interface PagedSPWhere
  */
 export interface PagedSPWhere {
+    [key: string]: any;
     /**
      * 
      * @type {string}

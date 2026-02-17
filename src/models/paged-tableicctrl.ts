@@ -23,6 +23,7 @@ import { TABLEICCTRL } from './tableicctrl';
  * @interface PagedTABLEICCTRL
  */
 export interface PagedTABLEICCTRL {
+    [key: string]: any;
     /**
      * 
      * @type {string}

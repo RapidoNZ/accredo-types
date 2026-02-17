@@ -23,6 +23,7 @@ import { GLBatchLine } from './glbatch-line';
  * @interface GLBatch
  */
 export interface GLBatch {
+    [key: string]: any;
     /**
      * 
      * @type {number}

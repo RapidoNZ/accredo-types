@@ -20,6 +20,7 @@
  * @interface CBAutomaticPaymentDissection
  */
 export interface CBAutomaticPaymentDissection {
+    [key: string]: any;
     /**
      * 
      * @type {number}

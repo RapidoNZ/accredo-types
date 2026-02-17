@@ -20,6 +20,7 @@
  * @interface JCCategory1
  */
 export interface JCCategory1 {
+    [key: string]: any;
     /**
      * 
      * @type {number}

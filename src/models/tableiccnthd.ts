@@ -20,6 +20,7 @@
  * @interface TABLEICCNTHD
  */
 export interface TABLEICCNTHD {
+    [key: string]: any;
     /**
      * 
      * @type {number}

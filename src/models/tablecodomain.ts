@@ -20,6 +20,7 @@
  * @interface TABLECODOMAIN
  */
 export interface TABLECODOMAIN {
+    [key: string]: any;
     /**
      * 
      * @type {number}

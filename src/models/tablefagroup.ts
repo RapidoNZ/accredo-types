@@ -20,6 +20,7 @@
  * @interface TABLEFAGROUP
  */
 export interface TABLEFAGROUP {
+    [key: string]: any;
     /**
      * 
      * @type {number}

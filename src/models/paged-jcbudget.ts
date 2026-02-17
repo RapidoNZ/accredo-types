@@ -23,6 +23,7 @@ import { JCBudget } from './jcbudget';
  * @interface PagedJCBudget
  */
 export interface PagedJCBudget {
+    [key: string]: any;
     /**
      * 
      * @type {string}

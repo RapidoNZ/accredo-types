@@ -20,6 +20,7 @@
  * @interface TABLECOCNTRY
  */
 export interface TABLECOCNTRY {
+    [key: string]: any;
     /**
      * 
      * @type {number}

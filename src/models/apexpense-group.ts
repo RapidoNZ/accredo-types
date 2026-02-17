@@ -20,6 +20,7 @@
  * @interface APExpenseGroup
  */
 export interface APExpenseGroup {
+    [key: string]: any;
     /**
      * 
      * @type {number}

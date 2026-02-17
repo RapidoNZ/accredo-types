@@ -20,6 +20,7 @@
  * @interface TABLEPOHEAD
  */
 export interface TABLEPOHEAD {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -23,6 +23,7 @@ import { TABLEARWORD } from './tablearword';
  * @interface PagedTABLEARWORD
  */
 export interface PagedTABLEARWORD {
+    [key: string]: any;
     /**
      * 
      * @type {string}

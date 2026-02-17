@@ -20,6 +20,7 @@
  * @interface TABLECOCONTCT
  */
 export interface TABLECOCONTCT {
+    [key: string]: any;
     /**
      * 
      * @type {number}

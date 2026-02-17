@@ -23,6 +23,7 @@ import { TABLECBMEMOLN } from './tablecbmemoln';
  * @interface PagedTABLECBMEMOLN
  */
 export interface PagedTABLECBMEMOLN {
+    [key: string]: any;
     /**
      * 
      * @type {string}

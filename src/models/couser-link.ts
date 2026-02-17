@@ -20,6 +20,7 @@
  * @interface COUserLink
  */
 export interface COUserLink {
+    [key: string]: any;
     /**
      * 
      * @type {number}

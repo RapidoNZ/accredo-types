@@ -23,6 +23,7 @@ import { ICBudget } from './icbudget';
  * @interface PagedICBudget
  */
 export interface PagedICBudget {
+    [key: string]: any;
     /**
      * 
      * @type {string}

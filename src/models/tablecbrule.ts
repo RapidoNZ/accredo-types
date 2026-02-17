@@ -20,6 +20,7 @@
  * @interface TABLECBRULE
  */
 export interface TABLECBRULE {
+    [key: string]: any;
     /**
      * 
      * @type {number}

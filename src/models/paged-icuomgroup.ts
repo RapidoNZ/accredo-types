@@ -23,6 +23,7 @@ import { ICUOMGroup } from './icuomgroup';
  * @interface PagedICUOMGroup
  */
 export interface PagedICUOMGroup {
+    [key: string]: any;
     /**
      * 
      * @type {string}

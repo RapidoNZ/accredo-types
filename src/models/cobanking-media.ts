@@ -20,6 +20,7 @@
  * @interface COBankingMedia
  */
 export interface COBankingMedia {
+    [key: string]: any;
     /**
      * 
      * @type {number}

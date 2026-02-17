@@ -44,6 +44,7 @@ import { ICProductSupplier } from './icproduct-supplier';
  * @interface ICProduct
  */
 export interface ICProduct {
+    [key: string]: any;
     /**
      * 
      * @type {number}

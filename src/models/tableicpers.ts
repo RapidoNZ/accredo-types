@@ -20,6 +20,7 @@
  * @interface TABLEICPERS
  */
 export interface TABLEICPERS {
+    [key: string]: any;
     /**
      * 
      * @type {number}

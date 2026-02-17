@@ -23,6 +23,7 @@ import { JCTransaction } from './jctransaction';
  * @interface PagedJCTransaction
  */
 export interface PagedJCTransaction {
+    [key: string]: any;
     /**
      * 
      * @type {string}

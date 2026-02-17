@@ -23,6 +23,7 @@ import { TABLECBDTFLD } from './tablecbdtfld';
  * @interface PagedTABLECBDTFLD
  */
 export interface PagedTABLECBDTFLD {
+    [key: string]: any;
     /**
      * 
      * @type {string}

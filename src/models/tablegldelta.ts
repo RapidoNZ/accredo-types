@@ -20,6 +20,7 @@
  * @interface TABLEGLDELTA
  */
 export interface TABLEGLDELTA {
+    [key: string]: any;
     /**
      * 
      * @type {number}

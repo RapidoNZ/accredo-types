@@ -20,6 +20,7 @@
  * @interface TABLESPRULE
  */
 export interface TABLESPRULE {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -20,6 +20,7 @@
  * @interface TABLECBAUTO
  */
 export interface TABLECBAUTO {
+    [key: string]: any;
     /**
      * 
      * @type {number}

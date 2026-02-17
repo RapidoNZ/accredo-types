@@ -20,6 +20,7 @@
  * @interface FAAssetLocation
  */
 export interface FAAssetLocation {
+    [key: string]: any;
     /**
      * 
      * @type {number}

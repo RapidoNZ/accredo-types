@@ -20,6 +20,7 @@
  * @interface TABLEPOAUTHOR
  */
 export interface TABLEPOAUTHOR {
+    [key: string]: any;
     /**
      * 
      * @type {number}

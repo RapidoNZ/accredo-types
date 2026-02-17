@@ -20,6 +20,7 @@
  * @interface TABLEICMFLINE
  */
 export interface TABLEICMFLINE {
+    [key: string]: any;
     /**
      * 
      * @type {number}

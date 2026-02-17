@@ -26,6 +26,7 @@ import { APAllocationTaskDebit } from './apallocation-task-debit';
  * @interface APAllocationTaskResults
  */
 export interface APAllocationTaskResults {
+    [key: string]: any;
     /**
      * 
      * @type {string}

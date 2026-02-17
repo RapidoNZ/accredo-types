@@ -20,6 +20,7 @@
  * @interface TABLEOEBANKLN
  */
 export interface TABLEOEBANKLN {
+    [key: string]: any;
     /**
      * 
      * @type {number}

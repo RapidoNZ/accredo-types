@@ -20,6 +20,7 @@
  * @interface TABLECOPERIOD
  */
 export interface TABLECOPERIOD {
+    [key: string]: any;
     /**
      * 
      * @type {number}

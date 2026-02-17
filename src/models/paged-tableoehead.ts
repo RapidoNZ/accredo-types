@@ -23,6 +23,7 @@ import { TABLEOEHEAD } from './tableoehead';
  * @interface PagedTABLEOEHEAD
  */
 export interface PagedTABLEOEHEAD {
+    [key: string]: any;
     /**
      * 
      * @type {string}

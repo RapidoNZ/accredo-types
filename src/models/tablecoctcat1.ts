@@ -20,6 +20,7 @@
  * @interface TABLECOCTCAT1
  */
 export interface TABLECOCTCAT1 {
+    [key: string]: any;
     /**
      * 
      * @type {number}

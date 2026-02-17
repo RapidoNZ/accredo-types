@@ -20,6 +20,7 @@
  * @interface ReportLayoutSelections
  */
 export interface ReportLayoutSelections {
+    [key: string]: any;
     /**
      * 
      * @type {string}

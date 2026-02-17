@@ -20,6 +20,7 @@
  * @interface GLBatchLine
  */
 export interface GLBatchLine {
+    [key: string]: any;
     /**
      * 
      * @type {number}

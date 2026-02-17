@@ -23,6 +23,7 @@ import { TABLEICGROUP } from './tableicgroup';
  * @interface PagedTABLEICGROUP
  */
 export interface PagedTABLEICGROUP {
+    [key: string]: any;
     /**
      * 
      * @type {string}

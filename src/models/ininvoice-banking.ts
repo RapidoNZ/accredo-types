@@ -20,6 +20,7 @@
  * @interface INInvoiceBanking
  */
 export interface INInvoiceBanking {
+    [key: string]: any;
     /**
      * 
      * @type {number}

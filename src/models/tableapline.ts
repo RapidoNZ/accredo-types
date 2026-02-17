@@ -20,6 +20,7 @@
  * @interface TABLEAPLINE
  */
 export interface TABLEAPLINE {
+    [key: string]: any;
     /**
      * 
      * @type {number}

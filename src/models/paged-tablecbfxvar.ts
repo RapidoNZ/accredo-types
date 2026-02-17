@@ -23,6 +23,7 @@ import { TABLECBFXVAR } from './tablecbfxvar';
  * @interface PagedTABLECBFXVAR
  */
 export interface PagedTABLECBFXVAR {
+    [key: string]: any;
     /**
      * 
      * @type {string}

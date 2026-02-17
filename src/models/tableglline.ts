@@ -20,6 +20,7 @@
  * @interface TABLEGLLINE
  */
 export interface TABLEGLLINE {
+    [key: string]: any;
     /**
      * 
      * @type {number}

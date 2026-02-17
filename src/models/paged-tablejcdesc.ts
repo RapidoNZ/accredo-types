@@ -23,6 +23,7 @@ import { TABLEJCDESC } from './tablejcdesc';
  * @interface PagedTABLEJCDESC
  */
 export interface PagedTABLEJCDESC {
+    [key: string]: any;
     /**
      * 
      * @type {string}

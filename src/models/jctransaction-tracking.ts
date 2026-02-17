@@ -20,6 +20,7 @@
  * @interface JCTransactionTracking
  */
 export interface JCTransactionTracking {
+    [key: string]: any;
     /**
      * 
      * @type {number}

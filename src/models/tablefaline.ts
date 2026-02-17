@@ -20,6 +20,7 @@
  * @interface TABLEFALINE
  */
 export interface TABLEFALINE {
+    [key: string]: any;
     /**
      * 
      * @type {number}

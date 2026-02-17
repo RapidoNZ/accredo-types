@@ -23,6 +23,7 @@ import { TABLEPOMEMOLN } from './tablepomemoln';
  * @interface PagedTABLEPOMEMOLN
  */
 export interface PagedTABLEPOMEMOLN {
+    [key: string]: any;
     /**
      * 
      * @type {string}

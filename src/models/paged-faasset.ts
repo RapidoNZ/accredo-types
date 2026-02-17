@@ -23,6 +23,7 @@ import { FAAsset } from './faasset';
  * @interface PagedFAAsset
  */
 export interface PagedFAAsset {
+    [key: string]: any;
     /**
      * 
      * @type {string}

@@ -23,6 +23,7 @@ import { TABLEICMFHEAD } from './tableicmfhead';
  * @interface PagedTABLEICMFHEAD
  */
 export interface PagedTABLEICMFHEAD {
+    [key: string]: any;
     /**
      * 
      * @type {string}

@@ -20,6 +20,7 @@
  * @interface ARSalesPerson
  */
 export interface ARSalesPerson {
+    [key: string]: any;
     /**
      * 
      * @type {number}

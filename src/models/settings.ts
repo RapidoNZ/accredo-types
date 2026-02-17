@@ -20,6 +20,7 @@
  * @interface Settings
  */
 export interface Settings {
+    [key: string]: any;
     /**
      * 
      * @type {string}

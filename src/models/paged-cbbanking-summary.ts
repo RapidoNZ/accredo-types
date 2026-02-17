@@ -23,6 +23,7 @@ import { CBBankingSummary } from './cbbanking-summary';
  * @interface PagedCBBankingSummary
  */
 export interface PagedCBBankingSummary {
+    [key: string]: any;
     /**
      * 
      * @type {string}

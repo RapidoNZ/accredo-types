@@ -23,6 +23,7 @@ import { JCTimeSheetLineTracking } from './jctime-sheet-line-tracking';
  * @interface JCTimeSheetLine
  */
 export interface JCTimeSheetLine {
+    [key: string]: any;
     /**
      * 
      * @type {number}

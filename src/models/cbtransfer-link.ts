@@ -20,6 +20,7 @@
  * @interface CBTransferLink
  */
 export interface CBTransferLink {
+    [key: string]: any;
     /**
      * 
      * @type {number}

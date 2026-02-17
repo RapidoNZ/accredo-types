@@ -20,6 +20,7 @@
  * @interface TABLECBANLTX
  */
 export interface TABLECBANLTX {
+    [key: string]: any;
     /**
      * 
      * @type {number}

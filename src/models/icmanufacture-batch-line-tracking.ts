@@ -20,6 +20,7 @@
  * @interface ICManufactureBatchLineTracking
  */
 export interface ICManufactureBatchLineTracking {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -20,6 +20,7 @@
  * @interface TABLEICLINK
  */
 export interface TABLEICLINK {
+    [key: string]: any;
     /**
      * 
      * @type {number}

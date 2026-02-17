@@ -29,6 +29,7 @@ import { APShipmentsLink } from './apshipments-link';
  * @interface APShipments
  */
 export interface APShipments {
+    [key: string]: any;
     /**
      * 
      * @type {string}

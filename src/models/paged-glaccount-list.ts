@@ -23,6 +23,7 @@ import { GLAccountList } from './glaccount-list';
  * @interface PagedGLAccountList
  */
 export interface PagedGLAccountList {
+    [key: string]: any;
     /**
      * 
      * @type {string}

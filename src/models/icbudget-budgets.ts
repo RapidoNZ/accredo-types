@@ -20,6 +20,7 @@
  * @interface ICBudgetBudgets
  */
 export interface ICBudgetBudgets {
+    [key: string]: any;
     /**
      * 
      * @type {number}

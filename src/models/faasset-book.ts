@@ -20,6 +20,7 @@
  * @interface FAAssetBook
  */
 export interface FAAssetBook {
+    [key: string]: any;
     /**
      * 
      * @type {number}

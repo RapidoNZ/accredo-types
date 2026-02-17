@@ -23,6 +23,7 @@ import { TABLEICBNMVLN } from './tableicbnmvln';
  * @interface PagedTABLEICBNMVLN
  */
 export interface PagedTABLEICBNMVLN {
+    [key: string]: any;
     /**
      * 
      * @type {string}

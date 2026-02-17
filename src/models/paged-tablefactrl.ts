@@ -23,6 +23,7 @@ import { TABLEFACTRL } from './tablefactrl';
  * @interface PagedTABLEFACTRL
  */
 export interface PagedTABLEFACTRL {
+    [key: string]: any;
     /**
      * 
      * @type {string}

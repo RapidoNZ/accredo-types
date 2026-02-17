@@ -23,6 +23,7 @@ import { TABLEICTRKLOT } from './tableictrklot';
  * @interface PagedTABLEICTRKLOT
  */
 export interface PagedTABLEICTRKLOT {
+    [key: string]: any;
     /**
      * 
      * @type {string}

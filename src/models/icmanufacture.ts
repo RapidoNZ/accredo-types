@@ -29,6 +29,7 @@ import { ICManufactureUsage } from './icmanufacture-usage';
  * @interface ICManufacture
  */
 export interface ICManufacture {
+    [key: string]: any;
     /**
      * 
      * @type {string}

@@ -20,6 +20,7 @@
  * @interface TABLEINCTRL
  */
 export interface TABLEINCTRL {
+    [key: string]: any;
     /**
      * 
      * @type {number}

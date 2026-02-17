@@ -23,6 +23,7 @@ import { ICBinMovement } from './icbin-movement';
  * @interface PagedICBinMovement
  */
 export interface PagedICBinMovement {
+    [key: string]: any;
     /**
      * 
      * @type {string}

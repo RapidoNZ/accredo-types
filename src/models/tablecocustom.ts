@@ -20,6 +20,7 @@
  * @interface TABLECOCUSTOM
  */
 export interface TABLECOCUSTOM {
+    [key: string]: any;
     /**
      * 
      * @type {number}

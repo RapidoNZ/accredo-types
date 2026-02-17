@@ -23,6 +23,7 @@ import { TABLEJCLINE } from './tablejcline';
  * @interface PagedTABLEJCLINE
  */
 export interface PagedTABLEJCLINE {
+    [key: string]: any;
     /**
      * 
      * @type {string}

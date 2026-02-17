@@ -23,6 +23,7 @@ import { ICManufactureBatchLineTracking } from './icmanufacture-batch-line-track
  * @interface ICManufactureBatchLine
  */
 export interface ICManufactureBatchLine {
+    [key: string]: any;
     /**
      * 
      * @type {number}

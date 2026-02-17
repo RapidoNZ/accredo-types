@@ -23,6 +23,7 @@ import { TABLEINSHIPLI } from './tableinshipli';
  * @interface PagedTABLEINSHIPLI
  */
 export interface PagedTABLEINSHIPLI {
+    [key: string]: any;
     /**
      * 
      * @type {string}

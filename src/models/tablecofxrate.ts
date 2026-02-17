@@ -20,6 +20,7 @@
  * @interface TABLECOFXRATE
  */
 export interface TABLECOFXRATE {
+    [key: string]: any;
     /**
      * 
      * @type {number}

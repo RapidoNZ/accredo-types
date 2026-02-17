@@ -20,6 +20,7 @@
  * @interface TABLEAPANWORD
  */
 export interface TABLEAPANWORD {
+    [key: string]: any;
     /**
      * 
      * @type {number}

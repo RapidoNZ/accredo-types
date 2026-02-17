@@ -23,6 +23,7 @@ import { ICBinCount } from './icbin-count';
  * @interface PagedICBinCount
  */
 export interface PagedICBinCount {
+    [key: string]: any;
     /**
      * 
      * @type {string}

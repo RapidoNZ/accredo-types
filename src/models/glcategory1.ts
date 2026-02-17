@@ -20,6 +20,7 @@
  * @interface GLCategory1
  */
 export interface GLCategory1 {
+    [key: string]: any;
     /**
      * 
      * @type {number}

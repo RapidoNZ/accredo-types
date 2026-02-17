@@ -20,6 +20,7 @@
  * @interface TABLEICQTY
  */
 export interface TABLEICQTY {
+    [key: string]: any;
     /**
      * 
      * @type {number}

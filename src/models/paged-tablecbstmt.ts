@@ -23,6 +23,7 @@ import { TABLECBSTMT } from './tablecbstmt';
  * @interface PagedTABLECBSTMT
  */
 export interface PagedTABLECBSTMT {
+    [key: string]: any;
     /**
      * 
      * @type {string}

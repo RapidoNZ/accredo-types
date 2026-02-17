@@ -20,6 +20,7 @@
  * @interface ICMemoMemo
  */
 export interface ICMemoMemo {
+    [key: string]: any;
     /**
      * 
      * @type {string}

@@ -23,6 +23,7 @@ import { APAllocation } from './apallocation';
  * @interface PagedAPAllocation
  */
 export interface PagedAPAllocation {
+    [key: string]: any;
     /**
      * 
      * @type {string}

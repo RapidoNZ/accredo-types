@@ -26,6 +26,7 @@ import { CBBankingItemsLink } from './cbbanking-items-link';
  * @interface CBBankingItems
  */
 export interface CBBankingItems {
+    [key: string]: any;
     /**
      * 
      * @type {number}

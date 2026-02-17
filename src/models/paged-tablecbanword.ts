@@ -23,6 +23,7 @@ import { TABLECBANWORD } from './tablecbanword';
  * @interface PagedTABLECBANWORD
  */
 export interface PagedTABLECBANWORD {
+    [key: string]: any;
     /**
      * 
      * @type {string}

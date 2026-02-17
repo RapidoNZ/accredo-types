@@ -26,6 +26,7 @@ import { ICAdjustmentBatchLink } from './icadjustment-batch-link';
  * @interface ICAdjustmentBatch
  */
 export interface ICAdjustmentBatch {
+    [key: string]: any;
     /**
      * 
      * @type {number}

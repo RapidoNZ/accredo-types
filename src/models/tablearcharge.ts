@@ -20,6 +20,7 @@
  * @interface TABLEARCHARGE
  */
 export interface TABLEARCHARGE {
+    [key: string]: any;
     /**
      * 
      * @type {number}

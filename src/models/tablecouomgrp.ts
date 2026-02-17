@@ -20,6 +20,7 @@
  * @interface TABLECOUOMGRP
  */
 export interface TABLECOUOMGRP {
+    [key: string]: any;
     /**
      * 
      * @type {number}

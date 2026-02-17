@@ -20,6 +20,7 @@
  * @interface APContact
  */
 export interface APContact {
+    [key: string]: any;
     /**
      * 
      * @type {number}

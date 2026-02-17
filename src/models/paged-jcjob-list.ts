@@ -23,6 +23,7 @@ import { JCJobList } from './jcjob-list';
  * @interface PagedJCJobList
  */
 export interface PagedJCJobList {
+    [key: string]: any;
     /**
      * 
      * @type {string}

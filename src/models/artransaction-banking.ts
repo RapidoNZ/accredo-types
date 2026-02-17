@@ -20,6 +20,7 @@
  * @interface ARTransactionBanking
  */
 export interface ARTransactionBanking {
+    [key: string]: any;
     /**
      * 
      * @type {number}

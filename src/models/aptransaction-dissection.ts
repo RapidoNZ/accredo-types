@@ -20,6 +20,7 @@
  * @interface APTransactionDissection
  */
 export interface APTransactionDissection {
+    [key: string]: any;
     /**
      * 
      * @type {number}

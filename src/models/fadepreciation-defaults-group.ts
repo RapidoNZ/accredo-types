@@ -20,6 +20,7 @@
  * @interface FADepreciationDefaultsGroup
  */
 export interface FADepreciationDefaultsGroup {
+    [key: string]: any;
     /**
      * 
      * @type {number}

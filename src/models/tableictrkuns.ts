@@ -20,6 +20,7 @@
  * @interface TABLEICTRKUNS
  */
 export interface TABLEICTRKUNS {
+    [key: string]: any;
     /**
      * 
      * @type {number}

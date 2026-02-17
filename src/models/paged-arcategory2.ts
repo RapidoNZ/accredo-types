@@ -23,6 +23,7 @@ import { ARCategory2 } from './arcategory2';
  * @interface PagedARCategory2
  */
 export interface PagedARCategory2 {
+    [key: string]: any;
     /**
      * 
      * @type {string}

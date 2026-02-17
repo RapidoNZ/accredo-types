@@ -20,6 +20,7 @@
  * @interface TABLECBSMITEM
  */
 export interface TABLECBSMITEM {
+    [key: string]: any;
     /**
      * 
      * @type {number}

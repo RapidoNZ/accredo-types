@@ -23,6 +23,7 @@ import { TABLEICADLINE } from './tableicadline';
  * @interface PagedTABLEICADLINE
  */
 export interface PagedTABLEICADLINE {
+    [key: string]: any;
     /**
      * 
      * @type {string}

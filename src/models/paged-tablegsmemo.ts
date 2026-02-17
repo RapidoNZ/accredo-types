@@ -23,6 +23,7 @@ import { TABLEGSMEMO } from './tablegsmemo';
  * @interface PagedTABLEGSMEMO
  */
 export interface PagedTABLEGSMEMO {
+    [key: string]: any;
     /**
      * 
      * @type {string}

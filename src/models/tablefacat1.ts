@@ -20,6 +20,7 @@
  * @interface TABLEFACAT1
  */
 export interface TABLEFACAT1 {
+    [key: string]: any;
     /**
      * 
      * @type {number}

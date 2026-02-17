@@ -20,6 +20,7 @@
  * @interface POOrderList
  */
 export interface POOrderList {
+    [key: string]: any;
     /**
      * 
      * @type {number}

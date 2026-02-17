@@ -20,6 +20,7 @@
  * @interface TABLEFADTFLD
  */
 export interface TABLEFADTFLD {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -23,6 +23,7 @@ import { ICBinCountLineTracking } from './icbin-count-line-tracking';
  * @interface ICBinCountLine
  */
 export interface ICBinCountLine {
+    [key: string]: any;
     /**
      * 
      * @type {number}

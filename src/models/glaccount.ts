@@ -26,6 +26,7 @@ import { GLAccountLink } from './glaccount-link';
  * @interface GLAccount
  */
 export interface GLAccount {
+    [key: string]: any;
     /**
      * 
      * @type {number}

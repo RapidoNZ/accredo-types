@@ -20,6 +20,7 @@
  * @interface OEOrderCharge
  */
 export interface OEOrderCharge {
+    [key: string]: any;
     /**
      * 
      * @type {number}

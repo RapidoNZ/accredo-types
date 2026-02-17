@@ -23,6 +23,7 @@ import { ICBudgetBudgets } from './icbudget-budgets';
  * @interface ICBudget
  */
 export interface ICBudget {
+    [key: string]: any;
     /**
      * 
      * @type {number}

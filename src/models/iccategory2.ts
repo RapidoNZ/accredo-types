@@ -20,6 +20,7 @@
  * @interface ICCategory2
  */
 export interface ICCategory2 {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -20,6 +20,7 @@
  * @interface TABLEGLDTFLD
  */
 export interface TABLEGLDTFLD {
+    [key: string]: any;
     /**
      * 
      * @type {number}

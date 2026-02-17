@@ -20,6 +20,7 @@
  * @interface TABLEICPRODTX
  */
 export interface TABLEICPRODTX {
+    [key: string]: any;
     /**
      * 
      * @type {number}

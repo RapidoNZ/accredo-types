@@ -20,6 +20,7 @@
  * @interface TABLECOMEDIA
  */
 export interface TABLECOMEDIA {
+    [key: string]: any;
     /**
      * 
      * @type {number}

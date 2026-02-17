@@ -26,6 +26,7 @@ import { CBTransferLink } from './cbtransfer-link';
  * @interface CBTransfer
  */
 export interface CBTransfer {
+    [key: string]: any;
     /**
      * 
      * @type {string}

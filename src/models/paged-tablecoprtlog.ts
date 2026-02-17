@@ -23,6 +23,7 @@ import { TABLECOPRTLOG } from './tablecoprtlog';
  * @interface PagedTABLECOPRTLOG
  */
 export interface PagedTABLECOPRTLOG {
+    [key: string]: any;
     /**
      * 
      * @type {string}

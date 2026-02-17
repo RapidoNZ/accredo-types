@@ -23,6 +23,7 @@ import { TABLEARTRAN } from './tableartran';
  * @interface PagedTABLEARTRAN
  */
 export interface PagedTABLEARTRAN {
+    [key: string]: any;
     /**
      * 
      * @type {string}

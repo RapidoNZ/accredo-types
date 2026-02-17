@@ -20,6 +20,7 @@
  * @interface TABLECODOMUSE
  */
 export interface TABLECODOMUSE {
+    [key: string]: any;
     /**
      * 
      * @type {number}

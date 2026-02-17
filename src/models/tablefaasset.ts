@@ -20,6 +20,7 @@
  * @interface TABLEFAASSET
  */
 export interface TABLEFAASSET {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -20,6 +20,7 @@
  * @interface SPWhere
  */
 export interface SPWhere {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -20,6 +20,7 @@
  * @interface TABLEINMEMOLN
  */
 export interface TABLEINMEMOLN {
+    [key: string]: any;
     /**
      * 
      * @type {number}

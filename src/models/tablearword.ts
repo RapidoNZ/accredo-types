@@ -20,6 +20,7 @@
  * @interface TABLEARWORD
  */
 export interface TABLEARWORD {
+    [key: string]: any;
     /**
      * 
      * @type {number}

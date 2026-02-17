@@ -23,6 +23,7 @@ import { APCreditorGroup } from './apcreditor-group';
  * @interface PagedAPCreditorGroup
  */
 export interface PagedAPCreditorGroup {
+    [key: string]: any;
     /**
      * 
      * @type {string}

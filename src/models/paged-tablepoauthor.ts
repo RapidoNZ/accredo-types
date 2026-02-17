@@ -23,6 +23,7 @@ import { TABLEPOAUTHOR } from './tablepoauthor';
  * @interface PagedTABLEPOAUTHOR
  */
 export interface PagedTABLEPOAUTHOR {
+    [key: string]: any;
     /**
      * 
      * @type {string}

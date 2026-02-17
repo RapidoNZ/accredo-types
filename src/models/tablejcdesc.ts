@@ -20,6 +20,7 @@
  * @interface TABLEJCDESC
  */
 export interface TABLEJCDESC {
+    [key: string]: any;
     /**
      * 
      * @type {number}

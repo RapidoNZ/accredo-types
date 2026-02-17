@@ -20,6 +20,7 @@
  * @interface ARTransactionList
  */
 export interface ARTransactionList {
+    [key: string]: any;
     /**
      * 
      * @type {number}

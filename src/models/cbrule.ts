@@ -23,6 +23,7 @@ import { CBRuleDissection } from './cbrule-dissection';
  * @interface CBRule
  */
 export interface CBRule {
+    [key: string]: any;
     /**
      * 
      * @type {number}

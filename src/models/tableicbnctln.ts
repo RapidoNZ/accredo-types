@@ -20,6 +20,7 @@
  * @interface TABLEICBNCTLN
  */
 export interface TABLEICBNCTLN {
+    [key: string]: any;
     /**
      * 
      * @type {number}

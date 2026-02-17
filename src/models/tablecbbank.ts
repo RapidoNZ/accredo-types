@@ -20,6 +20,7 @@
  * @interface TABLECBBANK
  */
 export interface TABLECBBANK {
+    [key: string]: any;
     /**
      * 
      * @type {number}

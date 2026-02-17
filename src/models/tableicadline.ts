@@ -20,6 +20,7 @@
  * @interface TABLEICADLINE
  */
 export interface TABLEICADLINE {
+    [key: string]: any;
     /**
      * 
      * @type {number}

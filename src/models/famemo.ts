@@ -23,6 +23,7 @@ import { FAMemoMemo } from './famemo-memo';
  * @interface FAMemo
  */
 export interface FAMemo {
+    [key: string]: any;
     /**
      * 
      * @type {number}

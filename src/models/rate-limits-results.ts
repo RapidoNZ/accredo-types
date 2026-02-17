@@ -20,6 +20,7 @@
  * @interface RateLimitsResults
  */
 export interface RateLimitsResults {
+    [key: string]: any;
     /**
      * 
      * @type {number}

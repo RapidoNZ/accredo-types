@@ -20,6 +20,7 @@
  * @interface TABLECBRUDISS
  */
 export interface TABLECBRUDISS {
+    [key: string]: any;
     /**
      * 
      * @type {number}

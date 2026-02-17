@@ -20,6 +20,7 @@
  * @interface ICTransactionTracking
  */
 export interface ICTransactionTracking {
+    [key: string]: any;
     /**
      * 
      * @type {number}

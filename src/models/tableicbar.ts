@@ -20,6 +20,7 @@
  * @interface TABLEICBAR
  */
 export interface TABLEICBAR {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -20,6 +20,7 @@
  * @interface COMemoMemo
  */
 export interface COMemoMemo {
+    [key: string]: any;
     /**
      * 
      * @type {string}

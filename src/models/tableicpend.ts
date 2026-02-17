@@ -20,6 +20,7 @@
  * @interface TABLEICPEND
  */
 export interface TABLEICPEND {
+    [key: string]: any;
     /**
      * 
      * @type {number}

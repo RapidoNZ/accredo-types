@@ -20,6 +20,7 @@
  * @interface TABLEPODELTA
  */
 export interface TABLEPODELTA {
+    [key: string]: any;
     /**
      * 
      * @type {number}

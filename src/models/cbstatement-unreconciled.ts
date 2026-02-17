@@ -20,6 +20,7 @@
  * @interface CBStatementUnreconciled
  */
 export interface CBStatementUnreconciled {
+    [key: string]: any;
     /**
      * 
      * @type {number}

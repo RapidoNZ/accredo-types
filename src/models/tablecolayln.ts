@@ -20,6 +20,7 @@
  * @interface TABLECOLAYLN
  */
 export interface TABLECOLAYLN {
+    [key: string]: any;
     /**
      * 
      * @type {number}

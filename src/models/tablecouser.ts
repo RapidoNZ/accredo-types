@@ -20,6 +20,7 @@
  * @interface TABLECOUSER
  */
 export interface TABLECOUSER {
+    [key: string]: any;
     /**
      * 
      * @type {number}

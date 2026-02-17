@@ -20,6 +20,7 @@
  * @interface ICTransferLink
  */
 export interface ICTransferLink {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -23,6 +23,7 @@ import { TABLEICLNWORD } from './tableiclnword';
  * @interface PagedTABLEICLNWORD
  */
 export interface PagedTABLEICLNWORD {
+    [key: string]: any;
     /**
      * 
      * @type {string}

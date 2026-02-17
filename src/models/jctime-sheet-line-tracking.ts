@@ -20,6 +20,7 @@
  * @interface JCTimeSheetLineTracking
  */
 export interface JCTimeSheetLineTracking {
+    [key: string]: any;
     /**
      * 
      * @type {number}

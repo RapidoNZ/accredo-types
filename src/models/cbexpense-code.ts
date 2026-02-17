@@ -20,6 +20,7 @@
  * @interface CBExpenseCode
  */
 export interface CBExpenseCode {
+    [key: string]: any;
     /**
      * 
      * @type {number}

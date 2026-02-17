@@ -20,6 +20,7 @@
  * @interface GLAccountList
  */
 export interface GLAccountList {
+    [key: string]: any;
     /**
      * 
      * @type {number}

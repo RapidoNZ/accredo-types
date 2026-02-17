@@ -23,6 +23,7 @@ import { ICBinMovementLineTracking } from './icbin-movement-line-tracking';
  * @interface ICBinMovementLine
  */
 export interface ICBinMovementLine {
+    [key: string]: any;
     /**
      * 
      * @type {number}

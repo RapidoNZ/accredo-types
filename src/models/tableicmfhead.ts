@@ -20,6 +20,7 @@
  * @interface TABLEICMFHEAD
  */
 export interface TABLEICMFHEAD {
+    [key: string]: any;
     /**
      * 
      * @type {number}

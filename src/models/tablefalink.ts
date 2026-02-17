@@ -20,6 +20,7 @@
  * @interface TABLEFALINK
  */
 export interface TABLEFALINK {
+    [key: string]: any;
     /**
      * 
      * @type {number}

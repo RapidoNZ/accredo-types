@@ -20,6 +20,7 @@
  * @interface TABLEAPSHCOST
  */
 export interface TABLEAPSHCOST {
+    [key: string]: any;
     /**
      * 
      * @type {number}

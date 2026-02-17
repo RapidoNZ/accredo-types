@@ -20,6 +20,7 @@
  * @interface OEOrderLineTracking
  */
 export interface OEOrderLineTracking {
+    [key: string]: any;
     /**
      * 
      * @type {number}

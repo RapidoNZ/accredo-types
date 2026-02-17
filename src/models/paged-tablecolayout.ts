@@ -23,6 +23,7 @@ import { TABLECOLAYOUT } from './tablecolayout';
  * @interface PagedTABLECOLAYOUT
  */
 export interface PagedTABLECOLAYOUT {
+    [key: string]: any;
     /**
      * 
      * @type {string}

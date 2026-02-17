@@ -26,6 +26,7 @@ import { COUserRoles } from './couser-roles';
  * @interface COUser
  */
 export interface COUser {
+    [key: string]: any;
     /**
      * 
      * @type {number}

@@ -41,17 +41,12 @@ const response: PagedAPCreditor = {
 
 ### Custom fields (Z\_\*)
 
-Accredo custom fields always start with `Z_`. All generated interfaces accept arbitrary properties at runtime. For compile-time safety on known custom fields, use `WithCustomFields`:
+All Accredo custom fields start with `Z_`. Every generated interface includes an index signature so custom fields just work — no wrappers needed:
 
 ```typescript
-import { APCreditor, WithCustomFields } from "@rapidonz/accredo-types";
+import { APCreditor } from "@rapidonz/accredo-types";
 
-type MyCreditor = WithCustomFields<APCreditor, {
-  Z_LoyaltyTier: string;
-  Z_CreditScore: number;
-}>;
-
-const creditor: MyCreditor = {
+const creditor: APCreditor = {
   CreditorCode: "ACME",
   Name: "Acme Corp",
   Z_LoyaltyTier: "Gold",

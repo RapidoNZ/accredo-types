@@ -23,6 +23,7 @@ import { TABLECBWORD } from './tablecbword';
  * @interface PagedTABLECBWORD
  */
 export interface PagedTABLECBWORD {
+    [key: string]: any;
     /**
      * 
      * @type {string}

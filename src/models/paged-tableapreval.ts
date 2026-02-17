@@ -23,6 +23,7 @@ import { TABLEAPREVAL } from './tableapreval';
  * @interface PagedTABLEAPREVAL
  */
 export interface PagedTABLEAPREVAL {
+    [key: string]: any;
     /**
      * 
      * @type {string}

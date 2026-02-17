@@ -23,6 +23,7 @@ import { CBStatement } from './cbstatement';
  * @interface PagedCBStatement
  */
 export interface PagedCBStatement {
+    [key: string]: any;
     /**
      * 
      * @type {string}

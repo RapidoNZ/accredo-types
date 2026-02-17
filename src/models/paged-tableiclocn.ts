@@ -23,6 +23,7 @@ import { TABLEICLOCN } from './tableiclocn';
  * @interface PagedTABLEICLOCN
  */
 export interface PagedTABLEICLOCN {
+    [key: string]: any;
     /**
      * 
      * @type {string}

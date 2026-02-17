@@ -20,6 +20,7 @@
  * @interface APMemoMemo
  */
 export interface APMemoMemo {
+    [key: string]: any;
     /**
      * 
      * @type {string}

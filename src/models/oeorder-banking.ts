@@ -20,6 +20,7 @@
  * @interface OEOrderBanking
  */
 export interface OEOrderBanking {
+    [key: string]: any;
     /**
      * 
      * @type {number}

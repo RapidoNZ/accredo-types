@@ -23,6 +23,7 @@ import { TABLEGSRTSM } from './tablegsrtsm';
  * @interface PagedTABLEGSRTSM
  */
 export interface PagedTABLEGSRTSM {
+    [key: string]: any;
     /**
      * 
      * @type {string}
